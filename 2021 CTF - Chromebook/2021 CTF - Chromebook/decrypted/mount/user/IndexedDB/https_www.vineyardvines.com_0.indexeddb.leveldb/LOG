@@ -1,9 +1,0 @@
-2021/03/04-03:28:05.983 179e Delete type=3 #1
-2021/03/04-03:28:55.763 1710 Current memtable full; waiting...
-2021/03/04-03:28:55.763 b82 Level-0 table #5: started
-2021/03/04-03:28:55.770 b82 Level-0 table #5: 1909 bytes OK
-2021/03/04-03:28:55.776 b82 Delete type=0 #3
-2021/03/04-03:28:55.776 b82 Level-0 table #7: started
-2021/03/04-03:28:55.776 b82 Level-0 table #7: 0 bytes OK
-2021/03/04-03:28:55.783 b82 Delete type=0 #4
-2021/03/04-03:28:55.783 b82 Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)

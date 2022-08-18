@@ -1,9 +1,0 @@
-2021/04/04-22:52:04.489 5aa Recovering log #24
-2021/04/04-22:52:04.514 5aa Delete type=0 #24
-2021/04/04-22:52:04.514 5aa Delete type=3 #22
-2021/04/04-22:52:29.040 a59 Compacting 1@0 + 1@1 files
-2021/04/04-22:52:29.057 a59 Generated table #27@0: 11 keys, 431 bytes
-2021/04/04-22:52:29.057 a59 Compacted 1@0 + 1@1 files => 431 bytes
-2021/04/04-22:52:29.063 a59 compacted to: files[ 0 1 0 0 0 0 0 ]
-2021/04/04-22:52:29.063 a59 Delete type=2 #23
-2021/04/04-22:52:29.064 a59 Delete type=2 #19

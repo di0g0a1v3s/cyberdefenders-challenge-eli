@@ -1,8 +1,0 @@
-"initial_locale"="en-US"
-"initial_timezone"="America/Los_Angeles"
-"keyboard_layout"="xkb:us::eng"
-"region"="us"
-"serial_number"="1S20DU0009USLR03X8FX"
-"ActivateDate"="2015-35"
-"block_devmode"="0"
-"check_enrollment"="0"

@@ -1,6 +1,0 @@
-Trying to contact https://clients3.google.com ... (waiting up to 10 seconds)
-PASS: Loaded clients3.google.com via HTTPS
-Entering diag_date clients3.google.com 
-Local time of day: Mon Mar  8 19:04:06 EST 2021
-PASS: Time appears to be correct
-PASS: Current LinkMonitor latency for /device/wlan0 is 63ms

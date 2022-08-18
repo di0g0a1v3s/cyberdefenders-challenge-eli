@@ -1,9 +1,0 @@
-{
-   "blocks-avail": 756026,
-   "blocks-free": 760122,
-   "blocks-total": 796058,
-   "filesystem": "/mnt/stateful_partition/encrypted",
-   "inodes-avail": 201609,
-   "inodes-free": 201609,
-   "inodes-total": 202800
-}

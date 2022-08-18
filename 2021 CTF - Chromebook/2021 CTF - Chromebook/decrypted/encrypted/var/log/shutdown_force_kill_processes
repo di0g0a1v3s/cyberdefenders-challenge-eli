@@ -1,5 +1,0 @@
-COMMAND    PID   USER   FD   TYPE DEVICE SIZE/OFF  NODE NAME
-systemd-j  430 syslog  mem    REG  253,1  8388608 16934 /var/log/journal/00000000000000000000000000000001/system.journal
-systemd-j  430 syslog   15u   REG  253,1  8388608 16934 /var/log/journal/00000000000000000000000000000001/system.journal
-chromeos_ 2556   root    1w   REG  253,1        0 16273 /var/log/shutdown_force_kill_processes
-lsof      2595   root    1w   REG  253,1        0 16273 /var/log/shutdown_force_kill_processes
