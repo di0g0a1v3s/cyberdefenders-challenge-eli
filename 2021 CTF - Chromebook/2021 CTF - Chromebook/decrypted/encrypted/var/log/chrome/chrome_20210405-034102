@@ -1,0 +1,102 @@
+[1159:1159:0405/034103.776630:VERBOSE1:drm_device_handle.cc(94)] Succeeded authenticating /dev/dri/card0 in 3 ms with 1 attempt(s)
+[1159:1473:0405/034104.298892:WARNING:accelerometer_reader.cc(333)] Accelerometer device directory is empty at /dev/cros-ec-accel
+[1483:1497:0405/074104.317558:VERBOSE1:drm_device_manager.cc(59)] Primary DRM device added: /sys/devices/pci0000:00/0000:00:02.0/drm/card0
+[1159:1473:0405/034104.399751:WARNING:accelerometer_reader.cc(333)] Accelerometer device directory is empty at /dev/cros-ec-accel
+[1159:1473:0405/034104.500311:WARNING:accelerometer_reader.cc(333)] Accelerometer device directory is empty at /dev/cros-ec-accel
+[1159:1473:0405/034104.601100:WARNING:accelerometer_reader.cc(333)] Accelerometer device directory is empty at /dev/cros-ec-accel
+[1159:1474:0405/034104.701494:WARNING:accelerometer_reader.cc(333)] Accelerometer device directory is empty at /dev/cros-ec-accel
+[1159:1159:0405/034104.796682:ERROR:input_method_manager_impl.cc(1088)] IMEEngine for "jkghodnilhceideoidjikpgommlajknk" is not registered
+[1159:1475:0405/034104.801833:WARNING:accelerometer_reader.cc(333)] Accelerometer device directory is empty at /dev/cros-ec-accel
+[1159:1476:0405/034104.904335:WARNING:accelerometer_reader.cc(333)] Accelerometer device directory is empty at /dev/cros-ec-accel
+[1159:1159:0405/034104.930278:VERBOSE1:modeller_impl.cc(357)] Auto screen brightness model dir: /home/chronos/Default/autobrightness
+[1159:1159:0405/034104.966622:VERBOSE1:drm_display_host_manager.cc(250)] Got display event ADD for /dev/dri/card0
+[1159:1159:0405/034104.968895:VERBOSE1:drm_display_host_manager.cc(250)] Got display event ADD for /dev/dri/card1
+[1159:1473:0405/034104.969174:VERBOSE1:drm_device_handle.cc(94)] Succeeded authenticating /dev/dri/card1 in 0 ms with 1 attempt(s)
+[1159:1159:0405/034104.971302:VERBOSE1:tablet_mode_controller.cc(479)] Lid event received: 0
+[1159:1159:0405/034104.971376:VERBOSE1:tablet_mode_controller.cc(493)] Tablet mode event received: 2
+[1159:1521:0405/034105.005381:WARNING:accelerometer_reader.cc(333)] Accelerometer device directory is empty at /dev/cros-ec-accel
+[1159:1159:0405/034105.101505:ERROR:object_proxy.cc(619)] Failed to call method: org.chromium.OobeConfigRestore.ProcessAndGetOobeAutoConfig: object_path= /org/chromium/OobeConfigRestore: org.freedesktop.DBus.Error.ServiceUnknown: The name org.chromium.OobeConfigRestore was not provided by any .service files
+[1159:1473:0405/034105.107624:WARNING:accelerometer_reader.cc(333)] Accelerometer device directory is empty at /dev/cros-ec-accel
+[1159:1455:0405/034105.210142:WARNING:accelerometer_reader.cc(333)] Accelerometer device directory is empty at /dev/cros-ec-accel
+[1159:1159:0405/034105.210401:ERROR:proximity_auth_local_state_pref_manager.cc(142)] Failed to find prefs for current user.
+[1159:1159:0405/034105.210488:ERROR:proximity_auth_local_state_pref_manager.cc(75)] Failed to get easyunlock_allowed.
+[1159:1159:0405/034105.210532:ERROR:proximity_auth_local_state_pref_manager.cc(142)] Failed to find prefs for current user.
+[1159:1159:0405/034105.211692:VERBOSE2:existing_user_controller.cc(1430)] Autologin account in prefs: 
+[1159:1159:0405/034105.211774:VERBOSE2:existing_user_controller.cc(1451)] PublicSession autologin user not found
+[1159:1159:0405/034105.211828:VERBOSE2:existing_user_controller.cc(1464)] ARC Kiosk autologin user not found
+[1159:1159:0405/034105.211886:VERBOSE2:existing_user_controller.cc(1509)] Stopping autologin timer that is not running
+[1159:1159:0405/034105.211935:ERROR:proximity_auth_local_state_pref_manager.cc(142)] Failed to find prefs for current user.
+[1159:1159:0405/034105.211980:ERROR:proximity_auth_local_state_pref_manager.cc(75)] Failed to get easyunlock_allowed.
+[1159:1159:0405/034105.212042:ERROR:proximity_auth_local_state_pref_manager.cc(142)] Failed to find prefs for current user.
+[1159:1159:0405/034105.215308:VERBOSE1:component_updater_service.cc(91)] CrxUpdateService starting up. First update attempt will take place in 360 seconds. Next update attempt will take place in 18000 seconds. 
+[1159:1159:0405/034105.223928:VERBOSE1:tablet_mode_controller.cc(561)] Touchpad device configuration changed.
+[1159:1473:0405/034105.311610:WARNING:accelerometer_reader.cc(333)] Accelerometer device directory is empty at /dev/cros-ec-accel
+[1159:1473:0405/034105.412418:WARNING:accelerometer_reader.cc(333)] Accelerometer device directory is empty at /dev/cros-ec-accel
+[1159:1473:0405/034105.518499:WARNING:accelerometer_reader.cc(333)] Accelerometer device directory is empty at /dev/cros-ec-accel
+[1483:1497:0405/074105.593562:VERBOSE1:drm_device_manager.cc(54)] Could not initialize DRM device for /sys/devices/platform/vgem/drm/card1
+[1159:1476:0405/034105.657561:WARNING:accelerometer_reader.cc(333)] Accelerometer device directory is empty at /dev/cros-ec-accel
+[1159:1457:0405/034105.758813:WARNING:accelerometer_reader.cc(333)] Accelerometer device directory is empty at /dev/cros-ec-accel
+[1159:1476:0405/034105.860389:WARNING:accelerometer_reader.cc(333)] Accelerometer device directory is empty at /dev/cros-ec-accel
+[1159:1473:0405/034105.963954:WARNING:accelerometer_reader.cc(333)] Accelerometer device directory is empty at /dev/cros-ec-accel
+[1159:1476:0405/034106.076900:WARNING:accelerometer_reader.cc(333)] Accelerometer device directory is empty at /dev/cros-ec-accel
+[1159:1159:0405/034106.082092:ERROR:device_event_log_impl.cc(162)] [03:41:06.082] USB: usb_service_linux.cc:245 Got duplicate add event for path: /dev/bus/usb/001/002
+[1159:1159:0405/034106.091846:ERROR:device_event_log_impl.cc(162)] [03:41:06.091] USB: usb_service_linux.cc:245 Got duplicate add event for path: /dev/bus/usb/001/003
+[1159:1473:0405/034106.177543:WARNING:accelerometer_reader.cc(333)] Accelerometer device directory is empty at /dev/cros-ec-accel
+[1159:1473:0405/034106.277921:WARNING:accelerometer_reader.cc(333)] Accelerometer device directory is empty at /dev/cros-ec-accel
+[1159:2061:0405/034106.440495:WARNING:accelerometer_reader.cc(333)] Accelerometer device directory is empty at /dev/cros-ec-accel
+[1159:1159:0405/034106.503594:WARNING:CONSOLE(0)] "HTML Imports is deprecated and will be removed in M80, around February 2020. Please use ES modules instead. See https://www.chromestatus.com/features/5144752345317376 and https://developers.google.com/web/updates/2019/07/web-components-time-to-upgrade for more details.", source:  (0)
+[1159:2037:0405/034106.546871:WARNING:accelerometer_reader.cc(333)] Accelerometer device directory is empty at /dev/cros-ec-accel
+[1159:2032:0405/034106.657549:WARNING:accelerometer_reader.cc(333)] Accelerometer device directory is empty at /dev/cros-ec-accel
+[1159:1474:0405/034106.762069:WARNING:accelerometer_reader.cc(333)] Accelerometer device directory is empty at /dev/cros-ec-accel
+[1159:1159:0405/034106.809486:VERBOSE1:tablet_mode_controller.cc(837)] Bluetooth device configuration changed.
+[1159:1159:0405/034106.809592:ERROR:proximity_auth_local_state_pref_manager.cc(142)] Failed to find prefs for current user.
+[1159:1159:0405/034106.809643:ERROR:proximity_auth_local_state_pref_manager.cc(75)] Failed to get easyunlock_allowed.
+[1159:1159:0405/034106.809925:ERROR:proximity_auth_local_state_pref_manager.cc(142)] Failed to find prefs for current user.
+[1159:1159:0405/034106.810558:ERROR:proximity_auth_local_state_pref_manager.cc(142)] Failed to find prefs for current user.
+[1159:1159:0405/034106.810770:ERROR:proximity_auth_local_state_pref_manager.cc(87)] Failed to get easyunlock_enabled.
+[1159:1475:0405/034106.864044:WARNING:accelerometer_reader.cc(333)] Accelerometer device directory is empty at /dev/cros-ec-accel
+[1159:1159:0405/034106.885780:ERROR:device_event_log_impl.cc(162)] [03:41:06.885] Bluetooth: bluetooth_adapter_bluez.cc:1918 Setting long term keys failed: error: org.bluez.Error.Failed - Server-side blocked LTK is disabled
+[1159:2031:0405/034106.964956:WARNING:accelerometer_reader.cc(333)] Accelerometer device directory is empty at /dev/cros-ec-accel
+[1159:1456:0405/034107.065455:WARNING:accelerometer_reader.cc(333)] Accelerometer device directory is empty at /dev/cros-ec-accel
+[1159:1456:0405/034107.167669:WARNING:accelerometer_reader.cc(333)] Accelerometer device directory is empty at /dev/cros-ec-accel
+[1159:1456:0405/034107.268346:WARNING:accelerometer_reader.cc(333)] Accelerometer device directory is empty at /dev/cros-ec-accel
+[1483:1497:0405/074107.273562:VERBOSE1:drm_display.cc(105)] DRM configuring: device=/sys/devices/pci0000:00/0000:00:02.0/drm/card0 crtc=39 connector=61 origin=0,0 size=1366x768
+[1159:1159:0405/034107.283141:WARNING:CONSOLE(442)] "document.registerElement is deprecated and will be removed in M80, around February 2020. Please use window.customElements.define instead. See https://www.chromestatus.com/features/4642138092470272 and https://developers.google.com/web/updates/2019/07/web-components-time-to-upgrade for more details.", source: chrome://resources/polymer/v1_0/polymer/polymer-micro-extracted.js (442)
+[1159:1475:0405/034107.368946:WARNING:accelerometer_reader.cc(333)] Accelerometer device directory is empty at /dev/cros-ec-accel
+[1159:1475:0405/034107.469507:WARNING:accelerometer_reader.cc(333)] Accelerometer device directory is empty at /dev/cros-ec-accel
+[1159:2031:0405/034107.569896:WARNING:accelerometer_reader.cc(333)] Accelerometer device directory is empty at /dev/cros-ec-accel
+[1159:1456:0405/034107.670397:WARNING:accelerometer_reader.cc(333)] Accelerometer device directory is empty at /dev/cros-ec-accel
+[1159:1475:0405/034107.770834:WARNING:accelerometer_reader.cc(333)] Accelerometer device directory is empty at /dev/cros-ec-accel
+[1159:1475:0405/034107.871996:WARNING:accelerometer_reader.cc(333)] Accelerometer device directory is empty at /dev/cros-ec-accel
+[1159:1159:0405/034107.904590:VERBOSE1:tablet_mode_controller.cc(837)] Bluetooth device configuration changed.
+[1159:1475:0405/034107.972425:WARNING:accelerometer_reader.cc(333)] Accelerometer device directory is empty at /dev/cros-ec-accel
+[1159:1475:0405/034108.072906:WARNING:accelerometer_reader.cc(333)] Accelerometer device directory is empty at /dev/cros-ec-accel
+[1159:1475:0405/034108.173332:WARNING:accelerometer_reader.cc(333)] Accelerometer device directory is empty at /dev/cros-ec-accel
+[1159:1475:0405/034108.273897:WARNING:accelerometer_reader.cc(333)] Accelerometer device directory is empty at /dev/cros-ec-accel
+[1159:1159:0405/034108.368129:WARNING:CONSOLE(2083)] "Element.createShadowRoot is deprecated and will be removed in M80, around February 2020. Please use Element.attachShadow instead. See https://www.chromestatus.com/features/4507242028072960 and https://developers.google.com/web/updates/2019/07/web-components-time-to-upgrade for more details.", source: chrome://resources/polymer/v1_0/polymer/polymer-mini-extracted.js (2083)
+[1159:1475:0405/034108.374708:WARNING:accelerometer_reader.cc(333)] Accelerometer device directory is empty at /dev/cros-ec-accel
+[1159:1475:0405/034108.475603:WARNING:accelerometer_reader.cc(333)] Accelerometer device directory is empty at /dev/cros-ec-accel
+[1159:1475:0405/034108.576840:WARNING:accelerometer_reader.cc(333)] Accelerometer device directory is empty at /dev/cros-ec-accel
+[1159:1475:0405/034108.677354:WARNING:accelerometer_reader.cc(333)] Accelerometer device directory is empty at /dev/cros-ec-accel
+[1159:1475:0405/034108.778094:WARNING:accelerometer_reader.cc(333)] Accelerometer device directory is empty at /dev/cros-ec-accel
+[1159:1475:0405/034108.878441:WARNING:accelerometer_reader.cc(333)] Accelerometer device directory is empty at /dev/cros-ec-accel
+[1159:1475:0405/034108.979449:WARNING:accelerometer_reader.cc(333)] Accelerometer device directory is empty at /dev/cros-ec-accel
+[1159:1475:0405/034109.080652:WARNING:accelerometer_reader.cc(333)] Accelerometer device directory is empty at /dev/cros-ec-accel
+[1159:1475:0405/034109.180931:WARNING:accelerometer_reader.cc(333)] Accelerometer device directory is empty at /dev/cros-ec-accel
+[1159:1475:0405/034109.282155:WARNING:accelerometer_reader.cc(333)] Accelerometer device directory is empty at /dev/cros-ec-accel
+[1159:1457:0405/034109.383242:WARNING:accelerometer_reader.cc(333)] Accelerometer device directory is empty at /dev/cros-ec-accel
+[1159:1457:0405/034109.383334:ERROR:accelerometer_reader.cc(321)] Failed to initialize for accelerometer read.
+
+[1159:1159:0405/034109.492134:WARNING:CONSOLE(2651)] "Could not find style data in module named", source: chrome://resources/polymer/v1_0/polymer/polymer-extracted.js (2651)
+[1159:1159:0405/034109.513220:WARNING:CONSOLE(2651)] "Could not find style data in module named", source: chrome://resources/polymer/v1_0/polymer/polymer-extracted.js (2651)
+[1159:1159:0405/034109.649255:WARNING:CONSOLE(2651)] "Could not find style data in module named", source: chrome://resources/polymer/v1_0/polymer/polymer-extracted.js (2651)
+[1483:1497:0405/074111.277017:WARNING:screen_manager.cc(112)] Display controller (crtc=39) already present.
+[1483:1497:0405/074111.278374:VERBOSE1:drm_display.cc(105)] DRM configuring: device=/sys/devices/pci0000:00/0000:00:02.0/drm/card0 crtc=39 connector=61 origin=0,0 size=0x0
+[1159:1159:0405/034111.808718:WARNING:chrome_browsing_data_remover_delegate.cc(1032)] Failed to find user for current profile.
+[1159:1159:0405/034111.818337:ERROR:proximity_auth_local_state_pref_manager.cc(142)] Failed to find prefs for current user.
+[1159:1159:0405/034111.818423:ERROR:proximity_auth_local_state_pref_manager.cc(87)] Failed to get easyunlock_enabled.
+[1159:1460:0405/034111.989848:ERROR:browser_process_sub_thread.cc(203)] Waited 5 ms for network service
+[1159:1159:0405/034112.048543:VERBOSE1:component_updater_service.cc(108)] CrxUpdateService stopping
+[1159:1159:0405/034112.050180:WARNING:pref_notifier_impl.cc(36)] Pref observer for media_router.cast_allow_all_ips found at shutdown.
+[1159:1159:0405/034112.050254:WARNING:pref_notifier_impl.cc(36)] Pref observer for browser.relaunch_heads_up_period found at shutdown.
+[1159:1159:0405/034112.050284:WARNING:pref_notifier_impl.cc(36)] Pref observer for browser.relaunch_notification_period found at shutdown.

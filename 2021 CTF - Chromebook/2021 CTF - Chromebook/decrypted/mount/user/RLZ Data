@@ -1,0 +1,28 @@
+{
+   "access_points": {
+      "CA": {
+         "_": "1CADMEA_enUS942"
+      },
+      "CB": {
+         "_": "1CBDMEA_enUS942"
+      },
+      "CC": {
+         "_": "1CCDMEA_enUS942US942"
+      }
+   },
+   "ping_time": {
+      "C": {
+         "_": "16152489181763698"
+      }
+   },
+   "product_events": {
+      "C": {
+         "_": [ "CAS" ]
+      }
+   },
+   "stateful_events": {
+      "C": {
+         "_": [ "CCF", "CAI", "CBI", "CCI" ]
+      }
+   }
+}

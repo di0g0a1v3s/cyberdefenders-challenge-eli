@@ -1,0 +1,14 @@
+{
+  "name": {
+    "givenName": "Eli",
+    "familyName": "Flatt",
+    "formattedName": "Eli Flatt"
+  },
+  "displayName": "Eli Flatt",
+  "emails": [{
+    "value": "e.flatt610@gmail.com"
+  }],
+  "gender": {
+    "type": "male"
+  }
+}

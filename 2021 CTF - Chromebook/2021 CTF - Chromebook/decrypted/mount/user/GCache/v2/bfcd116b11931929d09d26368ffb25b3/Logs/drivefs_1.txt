@@ -1,0 +1,283 @@
+-------------------------------------
+drivefs log started
+version: 30.197.5197.3
+-------------------------------------
+2021-02-22T10:41:34.919ZI [139744697247488] instrumentation.cc:105:OpenLogFileInDirectory Logging to /home/chronos/u-7c37097f86694f0645e38af5cf316592cce86789/GCache/v2/bfcd116b11931929d09d26368ffb25b3/Logs/drivefs.txt
+2021-02-22T10:41:34.936ZI [139744705646464] drive_cloud_store.cc:183:CreateDriveCloudStoreAsync Using Drive API v2
+2021-02-22T10:41:34.940ZI [139744705646464] curl_api.cc:1262:Create SSL verification with CAcerts path: /etc/ssl/certs/ca-certificates.crt
+2021-02-22T10:41:34.946ZI [139744705646464] drive_cloud_store.cc:235:FinishCreateWithStatus Authorized as eflatt610@gmail.com
+2021-02-22T10:41:34.966ZI [139744705646464] stream.cc:818:Init new_user=true
+2021-02-22T10:41:35.000ZI [139744705646464] cello_fs.cc:470:InitInternal Content cache at: /home/chronos/u-7c37097f86694f0645e38af5cf316592cce86789/GCache/v2/bfcd116b11931929d09d26368ffb25b3/content_cache
+2021-02-22T10:41:35.004ZI [139744705646464] cello_fs.cc:476:InitInternal Thumbnail cache at: /home/chronos/u-7c37097f86694f0645e38af5cf316592cce86789/GCache/v2/bfcd116b11931929d09d26368ffb25b3/thumbnails_cache
+2021-02-22T10:41:35.004ZI [139744705646464] cello_fs.cc:481:InitInternal Sqlite DB at: /home/chronos/u-7c37097f86694f0645e38af5cf316592cce86789/GCache/v2/bfcd116b11931929d09d26368ffb25b3/metadata_sqlite_db
+2021-02-22T10:41:35.031ZI [139744705646464] file_system_change_replayer.cc:76:operator() Cloud change replayer client ID: 139744570746624
+2021-02-22T10:41:35.055ZI [139744705646464] content_cache.cc:311:Initialize Content cache capacity (bytes): 4611686018427386880
+2021-02-22T10:41:35.055ZI [139744705646464] content_cache.cc:317:Initialize Sparse files supported: true
+2021-02-22T10:41:35.056ZI [139744562353920] content_cache.cc:399:InitializeOnIOThread Cache index at: /home/chronos/u-7c37097f86694f0645e38af5cf316592cce86789/GCache/v2/bfcd116b11931929d09d26368ffb25b3/content_cache/chunks.db
+2021-02-22T10:41:35.109ZI [139744705646464] content_cache.cc:311:Initialize Content cache capacity (bytes): 104857600
+2021-02-22T10:41:35.109ZI [139744705646464] content_cache.cc:317:Initialize Sparse files supported: true
+2021-02-22T10:41:35.110ZI [139744562353920] content_cache.cc:399:InitializeOnIOThread Cache index at: /home/chronos/u-7c37097f86694f0645e38af5cf316592cce86789/GCache/v2/bfcd116b11931929d09d26368ffb25b3/thumbnails_cache/chunks.db
+2021-02-22T10:41:35.267ZI [139744705646464] token_bucket.cc:234:Create TokenBucket initialized with max_bucket_size of 300, with each request requiring 10.000000 tokens
+2021-02-22T10:41:35.267ZI [139744705646464] token_bucket.cc:234:Create TokenBucket initialized with max_bucket_size of 300, with each request requiring 10.000000 tokens
+2021-02-22T10:41:35.267ZI [139744705646464] token_bucket.cc:234:Create TokenBucket initialized with max_bucket_size of 1000, with each request requiring 10.000000 tokens
+2021-02-22T10:41:35.271ZI [139744705646464] token_bucket.cc:234:Create TokenBucket initialized with max_bucket_size of 1, with each request requiring 5.000000 tokens
+2021-02-22T10:41:35.276ZI [139743958374144] curl_api.cc:546:Init Using cacerts from /etc/ssl/certs/ca-certificates.crt
+2021-02-22T10:41:35.291ZI [139744705646464] drive_v2_cloud_store.cc:2919:GetRootId Querying cloud for root item id.
+2021-02-22T10:41:35.296ZI [139743404750592] curl_api.cc:546:Init Using cacerts from /etc/ssl/certs/ca-certificates.crt
+2021-02-22T10:41:37.025ZI [139744705646464] init_task.cc:347:MaybeFetchInitialCloudState Largest Cloud change-id for My Drive fetched at startup: 34
+2021-02-22T10:41:37.025ZI [139744705646464] drive_v2_cloud_store.cc:3052:ListTeamDrives Getting shared drives.
+2021-02-22T10:41:37.506ZI [139744705646464] drive_v2_cloud_store.cc:3099:OnListTeamDrivesComplete User has no shared drives.
+2021-02-22T10:41:37.509ZI [139744705646464] sync_engine.cc:1557:OnInitializeComplete Starting repeating push task timer with interval 30000ms
+2021-02-22T10:41:37.509ZI [139744705646464] sync_engine.cc:1564:operator() Sync engine activity state:
+operation_queue_size: 0
+all_downloads: 0
+operation_queue_unique_size: 0
+largest_local_change_id: 34
+
+2021-02-22T10:41:38.050ZI [139744705646464] virtual_folders.cc:103:Init Local folders at: /home/chronos/u-7c37097f86694f0645e38af5cf316592cce86789/GCache/v2/bfcd116b11931929d09d26368ffb25b3/local_folders
+2021-02-22T10:41:38.053ZI [139744705646464] stream.cc:604:CheckFeatureConfig Polling latest feature flags
+2021-02-22T10:41:38.060ZI [139744705646464] feature_config.cc:97:DeserializeFeature Ignored unknown feature flag 'account_backup_manager'
+2021-02-22T10:41:38.061ZI [139744705646464] feature_config.cc:97:DeserializeFeature Ignored unknown feature flag 'account_backup_preservation_days'
+2021-02-22T10:41:38.061ZI [139744705646464] feature_config.cc:97:DeserializeFeature Ignored unknown feature flag 'account_update_sec'
+2021-02-22T10:41:38.061ZI [139744705646464] feature_config.cc:97:DeserializeFeature Ignored unknown feature flag 'allow_subscription_task'
+2021-02-22T10:41:38.061ZI [139744705646464] feature_config.cc:97:DeserializeFeature Ignored unknown feature flag 'async_dokan_bridge'
+2021-02-22T10:41:38.061ZI [139744705646464] feature_config.cc:97:DeserializeFeature Ignored unknown feature flag 'cello_subfolder_sharing_propagation'
+2021-02-22T10:41:38.061ZI [139744705646464] feature_config.cc:97:DeserializeFeature Ignored unknown feature flag 'content_cache_capacity_heuristic'
+2021-02-22T10:41:38.062ZI [139744705646464] feature_config.cc:97:DeserializeFeature Ignored unknown feature flag 'content_cache_reset_evictable_files_counter'
+2021-02-22T10:41:38.062ZI [139744705646464] feature_config.cc:97:DeserializeFeature Ignored unknown feature flag 'content_cache_reset_pinned_counter'
+2021-02-22T10:41:38.064ZI [139744705646464] feature_config.cc:97:DeserializeFeature Ignored unknown feature flag 'crash_on_cello_assert'
+2021-02-22T10:41:38.064ZI [139744705646464] feature_config.cc:97:DeserializeFeature Ignored unknown feature flag 'crash_oom_threshold_mb'
+2021-02-22T10:41:38.064ZI [139744705646464] feature_config.cc:97:DeserializeFeature Ignored unknown feature flag 'dedupe_interval_ms'
+2021-02-22T10:41:38.064ZI [139744705646464] feature_config.cc:97:DeserializeFeature Ignored unknown feature flag 'default_ui_theme'
+2021-02-22T10:41:38.067ZI [139744705646464] feature_config.cc:97:DeserializeFeature Ignored unknown feature flag 'detailed_move_warning_messages'
+2021-02-22T10:41:38.067ZI [139744705646464] feature_config.cc:97:DeserializeFeature Ignored unknown feature flag 'dokan_allow_optimistic_release'
+2021-02-22T10:41:38.067ZI [139744705646464] feature_config.cc:97:DeserializeFeature Ignored unknown feature flag 'dokan_driver_request_batching'
+2021-02-22T10:41:38.067ZI [139744705646464] feature_config.cc:97:DeserializeFeature Ignored unknown feature flag 'dokan_suppress_file_name_in_event_context'
+2021-02-22T10:41:38.067ZI [139744705646464] feature_config.cc:97:DeserializeFeature Ignored unknown feature flag 'emm_secondary_identifier'
+2021-02-22T10:41:38.067ZI [139744705646464] feature_config.cc:97:DeserializeFeature Ignored unknown feature flag 'empty_file_with_open_handle_upload_delay_ms'
+2021-02-22T10:41:38.068ZI [139744705646464] feature_config.cc:97:DeserializeFeature Ignored unknown feature flag 'enable_concurrent_merged_read_optimization'
+2021-02-22T10:41:38.068ZI [139744705646464] feature_config.cc:97:DeserializeFeature Ignored unknown feature flag 'enable_photos'
+2021-02-22T10:41:38.068ZI [139744705646464] feature_config.cc:97:DeserializeFeature Ignored unknown feature flag 'enable_read_backwards_heuristics'
+2021-02-22T10:41:38.068ZI [139744705646464] feature_config.cc:97:DeserializeFeature Ignored unknown feature flag 'enable_switchblade'
+2021-02-22T10:41:38.068ZI [139744705646464] feature_config.cc:97:DeserializeFeature Ignored unknown feature flag 'enforce_single_parent'
+2021-02-22T10:41:38.069ZI [139744705646464] feature_config.cc:97:DeserializeFeature Ignored unknown feature flag 'fcm_implementation_type'
+2021-02-22T10:41:38.069ZI [139744705646464] feature_config.cc:130:DeserializeFeature Float type support in feature config has been removed
+2021-02-22T10:41:38.069ZI [139744705646464] feature_config.cc:97:DeserializeFeature Ignored unknown feature flag 'finish_syncing_files_option'
+2021-02-22T10:41:38.069ZI [139744705646464] feature_config.cc:97:DeserializeFeature Ignored unknown feature flag 'force_cloud_recreate_order'
+2021-02-22T10:41:38.069ZI [139744705646464] feature_config.cc:97:DeserializeFeature Ignored unknown feature flag 'fuse_symlink_create_support'
+2021-02-22T10:41:38.070ZI [139744705646464] feature_config.cc:97:DeserializeFeature Ignored unknown feature flag 'fuse_symlink_read_support'
+2021-02-22T10:41:38.070ZI [139744705646464] feature_config.cc:97:DeserializeFeature Ignored unknown feature flag 'fuse_symlink_to_shortcut_support'
+2021-02-22T10:41:38.070ZI [139744705646464] feature_config.cc:97:DeserializeFeature Ignored unknown feature flag 'handle_unauthorized_resumable_uploads'
+2021-02-22T10:41:38.070ZI [139744705646464] feature_config.cc:97:DeserializeFeature Ignored unknown feature flag 'macos_copy_resource_to_config_dir'
+2021-02-22T10:41:38.070ZI [139744705646464] feature_config.cc:97:DeserializeFeature Ignored unknown feature flag 'max_parallel_resumable_uploads'
+2021-02-22T10:41:38.070ZI [139744705646464] feature_config.cc:97:DeserializeFeature Ignored unknown feature flag 'max_slow_operation_minidump_count'
+2021-02-22T10:41:38.071ZI [139744705646464] feature_config.cc:123:DeserializeFeature Failed to convert 9223372036854775807 to int64
+2021-02-22T10:41:38.071ZI [139744705646464] feature_config.cc:97:DeserializeFeature Ignored unknown feature flag 'min_supported_os_version'
+2021-02-22T10:41:38.071ZI [139744705646464] feature_config.cc:97:DeserializeFeature Ignored unknown feature flag 'notification_drawer'
+2021-02-22T10:41:38.071ZI [139744705646464] feature_config.cc:97:DeserializeFeature Ignored unknown feature flag 'num_metrics_batches_per_request'
+2021-02-22T10:41:38.071ZI [139744705646464] feature_config.cc:97:DeserializeFeature Ignored unknown feature flag 'osxfuse_lock_abort_test'
+2021-02-22T10:41:38.071ZI [139744705646464] feature_config.cc:97:DeserializeFeature Ignored unknown feature flag 'osxfuse_process_blacklist'
+2021-02-22T10:41:38.071ZI [139744705646464] feature_config.cc:97:DeserializeFeature Ignored unknown feature flag 'repair_stable_id_reuse'
+2021-02-22T10:41:38.072ZI [139744705646464] feature_config.cc:97:DeserializeFeature Ignored unknown feature flag 'reset_account_after_local_largest_change_id_corrupt'
+2021-02-22T10:41:38.072ZI [139744705646464] feature_config.cc:97:DeserializeFeature Ignored unknown feature flag 'reset_file_content_on_revert_flow'
+2021-02-22T10:41:38.072ZI [139744705646464] feature_config.cc:97:DeserializeFeature Ignored unknown feature flag 'resubscribe_retry_interval_msec'
+2021-02-22T10:41:38.072ZI [139744705646464] feature_config.cc:97:DeserializeFeature Ignored unknown feature flag 'same_content_dedupe_interval_ms'
+2021-02-22T10:41:38.072ZI [139744705646464] feature_config.cc:97:DeserializeFeature Ignored unknown feature flag 'shortcut_links_use_item_id'
+2021-02-22T10:41:38.072ZI [139744705646464] feature_config.cc:97:DeserializeFeature Ignored unknown feature flag 'slurp_devices_to_drive'
+2021-02-22T10:41:38.073ZI [139744705646464] feature_config.cc:97:DeserializeFeature Ignored unknown feature flag 'slurp_devices_to_photos'
+2021-02-22T10:41:38.073ZI [139744705646464] feature_config.cc:97:DeserializeFeature Ignored unknown feature flag 'subfolder_sharing_support'
+2021-02-22T10:41:38.073ZI [139744705646464] feature_config.cc:97:DeserializeFeature Ignored unknown feature flag 'subscription_task_max_operations'
+2021-02-22T10:41:38.073ZI [139744705646464] feature_config.cc:97:DeserializeFeature Ignored unknown feature flag 'subscription_task_throttle_time_ms'
+2021-02-22T10:41:38.073ZI [139744705646464] feature_config.cc:97:DeserializeFeature Ignored unknown feature flag 'support_status_notification'
+2021-02-22T10:41:38.073ZI [139744705646464] feature_config.cc:97:DeserializeFeature Ignored unknown feature flag 'switchblade_dss'
+2021-02-22T10:41:38.074ZI [139744705646464] feature_config.cc:97:DeserializeFeature Ignored unknown feature flag 'test_value_0'
+2021-02-22T10:41:38.074ZI [139744705646464] feature_config.cc:97:DeserializeFeature Ignored unknown feature flag 'test_value_1'
+2021-02-22T10:41:38.074ZI [139744705646464] feature_config.cc:97:DeserializeFeature Ignored unknown feature flag 'test_value_2'
+2021-02-22T10:41:38.074ZI [139744705646464] feature_config.cc:97:DeserializeFeature Ignored unknown feature flag 'test_value_3'
+2021-02-22T10:41:38.074ZI [139744705646464] feature_config.cc:97:DeserializeFeature Ignored unknown feature flag 'test_value_4'
+2021-02-22T10:41:38.074ZI [139744705646464] feature_config.cc:97:DeserializeFeature Ignored unknown feature flag 'test_value_5'
+2021-02-22T10:41:38.074ZI [139744705646464] feature_config.cc:97:DeserializeFeature Ignored unknown feature flag 'test_value_6'
+2021-02-22T10:41:38.074ZI [139744705646464] feature_config.cc:97:DeserializeFeature Ignored unknown feature flag 'test_value_7'
+2021-02-22T10:41:38.075ZI [139744705646464] feature_config.cc:97:DeserializeFeature Ignored unknown feature flag 'test_value_8'
+2021-02-22T10:41:38.075ZI [139744705646464] feature_config.cc:97:DeserializeFeature Ignored unknown feature flag 'test_value_9'
+2021-02-22T10:41:38.075ZI [139744705646464] feature_config.cc:97:DeserializeFeature Ignored unknown feature flag 'trim_parents_during_cloud_merge'
+2021-02-22T10:41:38.075ZI [139744705646464] feature_config.cc:97:DeserializeFeature Ignored unknown feature flag 'trim_parents_during_commit'
+2021-02-22T10:41:38.079ZI [139744705646464] feature_config.cc:97:DeserializeFeature Ignored unknown feature flag 'customer_type'
+2021-02-22T10:41:38.079ZI [139744705646464] chromeos_core_client_delegate_impl.cc:157:NotifyFeatureConfigChange Received new feature config
+2021-02-22T10:41:38.085ZI [139744705646464] feature_config.cc:180:MaybeUpdate Actual feature flags diff: {
+added: enabled: true
+added: virtual_folders: true
+added: thumbnails: true
+added: deprecated: false
+added: drive_dot: true
+added: metadata_cache_reset_counter: 0
+added: push_notifications: false
+added: spotlight: true
+added: feedback: true
+added: max_operation_batch_size: 64
+added: share_dialog: true
+added: shell_ipc: true
+added: changelog_download_throttle_time_ms: 16000
+added: temporary_items_virtual_folder: true
+added: case_insensitive: false
+added: local_disk_aware_get_free_space: false
+added: context_menu_copy_link: true
+added: dokan_keep_alive_timeout_ms: 1400000000
+added: dokan_keep_alive_timeout_after_wakeup_ms: 1400000000
+added: pause_syncing_option: true
+added: bandwidth_throttling: true
+added: attach_logs_to_feedback_option: true
+added: max_parallel_background_cloud_queries: 3
+added: structured_logging: true
+added: drive_dot_ui: true
+added: relocatable_content_cache: false
+added: onboarding: true
+added: content_cache_max_kbytes: 1000000000
+added: block_mac_antivirus: true
+added: full_trash_folder_support: true
+added: mirror_sync: false
+added: context_menu_force_refresh_folder: false
+added: enable_kernel_based_change_replayer: true
+added: preferences_dialog: true
+added: sync_client_migration: true
+added: content_download_http_416_workaround: true
+added: metadata_db_vacuum: false
+added: crash_on_failed_thread_checker_assert: false
+added: mount_point_changed_dialog: true
+added: allow_windows_system_user_access: false
+added: persist_do_not_show_again_preferences: true
+added: do_not_fake_operation_success: true
+added: status_window_click_show_file_in_file_manager: true
+added: use_osxfuse_read_blacklist: false
+added: dokan_oplocks: true
+added: context_menu_copy_link_notification: true
+added: max_parallel_downloads_per_file: 5
+added: two_level_folder_prefetch: false
+added: computers_virtual_folder: true
+added: max_parallel_push_task_instances: 3
+added: emm_support: true
+added: use_file_organizer_capabilities: true
+added: generate_diagnostic_info: true
+added: fetch_content_bytes_before_cancel_percent_multiplier: 500
+added: gui_bandwidth_throttling_control: false
+added: local_machine_override_preferences: true
+added: allow_undo_move: true
+added: outlook_addin: false
+added: autostart_preference: true
+added: gui_autostart_option: true
+added: mojave_overlays_fix: false
+added: curl_proxy_authentication: false
+added: switchblade: true
+added: gui_reset_preferences_menu_option: true
+added: cancel_upload_option: false
+added: quicklook_thumbnails: false
+added: reset_account_after_fatal_local_store_failure: true
+added: detect_stable_id_reuse: true
+added: force_refresh_folder_normal_menu: false
+added: supply_json_gdoc_content: false
+added: structured_log_max_file_size_kbytes: 2048
+added: ask_to_copy_files_for_pending_uploads: false
+added: dokan_dispatch_monitor_check_ms: 0
+added: dokan_dispatch_monitor_warn_ms: 0
+added: non_blocking_notifications: false
+added: sqlite_normal_transaction_sync: false
+added: shortcut_support: false
+added: unlocked_mac_getxattr: false
+added: inform_users_of_pending_uploads: false
+added: finder_process_names: "DesktopServicesHelper"
+added: rename_team_drive: true
+added: show_rename_td_notification: true
+}
+2021-02-22T10:41:38.095ZI [139744705646464] feature_config.cc:196:MaybeUpdate Effective feature flags diff: {
+added: enabled: true
+added: deprecated: false
+added: drive_dot: true
+added: metadata_cache_reset_counter: 0
+added: spotlight: true
+added: feedback: true
+added: max_operation_batch_size: 64
+added: share_dialog: true
+added: shell_ipc: true
+added: changelog_download_throttle_time_ms: 16000
+added: temporary_items_virtual_folder: true
+added: case_insensitive: false
+added: context_menu_copy_link: true
+added: dokan_keep_alive_timeout_ms: 1400000000
+added: dokan_keep_alive_timeout_after_wakeup_ms: 1400000000
+added: pause_syncing_option: true
+added: bandwidth_throttling: true
+added: attach_logs_to_feedback_option: true
+added: max_parallel_background_cloud_queries: 3
+added: structured_logging: true
+added: drive_dot_ui: true
+added: onboarding: true
+added: content_cache_max_kbytes: 1000000000
+added: block_mac_antivirus: true
+added: full_trash_folder_support: true
+added: mirror_sync: false
+added: context_menu_force_refresh_folder: false
+added: enable_kernel_based_change_replayer: true
+added: preferences_dialog: true
+added: sync_client_migration: true
+added: content_download_http_416_workaround: true
+added: metadata_db_vacuum: false
+added: crash_on_failed_thread_checker_assert: false
+added: mount_point_changed_dialog: true
+added: allow_windows_system_user_access: false
+added: persist_do_not_show_again_preferences: true
+added: do_not_fake_operation_success: true
+added: status_window_click_show_file_in_file_manager: true
+added: use_osxfuse_read_blacklist: false
+added: dokan_oplocks: true
+added: context_menu_copy_link_notification: true
+added: max_parallel_downloads_per_file: 5
+added: two_level_folder_prefetch: false
+added: max_parallel_push_task_instances: 3
+added: emm_support: true
+added: use_file_organizer_capabilities: true
+added: generate_diagnostic_info: true
+added: fetch_content_bytes_before_cancel_percent_multiplier: 500
+added: gui_bandwidth_throttling_control: false
+added: local_machine_override_preferences: true
+added: allow_undo_move: true
+added: outlook_addin: false
+added: autostart_preference: true
+added: gui_autostart_option: true
+added: mojave_overlays_fix: false
+added: curl_proxy_authentication: false
+added: switchblade: true
+added: gui_reset_preferences_menu_option: true
+added: cancel_upload_option: false
+added: quicklook_thumbnails: false
+added: reset_account_after_fatal_local_store_failure: true
+added: detect_stable_id_reuse: true
+added: force_refresh_folder_normal_menu: false
+added: supply_json_gdoc_content: false
+added: structured_log_max_file_size_kbytes: 2048
+added: ask_to_copy_files_for_pending_uploads: false
+added: dokan_dispatch_monitor_check_ms: 0
+added: dokan_dispatch_monitor_warn_ms: 0
+added: non_blocking_notifications: false
+added: sqlite_normal_transaction_sync: false
+added: shortcut_support: false
+added: unlocked_mac_getxattr: false
+added: inform_users_of_pending_uploads: false
+added: finder_process_names: "DesktopServicesHelper"
+added: rename_team_drive: true
+added: show_rename_td_notification: true
+}
+2021-02-22T10:41:38.095ZI [139744705646464] stream.cc:642:operator() Unmounting due to feature config change
+2021-02-22T10:41:38.095ZI [139744705646464] stream.cc:327:UnmountAndQuit Unmounting with return code 17
+2021-02-22T10:41:38.095ZE [139744705646464] stream.cc:282:MaybeUpdateExitCode Terminating with error: RESTART_REQUESTED
+2021-02-22T10:41:38.096ZI [139744705646464] stream.cc:327:UnmountAndQuit Unmounting with return code 13
+2021-02-22T10:41:38.096ZE [139744705646464] stream.cc:282:MaybeUpdateExitCode Terminating with error: RESTART_REQUESTED
+2021-02-22T10:41:38.096ZE [139744705646464] stream.cc:282:MaybeUpdateExitCode Terminating with error: RESTART_REQUESTED
+2021-02-22T10:41:38.096ZI [139744705646464] drivefs_controller.cc:208:ShutDown DriveFs requested to quit with code 17
+2021-02-22T10:41:38.096ZE [139744705646464] stream.cc:282:MaybeUpdateExitCode Terminating with error: RESTART_REQUESTED
+2021-02-22T10:41:38.096ZI [139744705646464] drivefs_controller.cc:208:ShutDown DriveFs requested to quit with code 17
+2021-02-22T10:41:38.097ZI [139744705646464] drivefs_controller.cc:161:StopDriveFs DriveFs core is stopping.
+2021-02-22T10:41:38.098ZI [139744705646464] stream.cc:327:UnmountAndQuit Unmounting with return code 0
+2021-02-22T10:41:38.098ZE [139744705646464] stream.cc:282:MaybeUpdateExitCode Terminating with error: RESTART_REQUESTED
+2021-02-22T10:41:38.098ZE [139744705646464] stream.cc:282:MaybeUpdateExitCode Terminating with error: RESTART_REQUESTED
+2021-02-22T10:41:38.098ZI [139744705646464] drivefs_controller.cc:208:ShutDown DriveFs requested to quit with code 17
+2021-02-22T10:41:38.099ZI [139743387965184] instrumentation.cc:501:operator() Writing Chrome Trace to /home/chronos/u-7c37097f86694f0645e38af5cf316592cce86789/GCache/v2/bfcd116b11931929d09d26368ffb25b3/Logs/startup_trace_2021-02-22T10_41_38.json

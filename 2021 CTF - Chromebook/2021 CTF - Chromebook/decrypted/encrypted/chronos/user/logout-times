@@ -1,0 +1,5 @@
+ShutdownTime.Logout: 0.20
+0.00 +0.0000 ShutdownTime.UIMessageLoopEnded
+0.03 +0.0276 BrowserShutdownStarted
+0.20 +0.1728 ShutdownTime.BrowserDeleted
+0.20 +0.0004 LogoutDone

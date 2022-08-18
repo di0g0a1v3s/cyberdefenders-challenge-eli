@@ -1,0 +1,33 @@
+2021-03-08T19:11:40.450284-05:00 NOTICE sudo[5954]:     root : TTY=unknown ; PWD=/ ; USER=chronos ; COMMAND=/bin/kill -9 -- -1
+2021-03-08T19:11:40.453586-05:00 INFO sudo[5954]: pam_unix(sudo:session): session opened for user chronos by (uid=0)
+2021-03-08T19:11:40.457395-05:00 INFO sudo[5954]: pam_unix(sudo:session): session closed for user chronos
+2021-03-08T19:20:07.960749-05:00 NOTICE sudo[3518]:     root : TTY=unknown ; PWD=/ ; USER=chronos ; COMMAND=/bin/kill -9 -- -1
+2021-03-08T19:20:07.964937-05:00 INFO sudo[3518]: pam_unix(sudo:session): session opened for user chronos by (uid=0)
+2021-03-08T19:20:07.967597-05:00 INFO sudo[3518]: pam_unix(sudo:session): session closed for user chronos
+2021-03-08T19:20:17.529486-05:00 NOTICE sudo[3957]:     root : TTY=unknown ; PWD=/ ; USER=chronos ; COMMAND=/bin/kill -9 -- -1
+2021-03-08T19:20:17.530286-05:00 INFO sudo[3957]: pam_unix(sudo:session): session opened for user chronos by (uid=0)
+2021-03-08T19:20:17.532477-05:00 INFO sudo[3957]: pam_unix(sudo:session): session closed for user chronos
+2021-03-08T21:52:48.916500-05:00 NOTICE sudo[2573]:     root : TTY=unknown ; PWD=/ ; USER=chronos ; COMMAND=/bin/kill -9 -- -1
+2021-03-08T21:52:48.920202-05:00 INFO sudo[2573]: pam_unix(sudo:session): session opened for user chronos by (uid=0)
+2021-03-08T21:52:48.922772-05:00 INFO sudo[2573]: pam_unix(sudo:session): session closed for user chronos
+2021-03-08T23:55:24.426761-05:00 NOTICE sudo[2368]:     root : TTY=unknown ; PWD=/ ; USER=chronos ; COMMAND=/bin/kill -9 -- -1
+2021-03-08T23:55:24.430278-05:00 INFO sudo[2368]: pam_unix(sudo:session): session opened for user chronos by (uid=0)
+2021-03-08T23:55:24.432988-05:00 INFO sudo[2368]: pam_unix(sudo:session): session closed for user chronos
+2021-03-09T10:38:32.183060-05:00 NOTICE sudo[2741]:     root : TTY=unknown ; PWD=/ ; USER=chronos ; COMMAND=/bin/kill -9 -- -1
+2021-03-09T10:38:32.187573-05:00 INFO sudo[2741]: pam_unix(sudo:session): session opened for user chronos by (uid=0)
+2021-03-09T10:38:32.190084-05:00 INFO sudo[2741]: pam_unix(sudo:session): session closed for user chronos
+2021-04-04T22:52:56.484017-04:00 NOTICE sudo[3282]:     root : TTY=unknown ; PWD=/ ; USER=chronos ; COMMAND=/bin/kill -9 -- -1
+2021-04-04T22:52:56.487815-04:00 INFO sudo[3282]: pam_unix(sudo:session): session opened for user chronos by (uid=0)
+2021-04-04T22:52:56.490420-04:00 INFO sudo[3282]: pam_unix(sudo:session): session closed for user chronos
+2021-04-05T01:08:58.279761-04:00 NOTICE sudo[2651]:     root : TTY=unknown ; PWD=/ ; USER=chronos ; COMMAND=/bin/kill -9 -- -1
+2021-04-05T01:08:58.283208-04:00 INFO sudo[2651]: pam_unix(sudo:session): session opened for user chronos by (uid=0)
+2021-04-05T01:08:58.285649-04:00 INFO sudo[2651]: pam_unix(sudo:session): session closed for user chronos
+2021-04-05T01:37:31.116244-04:00 NOTICE sudo[3197]:     root : TTY=unknown ; PWD=/ ; USER=chronos ; COMMAND=/bin/kill -9 -- -1
+2021-04-05T01:37:31.122103-04:00 INFO sudo[3197]: pam_unix(sudo:session): session opened for user chronos by (uid=0)
+2021-04-05T01:37:31.124322-04:00 INFO sudo[3197]: pam_unix(sudo:session): session closed for user chronos
+2021-04-05T03:41:12.397422-04:00 NOTICE sudo[2649]:     root : TTY=unknown ; PWD=/ ; USER=chronos ; COMMAND=/bin/kill -9 -- -1
+2021-04-05T03:41:12.401293-04:00 INFO sudo[2649]: pam_unix(sudo:session): session opened for user chronos by (uid=0)
+2021-04-05T03:41:12.403706-04:00 INFO sudo[2649]: pam_unix(sudo:session): session closed for user chronos
+2021-04-05T03:41:34.850215-04:00 NOTICE sudo[2547]:     root : TTY=unknown ; PWD=/ ; USER=chronos ; COMMAND=/bin/kill -9 -- -1
+2021-04-05T03:41:34.853616-04:00 INFO sudo[2547]: pam_unix(sudo:session): session opened for user chronos by (uid=0)
+2021-04-05T03:41:34.855948-04:00 INFO sudo[2547]: pam_unix(sudo:session): session closed for user chronos

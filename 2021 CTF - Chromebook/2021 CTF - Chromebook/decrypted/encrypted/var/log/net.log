@@ -1,0 +1,519 @@
+2021-03-08T19:11:24.432478-05:00 INFO shill[1346]: [INFO:manager.cc(1505)] Device wlan0 updated: disabled
+2021-03-08T19:11:24.514610-05:00 INFO shill[1346]: [INFO:dhcp_config.cc(194)] Stopping 2980 (ReleaseIP)
+2021-03-08T19:11:24.515447-05:00 INFO dhcpcd[2980]: received SIGTERM, stopping
+2021-03-08T19:11:24.522738-05:00 INFO dhcpcd[2980]: wlan0: removing interface
+2021-03-08T19:11:24.522897-05:00 INFO dhcpcd[2980]: status changed to Release
+2021-03-08T19:11:24.523048-05:00 INFO dhcpcd[2980]: dhcpcd exited
+2021-03-08T19:11:24.540473-05:00 INFO shill[1346]: [INFO:service.cc(401)] Service 0: state Online -> Idle
+2021-03-08T19:11:24.540646-05:00 INFO shill[1346]: [INFO:manager.cc(1480)] Service 0 updated; state: Idle
+2021-03-08T19:11:24.541191-05:00 NOTICE wpa_supplicant[619]: wlan0: CTRL-EVENT-DISCONNECTED bssid=16:f6:d8:42:43:7a reason=3 (DEAUTH_LEAVING) locally_generated=1
+2021-03-08T19:11:24.561887-05:00 ERR wpa_supplicant[619]: nl80211: Failed to open /proc/sys/net/ipv4/conf/wlan0/drop_unicast_in_l2_multicast: No such file or directory
+2021-03-08T19:11:24.573420-05:00 ERR wpa_supplicant[619]: nl80211: Failed to set IPv4 unicast in multicast filter
+2021-03-08T19:11:24.573580-05:00 ERR wpa_supplicant[619]: nl80211: Failed to open /proc/sys/net/ipv4/conf/wlan0/drop_unicast_in_l2_multicast: No such file or directory
+2021-03-08T19:11:24.573685-05:00 ERR wpa_supplicant[619]: nl80211: Failed to set IPv4 unicast in multicast filter
+2021-03-08T19:11:24.573777-05:00 ERR shill[1346]: [ERROR:object_proxy.cc(581)] Failed to call method: fi.w1.wpa_supplicant1.Interface.Disconnect: object_path= /fi/w1/wpa_supplicant1/Interfaces/1: fi.w1.wpa_supplicant1.NotConnected: This interface is not connected
+2021-03-08T19:11:24.574086-05:00 ERR shill[1346]: [ERROR:dbus_method_invoker.h(113)] CallMethodAndBlockWithTimeout(...): Domain=dbus, Code=fi.w1.wpa_supplicant1.NotConnected, Message=This interface is not connected
+2021-03-08T19:11:24.576997-05:00 ERR shill[1346]: [ERROR:chromeos_supplicant_interface_proxy.cc(184)] Failed to disconnect: fi.w1.wpa_supplicant1.NotConnected This interface is not connected
+2021-03-08T19:11:24.577245-05:00 INFO shill[1346]: [INFO:manager.cc(1480)] Service 0 updated; state: Idle
+2021-03-08T19:11:24.577341-05:00 ERR wpa_supplicant[619]: nl80211: Failed to open /proc/sys/net/ipv4/conf/wlan0/drop_unicast_in_l2_multicast: No such file or directory
+2021-03-08T19:11:24.577439-05:00 ERR wpa_supplicant[619]: nl80211: Failed to set IPv4 unicast in multicast filter
+2021-03-08T19:11:24.577549-05:00 NOTICE wpa_supplicant[619]: Removed BSSID 16:f6:d8:42:43:7a from blacklist (clear)
+2021-03-08T19:11:24.577661-05:00 ERR wpa_supplicant[619]: nl80211: Failed to open /proc/sys/net/ipv4/conf/wlan0/drop_unicast_in_l2_multicast: No such file or directory
+2021-03-08T19:11:24.577751-05:00 ERR wpa_supplicant[619]: nl80211: Failed to set IPv4 unicast in multicast filter
+2021-03-08T19:11:24.577838-05:00 NOTICE wpa_supplicant[619]: nl80211: deinit ifname=wlan0 disabled_11b_rates=0
+2021-03-08T19:11:24.577938-05:00 ERR wpa_supplicant[619]: rmdir[ctrl_interface=/run/wpa_supplicant]: Permission denied
+2021-03-08T19:11:24.578078-05:00 INFO shill[1346]: [INFO:manager.cc(1625)] Default physical service: 3 (not connected)
+2021-03-08T19:11:24.578285-05:00 INFO shill[1346]: [INFO:service.cc(291)] Suppressed autoconnect to service 3 (no endpoints)
+2021-03-08T19:11:24.578426-05:00 INFO shill[1346]: [INFO:service.cc(291)] Suppressed autoconnect to service 0 (no endpoints)
+2021-03-08T19:11:39.306800-05:00 INFO shill[1346]: [INFO:shill_daemon.cc(38)] ShillDaemon received shutdown.
+2021-03-08T19:11:39.309093-05:00 INFO shill[1346]: [INFO:manager.cc(1505)] Device wlan0 updated: disabled
+2021-03-08T19:11:39.366107-05:00 INFO shill[1346]: [INFO:device.cc(1921)] Already in desired enable state.
+2021-03-08T19:11:39.380786-05:00 INFO shill[1346]: [INFO:service.cc(275)] Service 3 destroyed.
+2021-03-08T19:11:39.381037-05:00 INFO shill[1346]: [INFO:service.cc(275)] Service 0 destroyed.
+2021-03-08T19:11:39.393695-05:00 INFO shill[1346]: [INFO:modem_manager_1.cc(51)] Stop watching modem manager service: org.freedesktop.ModemManager1
+2021-03-08T19:11:39.393860-05:00 INFO shill[1346]: [INFO:power_manager.cc(60)] Stop
+2021-03-08T19:11:39.393981-05:00 INFO shill[1346]: [INFO:chromeos_power_manager_proxy.cc(212)] UnregisterSuspendDelayInternal(68681729, dark=false)
+2021-03-08T19:11:39.394511-05:00 INFO shill[1346]: [INFO:chromeos_power_manager_proxy.cc(212)] UnregisterSuspendDelayInternal(68714497, dark=true)
+2021-03-08T19:11:39.398718-05:00 INFO shill[1346]: [INFO:device.cc(217)] Device destructed: wlan0 index 2
+2021-03-08T19:11:39.399047-05:00 INFO shill[1346]: [INFO:service.cc(275)] Service 2 destroyed.
+2021-03-08T19:11:39.399238-05:00 INFO shill[1346]: [INFO:service.cc(275)] Service 1 destroyed.
+2021-03-08T19:11:39.400262-05:00 INFO shill[1346]: [INFO:shill_main.cc(249)] Process exiting.
+2021-03-08T19:11:43.110079-05:00 INFO ModemManager[1677]: <info>  Caught signal, shutting down...
+2021-03-08T19:11:43.111333-05:00 INFO ModemManager[1677]: <info>  ModemManager is shut down
+2021-03-08T19:13:59.087353-05:00 NOTICE wpa_supplicant[597]: Successfully initialized wpa_supplicant
+2021-03-08T19:13:59.562174-05:00 INFO shill[1362]: [INFO:manager.cc(294)] Manager started.
+2021-03-08T19:13:59.564310-05:00 INFO shill[1362]: [INFO:chromeos_power_manager_proxy.cc(356)] OnSignalConnected interface: org.chromium.PowerManager signal: SuspendImminentsuccess: 1
+2021-03-08T19:13:59.565469-05:00 INFO shill[1362]: [INFO:chromeos_power_manager_proxy.cc(356)] OnSignalConnected interface: org.chromium.PowerManager signal: SuspendDonesuccess: 1
+2021-03-08T19:13:59.565658-05:00 INFO shill[1362]: [INFO:chromeos_power_manager_proxy.cc(356)] OnSignalConnected interface: org.chromium.PowerManager signal: DarkSuspendImminentsuccess: 1
+2021-03-08T19:13:59.595953-05:00 INFO shill[1362]: [INFO:service.cc(269)] wifi service 0 constructed.
+2021-03-08T19:13:59.598327-05:00 INFO shill[1362]: [INFO:wifi_service.cc(173)] Constructed WiFi service 0 name: [SSID=NETGEAR-345]
+2021-03-08T19:13:59.599033-05:00 INFO shill[1362]: [INFO:manager.cc(545)] PushProfileInternal finished; 1 profile(s) now present.
+2021-03-08T19:13:59.600309-05:00 INFO shill[1362]: [INFO:modem_manager_1.cc(35)] Start watching modem manager service: org.freedesktop.ModemManager1
+2021-03-08T19:13:59.601707-05:00 INFO shill[1362]: [INFO:service.cc(269)] ethernet service 1 constructed.
+2021-03-08T19:13:59.602380-05:00 INFO shill[1362]: [INFO:service.cc(269)] etherneteap service 2 constructed.
+2021-03-08T19:13:59.603686-05:00 INFO shill[1362]: [INFO:device_info.cc(1330)] Creating WiFi device for station mode interface wlan0 at interface index 2
+2021-03-08T19:13:59.603868-05:00 INFO shill[1362]: [INFO:device.cc(212)] Device created: wlan0 index 2
+2021-03-08T19:13:59.606641-05:00 INFO shill[1362]: [INFO:manager.cc(1224)] Device wlan0 registered.
+2021-03-08T19:13:59.606819-05:00 INFO shill[1362]: [INFO:manager.cc(1505)] Device wlan0 updated: disabled
+2021-03-08T19:13:59.630287-05:00 INFO shill[1362]: [INFO:manager.cc(1625)] Default physical service: 0 (not connected)
+2021-03-08T19:13:59.630485-05:00 INFO shill[1362]: [INFO:service.cc(291)] Suppressed autoconnect to service 0 (no endpoints)
+2021-03-08T19:13:59.632159-05:00 INFO shill[1362]: [INFO:power_manager.cc(171)] OnPowerManagerAppeared
+2021-03-08T19:13:59.632403-05:00 INFO shill[1362]: [INFO:chromeos_power_manager_proxy.cc(174)] RegisterSuspendDelayInternal(19500, dark=false)
+2021-03-08T19:13:59.632510-05:00 INFO shill[1362]: [INFO:chromeos_power_manager_proxy.cc(174)] RegisterSuspendDelayInternal(19500, dark=true)
+2021-03-08T19:13:59.633609-05:00 INFO shill[1362]: [INFO:wifi.cc(2491)] WPA supplicant appeared.
+2021-03-08T19:13:59.633753-05:00 INFO shill[1362]: [INFO:wifi.cc(2573)] wlan0: disabled supplicant: present proxy: null
+2021-03-08T19:14:03.056602-05:00 INFO ModemManager[1666]: <info>  ModemManager (version 1.11.0) starting in system bus...
+2021-03-08T19:14:03.170755-05:00 INFO shill[1362]: [INFO:chromeos_dbus_objectmanager_proxy.cc(94)] OnServiceOwnerChanged old:  new: :1.16
+2021-03-08T19:14:03.170944-05:00 INFO shill[1362]: [INFO:chromeos_dbus_objectmanager_proxy.cc(80)] OnServiceAvailable: 1
+2021-03-08T19:14:03.171089-05:00 INFO shill[1362]: [INFO:chromeos_dbus_objectmanager_proxy.cc(80)] OnServiceAvailable: 1
+2021-03-08T19:14:03.171180-05:00 INFO shill[1362]: [INFO:modem_manager.cc(44)] Modem manager org.freedesktop.ModemManager1 appeared.
+2021-03-08T19:14:03.171277-05:00 INFO shill[1362]: [INFO:modem_manager.cc(44)] Modem manager org.freedesktop.ModemManager1 appeared.
+2021-03-08T19:14:05.695899-05:00 INFO ModemManager[1666]: <info>  Couldn't check support for device '/sys/devices/pci0000:00/0000:00:1c.0/0000:01:00.0': not supported by any plugin
+2021-03-08T19:14:17.931764-05:00 INFO shill[1362]: [INFO:service.cc(269)] wifi service 3 constructed.
+2021-03-08T19:14:17.931964-05:00 INFO shill[1362]: [INFO:wifi_service.cc(173)] Constructed WiFi service 3 name: [SSID=NETGEAR_1337]
+2021-03-08T19:14:17.932124-05:00 INFO shill[1362]: [INFO:manager.cc(545)] PushProfileInternal finished; 2 profile(s) now present.
+2021-03-08T19:14:17.932235-05:00 INFO shill[1362]: [INFO:manager.cc(1625)] Default physical service: 3 (not connected)
+2021-03-08T19:14:17.932338-05:00 INFO shill[1362]: [INFO:service.cc(291)] Suppressed autoconnect to service 3 (no endpoints)
+2021-03-08T19:14:17.932435-05:00 INFO shill[1362]: [INFO:service.cc(291)] Suppressed autoconnect to service 0 (no endpoints)
+2021-03-08T19:20:07.706322-05:00 INFO shill[1362]: [INFO:manager.cc(591)] Skipping unload of service 0: wasn't using this profile.
+2021-03-08T19:20:07.706563-05:00 INFO shill[1362]: [INFO:manager.cc(616)] PopProfileInternal finished; 1 profile(s) still present.
+2021-03-08T19:20:07.706665-05:00 INFO shill[1362]: [INFO:service.cc(275)] Service 3 destroyed.
+2021-03-08T19:20:07.706775-05:00 INFO shill[1362]: [INFO:manager.cc(1625)] Default physical service: 0 (not connected)
+2021-03-08T19:20:07.706876-05:00 INFO shill[1362]: [INFO:service.cc(291)] Suppressed autoconnect to service 0 (no endpoints)
+2021-03-08T19:20:16.876582-05:00 INFO shill[1362]: [INFO:shill_daemon.cc(38)] ShillDaemon received shutdown.
+2021-03-08T19:20:16.876899-05:00 INFO shill[1362]: [INFO:manager.cc(1505)] Device wlan0 updated: disabled
+2021-03-08T19:20:16.934675-05:00 INFO shill[1362]: [INFO:device.cc(1921)] Already in desired enable state.
+2021-03-08T19:20:16.968238-05:00 INFO shill[1362]: [INFO:service.cc(275)] Service 0 destroyed.
+2021-03-08T19:20:16.982489-05:00 INFO shill[1362]: [INFO:modem_manager_1.cc(51)] Stop watching modem manager service: org.freedesktop.ModemManager1
+2021-03-08T19:20:16.982671-05:00 INFO shill[1362]: [INFO:power_manager.cc(60)] Stop
+2021-03-08T19:20:16.982780-05:00 INFO shill[1362]: [INFO:chromeos_power_manager_proxy.cc(212)] UnregisterSuspendDelayInternal(68550657, dark=false)
+2021-03-08T19:20:16.983324-05:00 INFO shill[1362]: [INFO:chromeos_power_manager_proxy.cc(212)] UnregisterSuspendDelayInternal(68583425, dark=true)
+2021-03-08T19:20:16.983991-05:00 INFO shill[1362]: [INFO:device.cc(217)] Device destructed: wlan0 index 2
+2021-03-08T19:20:16.984130-05:00 INFO shill[1362]: [INFO:service.cc(275)] Service 2 destroyed.
+2021-03-08T19:20:16.984226-05:00 INFO shill[1362]: [INFO:service.cc(275)] Service 1 destroyed.
+2021-03-08T19:20:16.984840-05:00 INFO shill[1362]: [INFO:shill_main.cc(249)] Process exiting.
+2021-03-08T19:20:17.644588-05:00 INFO ModemManager[1666]: <info>  Caught signal, shutting down...
+2021-03-08T19:20:17.646037-05:00 INFO ModemManager[1666]: <info>  ModemManager is shut down
+2021-03-08T21:52:38.156914-05:00 NOTICE wpa_supplicant[610]: Successfully initialized wpa_supplicant
+2021-03-08T21:52:38.568528-05:00 INFO shill[1357]: [INFO:manager.cc(294)] Manager started.
+2021-03-08T21:52:38.570063-05:00 INFO shill[1357]: [INFO:chromeos_power_manager_proxy.cc(356)] OnSignalConnected interface: org.chromium.PowerManager signal: SuspendImminentsuccess: 1
+2021-03-08T21:52:38.570359-05:00 INFO shill[1357]: [INFO:chromeos_power_manager_proxy.cc(356)] OnSignalConnected interface: org.chromium.PowerManager signal: SuspendDonesuccess: 1
+2021-03-08T21:52:38.570617-05:00 INFO shill[1357]: [INFO:chromeos_power_manager_proxy.cc(356)] OnSignalConnected interface: org.chromium.PowerManager signal: DarkSuspendImminentsuccess: 1
+2021-03-08T21:52:38.599634-05:00 INFO shill[1357]: [INFO:service.cc(269)] wifi service 0 constructed.
+2021-03-08T21:52:38.601987-05:00 INFO shill[1357]: [INFO:wifi_service.cc(173)] Constructed WiFi service 0 name: [SSID=NETGEAR-345]
+2021-03-08T21:52:38.602809-05:00 INFO shill[1357]: [INFO:manager.cc(545)] PushProfileInternal finished; 1 profile(s) now present.
+2021-03-08T21:52:38.605092-05:00 INFO shill[1357]: [INFO:modem_manager_1.cc(35)] Start watching modem manager service: org.freedesktop.ModemManager1
+2021-03-08T21:52:38.607094-05:00 INFO shill[1357]: [INFO:service.cc(269)] ethernet service 1 constructed.
+2021-03-08T21:52:38.608432-05:00 INFO shill[1357]: [INFO:service.cc(269)] etherneteap service 2 constructed.
+2021-03-08T21:52:38.610505-05:00 INFO shill[1357]: [INFO:device_info.cc(1330)] Creating WiFi device for station mode interface wlan0 at interface index 2
+2021-03-08T21:52:38.611095-05:00 INFO shill[1357]: [INFO:device.cc(212)] Device created: wlan0 index 2
+2021-03-08T21:52:38.613497-05:00 INFO shill[1357]: [INFO:manager.cc(1224)] Device wlan0 registered.
+2021-03-08T21:52:38.613822-05:00 INFO shill[1357]: [INFO:manager.cc(1505)] Device wlan0 updated: disabled
+2021-03-08T21:52:38.636823-05:00 INFO shill[1357]: [INFO:manager.cc(1625)] Default physical service: 0 (not connected)
+2021-03-08T21:52:38.637516-05:00 INFO shill[1357]: [INFO:service.cc(291)] Suppressed autoconnect to service 0 (no endpoints)
+2021-03-08T21:52:38.638264-05:00 INFO shill[1357]: [INFO:power_manager.cc(171)] OnPowerManagerAppeared
+2021-03-08T21:52:38.638490-05:00 INFO shill[1357]: [INFO:chromeos_power_manager_proxy.cc(174)] RegisterSuspendDelayInternal(19500, dark=false)
+2021-03-08T21:52:38.639621-05:00 INFO shill[1357]: [INFO:chromeos_power_manager_proxy.cc(174)] RegisterSuspendDelayInternal(19500, dark=true)
+2021-03-08T21:52:38.640385-05:00 INFO shill[1357]: [INFO:wifi.cc(2491)] WPA supplicant appeared.
+2021-03-08T21:52:38.640560-05:00 INFO shill[1357]: [INFO:wifi.cc(2573)] wlan0: disabled supplicant: present proxy: null
+2021-03-08T21:52:41.729573-05:00 INFO ModemManager[1653]: <info>  ModemManager (version 1.11.0) starting in system bus...
+2021-03-08T21:52:41.876018-05:00 INFO shill[1357]: [INFO:chromeos_dbus_objectmanager_proxy.cc(94)] OnServiceOwnerChanged old:  new: :1.16
+2021-03-08T21:52:41.876214-05:00 INFO shill[1357]: [INFO:chromeos_dbus_objectmanager_proxy.cc(80)] OnServiceAvailable: 1
+2021-03-08T21:52:41.876313-05:00 INFO shill[1357]: [INFO:chromeos_dbus_objectmanager_proxy.cc(80)] OnServiceAvailable: 1
+2021-03-08T21:52:41.876393-05:00 INFO shill[1357]: [INFO:modem_manager.cc(44)] Modem manager org.freedesktop.ModemManager1 appeared.
+2021-03-08T21:52:41.876486-05:00 INFO shill[1357]: [INFO:modem_manager.cc(44)] Modem manager org.freedesktop.ModemManager1 appeared.
+2021-03-08T21:52:44.401751-05:00 INFO ModemManager[1653]: <info>  Couldn't check support for device '/sys/devices/pci0000:00/0000:00:1c.0/0000:01:00.0': not supported by any plugin
+2021-03-08T21:52:48.232778-05:00 INFO shill[1357]: [INFO:shill_daemon.cc(38)] ShillDaemon received shutdown.
+2021-03-08T21:52:48.233033-05:00 INFO shill[1357]: [INFO:manager.cc(1505)] Device wlan0 updated: disabled
+2021-03-08T21:52:48.276191-05:00 INFO shill[1357]: [INFO:device.cc(1921)] Already in desired enable state.
+2021-03-08T21:52:48.304922-05:00 INFO shill[1357]: [INFO:service.cc(275)] Service 0 destroyed.
+2021-03-08T21:52:48.315604-05:00 INFO shill[1357]: [INFO:modem_manager_1.cc(51)] Stop watching modem manager service: org.freedesktop.ModemManager1
+2021-03-08T21:52:48.315781-05:00 INFO shill[1357]: [INFO:power_manager.cc(60)] Stop
+2021-03-08T21:52:48.315891-05:00 INFO shill[1357]: [INFO:chromeos_power_manager_proxy.cc(212)] UnregisterSuspendDelayInternal(69009409, dark=false)
+2021-03-08T21:52:48.316619-05:00 INFO shill[1357]: [INFO:chromeos_power_manager_proxy.cc(212)] UnregisterSuspendDelayInternal(69042177, dark=true)
+2021-03-08T21:52:48.317502-05:00 INFO shill[1357]: [INFO:device.cc(217)] Device destructed: wlan0 index 2
+2021-03-08T21:52:48.317684-05:00 INFO shill[1357]: [INFO:service.cc(275)] Service 2 destroyed.
+2021-03-08T21:52:48.317778-05:00 INFO shill[1357]: [INFO:service.cc(275)] Service 1 destroyed.
+2021-03-08T21:52:48.318400-05:00 INFO shill[1357]: [INFO:shill_main.cc(249)] Process exiting.
+2021-03-08T21:52:49.038975-05:00 INFO ModemManager[1653]: <info>  Caught signal, shutting down...
+2021-03-08T21:52:49.041408-05:00 INFO ModemManager[1653]: <info>  ModemManager is shut down
+2021-03-08T21:59:28.099732-05:00 NOTICE wpa_supplicant[601]: Successfully initialized wpa_supplicant
+2021-03-08T21:59:28.537031-05:00 INFO shill[1349]: [INFO:manager.cc(294)] Manager started.
+2021-03-08T21:59:28.539856-05:00 INFO shill[1349]: [INFO:chromeos_power_manager_proxy.cc(356)] OnSignalConnected interface: org.chromium.PowerManager signal: SuspendImminentsuccess: 1
+2021-03-08T21:59:28.540818-05:00 INFO shill[1349]: [INFO:chromeos_power_manager_proxy.cc(356)] OnSignalConnected interface: org.chromium.PowerManager signal: SuspendDonesuccess: 1
+2021-03-08T21:59:28.541096-05:00 INFO shill[1349]: [INFO:chromeos_power_manager_proxy.cc(356)] OnSignalConnected interface: org.chromium.PowerManager signal: DarkSuspendImminentsuccess: 1
+2021-03-08T21:59:28.580114-05:00 INFO shill[1349]: [INFO:service.cc(269)] wifi service 0 constructed.
+2021-03-08T21:59:28.583535-05:00 INFO shill[1349]: [INFO:wifi_service.cc(173)] Constructed WiFi service 0 name: [SSID=NETGEAR-345]
+2021-03-08T21:59:28.585573-05:00 INFO shill[1349]: [INFO:manager.cc(545)] PushProfileInternal finished; 1 profile(s) now present.
+2021-03-08T21:59:28.587132-05:00 INFO shill[1349]: [INFO:modem_manager_1.cc(35)] Start watching modem manager service: org.freedesktop.ModemManager1
+2021-03-08T21:59:28.588617-05:00 INFO shill[1349]: [INFO:service.cc(269)] ethernet service 1 constructed.
+2021-03-08T21:59:28.589428-05:00 INFO shill[1349]: [INFO:service.cc(269)] etherneteap service 2 constructed.
+2021-03-08T21:59:28.590710-05:00 INFO shill[1349]: [INFO:device_info.cc(1330)] Creating WiFi device for station mode interface wlan0 at interface index 2
+2021-03-08T21:59:28.590885-05:00 INFO shill[1349]: [INFO:device.cc(212)] Device created: wlan0 index 2
+2021-03-08T21:59:28.593017-05:00 INFO shill[1349]: [INFO:manager.cc(1224)] Device wlan0 registered.
+2021-03-08T21:59:28.593181-05:00 INFO shill[1349]: [INFO:manager.cc(1505)] Device wlan0 updated: disabled
+2021-03-08T21:59:28.614352-05:00 INFO shill[1349]: [INFO:manager.cc(1625)] Default physical service: 0 (not connected)
+2021-03-08T21:59:28.614935-05:00 INFO shill[1349]: [INFO:service.cc(291)] Suppressed autoconnect to service 0 (no endpoints)
+2021-03-08T21:59:28.615963-05:00 INFO shill[1349]: [INFO:power_manager.cc(171)] OnPowerManagerAppeared
+2021-03-08T21:59:28.616370-05:00 INFO shill[1349]: [INFO:chromeos_power_manager_proxy.cc(174)] RegisterSuspendDelayInternal(19500, dark=false)
+2021-03-08T21:59:28.618531-05:00 INFO shill[1349]: [INFO:chromeos_power_manager_proxy.cc(174)] RegisterSuspendDelayInternal(19500, dark=true)
+2021-03-08T21:59:28.619581-05:00 INFO shill[1349]: [INFO:wifi.cc(2491)] WPA supplicant appeared.
+2021-03-08T21:59:28.619894-05:00 INFO shill[1349]: [INFO:wifi.cc(2573)] wlan0: disabled supplicant: present proxy: null
+2021-03-08T21:59:31.765998-05:00 INFO ModemManager[1665]: <info>  ModemManager (version 1.11.0) starting in system bus...
+2021-03-08T21:59:31.875658-05:00 INFO shill[1349]: [INFO:chromeos_dbus_objectmanager_proxy.cc(94)] OnServiceOwnerChanged old:  new: :1.15
+2021-03-08T21:59:31.875866-05:00 INFO shill[1349]: [INFO:chromeos_dbus_objectmanager_proxy.cc(80)] OnServiceAvailable: 1
+2021-03-08T21:59:31.876091-05:00 INFO shill[1349]: [INFO:chromeos_dbus_objectmanager_proxy.cc(80)] OnServiceAvailable: 1
+2021-03-08T21:59:31.876176-05:00 INFO shill[1349]: [INFO:modem_manager.cc(44)] Modem manager org.freedesktop.ModemManager1 appeared.
+2021-03-08T21:59:31.876277-05:00 INFO shill[1349]: [INFO:modem_manager.cc(44)] Modem manager org.freedesktop.ModemManager1 appeared.
+2021-03-08T21:59:34.420828-05:00 INFO ModemManager[1665]: <info>  Couldn't check support for device '/sys/devices/pci0000:00/0000:00:1c.0/0000:01:00.0': not supported by any plugin
+2021-03-08T23:55:16.367469-05:00 NOTICE wpa_supplicant[624]: Successfully initialized wpa_supplicant
+2021-03-08T23:55:17.491195-05:00 INFO shill[1326]: [INFO:manager.cc(294)] Manager started.
+2021-03-08T23:55:17.492864-05:00 INFO shill[1326]: [INFO:chromeos_power_manager_proxy.cc(356)] OnSignalConnected interface: org.chromium.PowerManager signal: SuspendImminentsuccess: 1
+2021-03-08T23:55:17.493176-05:00 INFO shill[1326]: [INFO:chromeos_power_manager_proxy.cc(356)] OnSignalConnected interface: org.chromium.PowerManager signal: SuspendDonesuccess: 1
+2021-03-08T23:55:17.493434-05:00 INFO shill[1326]: [INFO:chromeos_power_manager_proxy.cc(356)] OnSignalConnected interface: org.chromium.PowerManager signal: DarkSuspendImminentsuccess: 1
+2021-03-08T23:55:17.529524-05:00 INFO shill[1326]: [INFO:service.cc(269)] wifi service 0 constructed.
+2021-03-08T23:55:17.531141-05:00 INFO shill[1326]: [INFO:wifi_service.cc(173)] Constructed WiFi service 0 name: [SSID=NETGEAR-345]
+2021-03-08T23:55:17.531875-05:00 INFO shill[1326]: [INFO:manager.cc(545)] PushProfileInternal finished; 1 profile(s) now present.
+2021-03-08T23:55:17.533166-05:00 INFO shill[1326]: [INFO:modem_manager_1.cc(35)] Start watching modem manager service: org.freedesktop.ModemManager1
+2021-03-08T23:55:17.534644-05:00 INFO shill[1326]: [INFO:service.cc(269)] ethernet service 1 constructed.
+2021-03-08T23:55:17.534955-05:00 INFO shill[1326]: [INFO:service.cc(269)] etherneteap service 2 constructed.
+2021-03-08T23:55:17.536162-05:00 INFO shill[1326]: [INFO:device_info.cc(1330)] Creating WiFi device for station mode interface wlan0 at interface index 2
+2021-03-08T23:55:17.536309-05:00 INFO shill[1326]: [INFO:device.cc(212)] Device created: wlan0 index 2
+2021-03-08T23:55:17.538534-05:00 INFO shill[1326]: [INFO:manager.cc(1224)] Device wlan0 registered.
+2021-03-08T23:55:17.538681-05:00 INFO shill[1326]: [INFO:manager.cc(1505)] Device wlan0 updated: disabled
+2021-03-08T23:55:17.572537-05:00 INFO shill[1326]: [INFO:manager.cc(1625)] Default physical service: 0 (not connected)
+2021-03-08T23:55:17.572681-05:00 INFO shill[1326]: [INFO:service.cc(291)] Suppressed autoconnect to service 0 (no endpoints)
+2021-03-08T23:55:17.574032-05:00 INFO shill[1326]: [INFO:power_manager.cc(171)] OnPowerManagerAppeared
+2021-03-08T23:55:17.574182-05:00 INFO shill[1326]: [INFO:chromeos_power_manager_proxy.cc(174)] RegisterSuspendDelayInternal(19500, dark=false)
+2021-03-08T23:55:17.575950-05:00 INFO shill[1326]: [INFO:chromeos_power_manager_proxy.cc(174)] RegisterSuspendDelayInternal(19500, dark=true)
+2021-03-08T23:55:17.577289-05:00 INFO shill[1326]: [INFO:wifi.cc(2491)] WPA supplicant appeared.
+2021-03-08T23:55:17.577435-05:00 INFO shill[1326]: [INFO:wifi.cc(2573)] wlan0: disabled supplicant: present proxy: null
+2021-03-08T23:55:21.673353-05:00 INFO ModemManager[1543]: <info>  ModemManager (version 1.11.0) starting in system bus...
+2021-03-08T23:55:21.818303-05:00 INFO shill[1326]: [INFO:chromeos_dbus_objectmanager_proxy.cc(94)] OnServiceOwnerChanged old:  new: :1.15
+2021-03-08T23:55:21.818439-05:00 INFO shill[1326]: [INFO:chromeos_dbus_objectmanager_proxy.cc(80)] OnServiceAvailable: 1
+2021-03-08T23:55:21.818551-05:00 INFO shill[1326]: [INFO:chromeos_dbus_objectmanager_proxy.cc(80)] OnServiceAvailable: 1
+2021-03-08T23:55:21.818624-05:00 INFO shill[1326]: [INFO:modem_manager.cc(44)] Modem manager org.freedesktop.ModemManager1 appeared.
+2021-03-08T23:55:21.818707-05:00 INFO shill[1326]: [INFO:modem_manager.cc(44)] Modem manager org.freedesktop.ModemManager1 appeared.
+2021-03-08T23:55:23.464121-05:00 INFO shill[1326]: [INFO:shill_daemon.cc(38)] ShillDaemon received shutdown.
+2021-03-08T23:55:23.464264-05:00 INFO shill[1326]: [INFO:manager.cc(1505)] Device wlan0 updated: disabled
+2021-03-08T23:55:23.535041-05:00 INFO shill[1326]: [INFO:device.cc(1921)] Already in desired enable state.
+2021-03-08T23:55:23.582973-05:00 INFO shill[1326]: [INFO:service.cc(275)] Service 0 destroyed.
+2021-03-08T23:55:23.605637-05:00 INFO shill[1326]: [INFO:modem_manager_1.cc(51)] Stop watching modem manager service: org.freedesktop.ModemManager1
+2021-03-08T23:55:23.605764-05:00 INFO shill[1326]: [INFO:power_manager.cc(60)] Stop
+2021-03-08T23:55:23.605843-05:00 INFO shill[1326]: [INFO:chromeos_power_manager_proxy.cc(212)] UnregisterSuspendDelayInternal(70320129, dark=false)
+2021-03-08T23:55:23.606446-05:00 INFO shill[1326]: [INFO:chromeos_power_manager_proxy.cc(212)] UnregisterSuspendDelayInternal(70352897, dark=true)
+2021-03-08T23:55:23.607467-05:00 INFO shill[1326]: [INFO:device.cc(217)] Device destructed: wlan0 index 2
+2021-03-08T23:55:23.607588-05:00 INFO shill[1326]: [INFO:service.cc(275)] Service 2 destroyed.
+2021-03-08T23:55:23.607695-05:00 INFO shill[1326]: [INFO:service.cc(275)] Service 1 destroyed.
+2021-03-08T23:55:23.608316-05:00 INFO shill[1326]: [INFO:shill_main.cc(249)] Process exiting.
+2021-03-08T23:55:24.333571-05:00 INFO ModemManager[1543]: <info>  Couldn't check support for device '/sys/devices/pci0000:00/0000:00:1c.0/0000:01:00.0': not supported by any plugin
+2021-03-08T23:55:24.555779-05:00 INFO ModemManager[1543]: <info>  Caught signal, shutting down...
+2021-03-08T23:55:24.558689-05:00 INFO ModemManager[1543]: <info>  ModemManager is shut down
+2021-03-09T10:38:19.472177-05:00 NOTICE wpa_supplicant[605]: Successfully initialized wpa_supplicant
+2021-03-09T10:38:20.487246-05:00 INFO shill[1358]: [INFO:manager.cc(294)] Manager started.
+2021-03-09T10:38:20.489295-05:00 INFO shill[1358]: [INFO:chromeos_power_manager_proxy.cc(356)] OnSignalConnected interface: org.chromium.PowerManager signal: SuspendImminentsuccess: 1
+2021-03-09T10:38:20.489768-05:00 INFO shill[1358]: [INFO:chromeos_power_manager_proxy.cc(356)] OnSignalConnected interface: org.chromium.PowerManager signal: SuspendDonesuccess: 1
+2021-03-09T10:38:20.490375-05:00 INFO shill[1358]: [INFO:chromeos_power_manager_proxy.cc(356)] OnSignalConnected interface: org.chromium.PowerManager signal: DarkSuspendImminentsuccess: 1
+2021-03-09T10:38:20.516990-05:00 INFO shill[1358]: [INFO:service.cc(269)] wifi service 0 constructed.
+2021-03-09T10:38:20.518622-05:00 INFO shill[1358]: [INFO:wifi_service.cc(173)] Constructed WiFi service 0 name: [SSID=NETGEAR-345]
+2021-03-09T10:38:20.519771-05:00 INFO shill[1358]: [INFO:manager.cc(545)] PushProfileInternal finished; 1 profile(s) now present.
+2021-03-09T10:38:20.520658-05:00 INFO shill[1358]: [INFO:modem_manager_1.cc(35)] Start watching modem manager service: org.freedesktop.ModemManager1
+2021-03-09T10:38:20.522021-05:00 INFO shill[1358]: [INFO:service.cc(269)] ethernet service 1 constructed.
+2021-03-09T10:38:20.522959-05:00 INFO shill[1358]: [INFO:service.cc(269)] etherneteap service 2 constructed.
+2021-03-09T10:38:20.524481-05:00 INFO shill[1358]: [INFO:device_info.cc(1330)] Creating WiFi device for station mode interface wlan0 at interface index 2
+2021-03-09T10:38:20.524828-05:00 INFO shill[1358]: [INFO:device.cc(212)] Device created: wlan0 index 2
+2021-03-09T10:38:20.526882-05:00 INFO shill[1358]: [INFO:manager.cc(1224)] Device wlan0 registered.
+2021-03-09T10:38:20.527096-05:00 INFO shill[1358]: [INFO:manager.cc(1505)] Device wlan0 updated: disabled
+2021-03-09T10:38:20.545563-05:00 INFO shill[1358]: [INFO:manager.cc(1625)] Default physical service: 0 (not connected)
+2021-03-09T10:38:20.545947-05:00 INFO shill[1358]: [INFO:service.cc(291)] Suppressed autoconnect to service 0 (no endpoints)
+2021-03-09T10:38:20.547282-05:00 INFO shill[1358]: [INFO:power_manager.cc(171)] OnPowerManagerAppeared
+2021-03-09T10:38:20.547475-05:00 INFO shill[1358]: [INFO:chromeos_power_manager_proxy.cc(174)] RegisterSuspendDelayInternal(19500, dark=false)
+2021-03-09T10:38:20.548961-05:00 INFO shill[1358]: [INFO:chromeos_power_manager_proxy.cc(174)] RegisterSuspendDelayInternal(19500, dark=true)
+2021-03-09T10:38:20.552549-05:00 INFO shill[1358]: [INFO:wifi.cc(2491)] WPA supplicant appeared.
+2021-03-09T10:38:20.552723-05:00 INFO shill[1358]: [2021-04-04T22:51:51.441913-04:00 NOTICE wpa_supplicant[604]: Successfully initialized wpa_supplicant
+2021-04-04T22:51:52.567746-04:00 INFO shill[1353]: [INFO:manager.cc(294)] Manager started.
+2021-04-04T22:51:52.569072-04:00 INFO shill[1353]: [INFO:chromeos_power_manager_proxy.cc(356)] OnSignalConnected interface: org.chromium.PowerManager signal: SuspendImminentsuccess: 1
+2021-04-04T22:51:52.569379-04:00 INFO shill[1353]: [INFO:chromeos_power_manager_proxy.cc(356)] OnSignalConnected interface: org.chromium.PowerManager signal: SuspendDonesuccess: 1
+2021-04-04T22:51:52.569613-04:00 INFO shill[1353]: [INFO:chromeos_power_manager_proxy.cc(356)] OnSignalConnected interface: org.chromium.PowerManager signal: DarkSuspendImminentsuccess: 1
+2021-04-04T22:51:52.612084-04:00 INFO shill[1353]: [INFO:service.cc(269)] wifi service 0 constructed.
+2021-04-04T22:51:52.613490-04:00 INFO shill[1353]: [INFO:wifi_service.cc(173)] Constructed WiFi service 0 name: [SSID=NETGEAR-345]
+2021-04-04T22:51:52.614174-04:00 INFO shill[1353]: [INFO:manager.cc(545)] PushProfileInternal finished; 1 profile(s) now present.
+2021-04-04T22:51:52.614738-04:00 INFO shill[1353]: [INFO:modem_manager_1.cc(35)] Start watching modem manager service: org.freedesktop.ModemManager1
+2021-04-04T22:51:52.617264-04:00 INFO shill[1353]: [INFO:service.cc(269)] ethernet service 1 constructed.
+2021-04-04T22:51:52.618018-04:00 INFO shill[1353]: [INFO:service.cc(269)] etherneteap service 2 constructed.
+2021-04-04T22:51:52.619304-04:00 INFO shill[1353]: [INFO:device_info.cc(1330)] Creating WiFi device for station mode interface wlan0 at interface index 2
+2021-04-04T22:51:52.619604-04:00 INFO shill[1353]: [INFO:device.cc(212)] Device created: wlan0 index 2
+2021-04-04T22:51:52.622269-04:00 INFO shill[1353]: [INFO:manager.cc(1224)] Device wlan0 registered.
+2021-04-04T22:51:52.622451-04:00 INFO shill[1353]: [INFO:manager.cc(1505)] Device wlan0 updated: disabled
+2021-04-04T22:51:52.645940-04:00 INFO shill[1353]: [INFO:manager.cc(1625)] Default physical service: 0 (not connected)
+2021-04-04T22:51:52.646283-04:00 INFO shill[1353]: [INFO:service.cc(291)] Suppressed autoconnect to service 0 (no endpoints)
+2021-04-04T22:51:52.647186-04:00 INFO shill[1353]: [INFO:power_manager.cc(171)] OnPowerManagerAppeared
+2021-04-04T22:51:52.647329-04:00 INFO shill[1353]: [INFO:chromeos_power_manager_proxy.cc(174)] RegisterSuspendDelayInternal(19500, dark=false)
+2021-04-04T22:51:52.648319-04:00 INFO shill[1353]: [INFO:chromeos_power_manager_proxy.cc(174)] RegisterSuspendDelayInternal(19500, dark=true)
+2021-04-04T22:51:52.649437-04:00 INFO shill[1353]: [INFO:wifi.cc(2491)] WPA supplicant appeared.
+2021-04-04T22:51:52.649604-04:00 INFO shill[1353]: [INFO:wifi.cc(2573)] wlan0: disabled supplicant: present proxy: null
+2021-04-04T22:51:55.428772-04:00 INFO ModemManager[1635]: <info>  ModemManager (version 1.11.0) starting in system bus...
+2021-04-04T22:51:55.572833-04:00 INFO shill[1353]: [INFO:chromeos_dbus_objectmanager_proxy.cc(94)] OnServiceOwnerChanged old:  new: :1.16
+2021-04-04T22:51:55.573041-04:00 INFO shill[1353]: [INFO:chromeos_dbus_objectmanager_proxy.cc(80)] OnServiceAvailable: 1
+2021-04-04T22:51:55.573126-04:00 INFO shill[1353]: [INFO:chromeos_dbus_objectmanager_proxy.cc(80)] OnServiceAvailable: 1
+2021-04-04T22:51:55.573226-04:00 INFO shill[1353]: [INFO:modem_manager.cc(44)] Modem manager org.freedesktop.ModemManager1 appeared.
+2021-04-04T22:51:55.573300-04:00 INFO shill[1353]: [INFO:modem_manager.cc(44)] Modem manager org.freedesktop.ModemManager1 appeared.
+2021-04-04T22:51:58.096600-04:00 INFO ModemManager[1635]: <info>  Couldn't check support for device '/sys/devices/pci0000:00/0000:00:1c.0/0000:01:00.0': not supported by any plugin
+2021-04-04T22:52:04.505086-04:00 INFO shill[1353]: [INFO:service.cc(269)] wifi service 3 constructed.
+2021-04-04T22:52:04.505222-04:00 INFO shill[1353]: [INFO:wifi_service.cc(173)] Constructed WiFi service 3 name: [SSID=NETGEAR_1337]
+2021-04-04T22:52:04.505395-04:00 INFO shill[1353]: [INFO:manager.cc(545)] PushProfileInternal finished; 2 profile(s) now present.
+2021-04-04T22:52:04.505837-04:00 INFO shill[1353]: [INFO:manager.cc(1625)] Default physical service: 3 (not connected)
+2021-04-04T22:52:04.505987-04:00 INFO shill[1353]: [INFO:service.cc(291)] Suppressed autoconnect to service 3 (no endpoints)
+2021-04-04T22:52:04.506091-04:00 INFO shill[1353]: [INFO:service.cc(291)] Suppressed autoconnect to service 0 (no endpoints)
+2021-04-04T22:52:52.677801-04:00 INFO shill[1353]: [INFO:shill_daemon.cc(38)] ShillDaemon received shutdown.
+2021-04-04T22:52:52.677946-04:00 INFO shill[1353]: [INFO:manager.cc(1505)] Device wlan0 updated: disabled
+2021-04-04T22:52:52.759786-04:00 INFO shill[1353]: [INFO:device.cc(1921)] Already in desired enable state.
+2021-04-04T22:52:52.772970-04:00 INFO shill[1353]: [INFO:service.cc(275)] Service 3 destroyed.
+2021-04-04T22:52:52.773087-04:00 INFO shill[1353]: [INFO:service.cc(275)] Service 0 destroyed.
+2021-04-04T22:52:52.789127-04:00 INFO shill[1353]: [INFO:modem_manager_1.cc(51)] Stop watching modem manager service: org.freedesktop.ModemManager1
+2021-04-04T22:52:52.789282-04:00 INFO shill[1353]: [INFO:power_manager.cc(60)] Stop
+2021-04-04T22:52:52.789372-04:00 INFO shill[1353]: [INFO:chromeos_power_manager_proxy.cc(212)] UnregisterSuspendDelayInternal(68812801, dark=false)
+2021-04-04T22:52:52.789912-04:00 INFO shill[1353]: [INFO:chromeos_power_manager_proxy.cc(212)] UnregisterSuspendDelayInternal(68845569, dark=true)
+2021-04-04T22:52:52.790841-04:00 INFO shill[1353]: [INFO:device.cc(217)] Device destructed: wlan0 index 2
+2021-04-04T22:52:52.791045-04:00 INFO shill[1353]: [INFO:service.cc(275)] Service 2 destroyed.
+2021-04-04T22:52:52.791125-04:00 INFO shill[1353]: [INFO:service.cc(275)] Service 1 destroyed.
+2021-04-04T22:52:52.791735-04:00 INFO shill[1353]: [INFO:shill_main.cc(249)] Process exiting.
+2021-04-04T22:52:57.493593-04:00 INFO ModemManager[1635]: <info>  Caught signal, shutting down...
+2021-04-04T22:52:57.501127-04:00 INFO ModemManager[1635]: <info>  ModemManager is shut down
+2021-04-05T01:08:44.492979-04:00 NOTICE wpa_supplicant[613]: Successfully initialized wpa_supplicant
+2021-04-05T01:08:45.482212-04:00 INFO shill[1366]: [INFO:manager.cc(294)] Manager started.
+2021-04-05T01:08:45.483851-04:00 INFO shill[1366]: [INFO:chromeos_power_manager_proxy.cc(356)] OnSignalConnected interface: org.chromium.PowerManager signal: SuspendImminentsuccess: 1
+2021-04-05T01:08:45.484485-04:00 INFO shill[1366]: [INFO:chromeos_power_manager_proxy.cc(356)] OnSignalConnected interface: org.chromium.PowerManager signal: SuspendDonesuccess: 1
+2021-04-05T01:08:45.484759-04:00 INFO shill[1366]: [INFO:chromeos_power_manager_proxy.cc(356)] OnSignalConnected interface: org.chromium.PowerManager signal: DarkSuspendImminentsuccess: 1
+2021-04-05T01:08:45.507974-04:00 INFO shill[1366]: [INFO:service.cc(269)] wifi service 0 constructed.
+2021-04-05T01:08:45.509775-04:00 INFO shill[1366]: [INFO:wifi_service.cc(173)] Constructed WiFi service 0 name: [SSID=NETGEAR-345]
+2021-04-05T01:08:45.510556-04:00 INFO shill[1366]: [INFO:manager.cc(545)] PushProfileInternal finished; 1 profile(s) now present.
+2021-04-05T01:08:45.511143-04:00 INFO shill[1366]: [INFO:modem_manager_1.cc(35)] Start watching modem manager service: org.freedesktop.ModemManager1
+2021-04-05T01:08:45.512733-04:00 INFO shill[1366]: [INFO:service.cc(269)] ethernet service 1 constructed.
+2021-04-05T01:08:45.513581-04:00 INFO shill[1366]: [INFO:service.cc(269)] etherneteap service 2 constructed.
+2021-04-05T01:08:45.514942-04:00 INFO shill[1366]: [INFO:device_info.cc(1330)] Creating WiFi device for station mode interface wlan0 at interface index 2
+2021-04-05T01:08:45.515828-04:00 INFO shill[1366]: [INFO:device.cc(212)] Device created: wlan0 index 2
+2021-04-05T01:08:45.518056-04:00 INFO shill[1366]: [INFO:manager.cc(1224)] Device wlan0 registered.
+2021-04-05T01:08:45.518221-04:00 INFO shill[1366]: [INFO:manager.cc(1505)] Device wlan0 updated: disabled
+2021-04-05T01:08:45.535543-04:00 INFO shill[1366]: [INFO:manager.cc(1625)] Default physical service: 0 (not connected)
+2021-04-05T01:08:45.536252-04:00 INFO shill[1366]: [INFO:service.cc(291)] Suppressed autoconnect to service 0 (no endpoints)
+2021-04-05T01:08:45.537811-04:00 INFO shill[1366]: [INFO:power_manager.cc(171)] OnPowerManagerAppeared
+2021-04-05T01:08:45.538161-04:00 INFO shill[1366]: [INFO:chromeos_power_manager_proxy.cc(174)] RegisterSuspendDelayInternal(19500, dark=false)
+2021-04-05T01:08:45.540303-04:00 INFO shill[1366]: [INFO:chromeos_power_manager_proxy.cc(174)] RegisterSuspendDelayInternal(19500, dark=true)
+2021-04-05T01:08:45.541117-04:00 INFO shill[1366]: [INFO:wifi.cc(2491)] WPA supplicant appeared.
+2021-04-05T01:08:45.541260-04:00 INFO shill[1366]: [INFO:wifi.cc(2573)] wlan0: disabled supplicant: present proxy: null
+2021-04-05T01:08:48.425765-04:00 INFO ModemManager[1657]: <info>  ModemManager (version 1.11.0) starting in system bus...
+2021-04-05T01:08:48.562776-04:00 INFO shill[1366]: [INFO:chromeos_dbus_objectmanager_proxy.cc(94)] OnServiceOwnerChanged old:  new: :1.16
+2021-04-05T01:08:48.562935-04:00 INFO shill[1366]: [INFO:chromeos_dbus_objectmanager_proxy.cc(80)] OnServiceAvailable: 1
+2021-04-05T01:08:48.563037-04:00 INFO shill[1366]: [INFO:chromeos_dbus_objectmanager_proxy.cc(80)] OnServiceAvailable: 1
+2021-04-05T01:08:48.563111-04:00 INFO shill[1366]: [INFO:modem_manager.cc(44)] Modem manager org.freedesktop.ModemManager1 appeared.
+2021-04-05T01:08:48.563208-04:00 INFO shill[1366]: [INFO:modem_manager.cc(44)] Modem manager org.freedesktop.ModemManager1 appeared.
+2021-04-05T01:08:51.100627-04:00 INFO ModemManager[1657]: <info>  Couldn't check support for device '/sys/devices/pci0000:00/0000:00:1c.0/0000:01:00.0': not supported by any plugin
+2021-04-05T01:08:57.527907-04:00 INFO shill[1366]: [INFO:shill_daemon.cc(38)] ShillDaemon received shutdown.
+2021-04-05T01:08:57.528131-04:00 INFO shill[1366]: [INFO:manager.cc(1505)] Device wlan0 updated: disabled
+2021-04-05T01:08:57.599919-04:00 INFO shill[1366]: [INFO:device.cc(1921)] Already in desired enable state.
+2021-04-05T01:08:57.628331-04:00 INFO shill[1366]: [INFO:service.cc(275)] Service 0 destroyed.
+2021-04-05T01:08:57.642562-04:00 INFO shill[1366]: [INFO:modem_manager_1.cc(51)] Stop watching modem manager service: org.freedesktop.ModemManager1
+2021-04-05T01:08:57.642695-04:00 INFO shill[1366]: [INFO:power_manager.cc(60)] Stop
+2021-04-05T01:08:57.642802-04:00 INFO shill[1366]: [INFO:chromeos_power_manager_proxy.cc(212)] UnregisterSuspendDelayInternal(68878337, dark=false)
+2021-04-05T01:08:57.643516-04:00 INFO shill[1366]: [INFO:chromeos_power_manager_proxy.cc(212)] UnregisterSuspendDelayInternal(68911105, dark=true)
+2021-04-05T01:08:57.644366-04:00 INFO shill[1366]: [INFO:device.cc(217)] Device destructed: wlan0 index 2
+2021-04-05T01:08:57.644528-04:00 INFO shill[1366]: [INFO:service.cc(275)] Service 2 destroyed.
+2021-04-05T01:08:57.644604-04:00 INFO shill[1366]: [INFO:service.cc(275)] Service 1 destroyed.
+2021-04-05T01:08:57.645426-04:00 INFO shill[1366]: [INFO:shill_main.cc(249)] Process exiting.
+2021-04-05T01:08:58.389048-04:00 INFO ModemManager[1657]: <info>  Caught signal, shutting down...
+2021-04-05T01:08:58.394389-04:00 INFO ModemManager[1657]: <info>  ModemManager is shut down
+2021-04-05T01:15:42.660771-04:00 NOTICE wpa_supplicant[642]: Successfully initialized wpa_supplicant
+2021-04-05T01:15:43.540495-04:00 INFO shill[1363]: [INFO:manager.cc(294)] Manager started.
+2021-04-05T01:15:43.542235-04:00 INFO shill[1363]: [INFO:chromeos_power_manager_proxy.cc(356)] OnSignalConnected interface: org.chromium.PowerManager signal: SuspendImminentsuccess: 1
+2021-04-05T01:15:43.542735-04:00 INFO shill[1363]: [INFO:chromeos_power_manager_proxy.cc(356)] OnSignalConnected interface: org.chromium.PowerManager signal: SuspendDonesuccess: 1
+2021-04-05T01:15:43.543328-04:00 INFO shill[1363]: [INFO:chromeos_power_manager_proxy.cc(356)] OnSignalConnected interface: org.chromium.PowerManager signal: DarkSuspendImminentsuccess: 1
+2021-04-05T01:15:43.568703-04:00 INFO shill[1363]: [INFO:service.cc(269)] wifi service 0 constructed.
+2021-04-05T01:15:43.570040-04:00 INFO shill[1363]: [INFO:wifi_service.cc(173)] Constructed WiFi service 0 name: [SSID=NETGEAR-345]
+2021-04-05T01:15:43.570760-04:00 INFO shill[1363]: [INFO:manager.cc(545)] PushProfileInternal finished; 1 profile(s) now present.
+2021-04-05T01:15:43.571886-04:00 INFO shill[1363]: [INFO:modem_manager_1.cc(35)] Start watching modem manager service: org.freedesktop.ModemManager1
+2021-04-05T01:15:43.573253-04:00 INFO shill[1363]: [INFO:service.cc(269)] ethernet service 1 constructed.
+2021-04-05T01:15:43.573754-04:00 INFO shill[1363]: [INFO:service.cc(269)] etherneteap service 2 constructed.
+2021-04-05T01:15:43.576819-04:00 INFO shill[1363]: [INFO:device_info.cc(1330)] Creating WiFi device for station mode interface wlan0 at interface index 2
+2021-04-05T01:15:43.576992-04:00 INFO shill[1363]: [INFO:device.cc(212)] Device created: wlan0 index 2
+2021-04-05T01:15:43.580028-04:00 INFO shill[1363]: [INFO:manager.cc(1224)] Device wlan0 registered.
+2021-04-05T01:15:43.580180-04:00 INFO shill[1363]: [INFO:manager.cc(1505)] Device wlan0 updated: disabled
+2021-04-05T01:15:43.597937-04:00 INFO shill[1363]: [INFO:manager.cc(1625)] Default physical service: 0 (not connected)
+2021-04-05T01:15:43.598127-04:00 INFO shill[1363]: [INFO:service.cc(291)] Suppressed autoconnect to service 0 (no endpoints)
+2021-04-05T01:15:43.599410-04:00 INFO shill[1363]: [INFO:power_manager.cc(171)] OnPowerManagerAppeared
+2021-04-05T01:15:43.599537-04:00 INFO shill[1363]: [INFO:chromeos_power_manager_proxy.cc(174)] RegisterSuspendDelayInternal(19500, dark=false)
+2021-04-05T01:15:43.601087-04:00 INFO shill[1363]: [INFO:chromeos_power_manager_proxy.cc(174)] RegisterSuspendDelayInternal(19500, dark=true)
+2021-04-05T01:15:43.604350-04:00 INFO shill[1363]: [INFO:wifi.cc(2491)] WPA supplicant appeared.
+2021-04-05T01:15:43.604483-04:00 INFO shill[1363]: [INFO:wifi.cc(2573)] wlan0: disabled supplicant: present proxy: null
+2021-04-05T01:15:46.581488-04:00 INFO ModemManager[1659]: <info>  ModemManager (version 1.11.0) starting in system bus...
+2021-04-05T01:15:46.671211-04:00 INFO shill[1363]: [INFO:chromeos_dbus_objectmanager_proxy.cc(94)] OnServiceOwnerChanged old:  new: :1.16
+2021-04-05T01:15:46.671393-04:00 INFO shill[1363]: [INFO:chromeos_dbus_objectmanager_proxy.cc(80)] OnServiceAvailable: 1
+2021-04-05T01:15:46.671488-04:00 INFO shill[1363]: [INFO:chromeos_dbus_objectmanager_proxy.cc(80)] OnServiceAvailable: 1
+2021-04-05T01:15:46.671570-04:00 INFO shill[1363]: [INFO:modem_manager.cc(44)] Modem manager org.freedesktop.ModemManager1 appeared.
+2021-04-05T01:15:46.671660-04:00 INFO shill[1363]: [INFO:modem_manager.cc(44)] Modem manager org.freedesktop.ModemManager1 appeared.
+2021-04-05T01:15:49.187540-04:00 INFO ModemManager[1659]: <info>  Couldn't check support for device '/sys/devices/pci0000:00/0000:00:1c.0/0000:01:00.0': not supported by any plugin
+2021-04-05T01:36:33.375328-04:00 NOTICE wpa_supplicant[623]: Successfully initialized wpa_supplicant
+2021-04-05T01:36:34.503752-04:00 INFO shill[1359]: [INFO:manager.cc(294)] Manager started.
+2021-04-05T01:36:34.505323-04:00 INFO shill[1359]: [INFO:chromeos_power_manager_proxy.cc(356)] OnSignalConnected interface: org.chromium.PowerManager signal: SuspendImminentsuccess: 1
+2021-04-05T01:36:34.505797-04:00 INFO shill[1359]: [INFO:chromeos_power_manager_proxy.cc(356)] OnSignalConnected interface: org.chromium.PowerManager signal: SuspendDonesuccess: 1
+2021-04-05T01:36:34.506248-04:00 INFO shill[1359]: [INFO:chromeos_power_manager_proxy.cc(356)] OnSignalConnected interface: org.chromium.PowerManager signal: DarkSuspendImminentsuccess: 1
+2021-04-05T01:36:34.533825-04:00 INFO shill[1359]: [INFO:service.cc(269)] wifi service 0 constructed.
+2021-04-05T01:36:34.535413-04:00 INFO shill[1359]: [INFO:wifi_service.cc(173)] Constructed WiFi service 0 name: [SSID=NETGEAR-345]
+2021-04-05T01:36:34.536135-04:00 INFO shill[1359]: [INFO:manager.cc(545)] PushProfileInternal finished; 1 profile(s) now present.
+2021-04-05T01:36:34.536783-04:00 INFO shill[1359]: [INFO:modem_manager_1.cc(35)] Start watching modem manager service: org.freedesktop.ModemManager1
+2021-04-05T01:36:34.538407-04:00 INFO shill[1359]: [INFO:service.cc(269)] ethernet service 1 constructed.
+2021-04-05T01:36:34.538929-04:00 INFO shill[1359]: [INFO:service.cc(269)] etherneteap service 2 constructed.
+2021-04-05T01:36:34.540168-04:00 INFO shill[1359]: [INFO:device_info.cc(1330)] Creating WiFi device for station mode interface wlan0 at interface index 2
+2021-04-05T01:36:34.540358-04:00 INFO shill[1359]: [INFO:device.cc(212)] Device created: wlan0 index 2
+2021-04-05T01:36:34.542943-04:00 INFO shill[1359]: [INFO:manager.cc(1224)] Device wlan0 registered.
+2021-04-05T01:36:34.543135-04:00 INFO shill[1359]: [INFO:manager.cc(1505)] Device wlan0 updated: disabled
+2021-04-05T01:36:34.560770-04:00 INFO shill[1359]: [INFO:manager.cc(1625)] Default physical service: 0 (not connected)
+2021-04-05T01:36:34.560933-04:00 INFO shill[1359]: [INFO:service.cc(291)] Suppressed autoconnect to service 0 (no endpoints)
+2021-04-05T01:36:34.561997-04:00 INFO shill[1359]: [INFO:power_manager.cc(171)] OnPowerManagerAppeared
+2021-04-05T01:36:34.562155-04:00 INFO shill[1359]: [INFO:chromeos_power_manager_proxy.cc(174)] RegisterSuspendDelayInternal(19500, dark=false)
+2021-04-05T01:36:34.563849-04:00 INFO shill[1359]: [INFO:chromeos_power_manager_proxy.cc(174)] RegisterSuspendDelayInternal(19500, dark=true)
+2021-04-05T01:36:34.564872-04:00 INFO shill[1359]: [INFO:wifi.cc(2491)] WPA supplicant appeared.
+2021-04-05T01:36:34.565336-04:00 INFO shill[1359]: [INFO:wifi.cc(2573)] wlan0: disabled supplicant: present proxy: null
+2021-04-05T01:36:37.483866-04:00 INFO ModemManager[1636]: <info>  ModemManager (version 1.11.0) starting in system bus...
+2021-04-05T01:36:37.611877-04:00 INFO shill[1359]: [INFO:chromeos_dbus_objectmanager_proxy.cc(94)] OnServiceOwnerChanged old:  new: :1.16
+2021-04-05T01:36:37.612046-04:00 INFO shill[1359]: [INFO:chromeos_dbus_objectmanager_proxy.cc(80)] OnServiceAvailable: 1
+2021-04-05T01:36:37.612150-04:00 INFO shill[1359]: [INFO:chromeos_dbus_objectmanager_proxy.cc(80)] OnServiceAvailable: 1
+2021-04-05T01:36:37.612230-04:00 INFO shill[1359]: [INFO:modem_manager.cc(44)] Modem manager org.freedesktop.ModemManager1 appeared.
+2021-04-05T01:36:37.612310-04:00 INFO shill[1359]: [INFO:modem_manager.cc(44)] Modem manager org.freedesktop.ModemManager1 appeared.
+2021-04-05T01:36:40.132604-04:00 INFO ModemManager[1636]: <info>  Couldn't check support for device '/sys/devices/pci0000:00/0000:00:1c.0/0000:01:00.0': not supported by any plugin
+2021-04-05T01:37:01.453281-04:00 INFO shill[1359]: [INFO:service.cc(269)] wifi service 3 constructed.
+2021-04-05T01:37:01.453443-04:00 INFO shill[1359]: [INFO:wifi_service.cc(173)] Constructed WiFi service 3 name: [SSID=NETGEAR_1337]
+2021-04-05T01:37:01.456042-04:00 INFO shill[1359]: [INFO:manager.cc(545)] PushProfileInternal finished; 2 profile(s) now present.
+2021-04-05T01:37:01.456199-04:00 INFO shill[1359]: [INFO:manager.cc(1625)] Default physical service: 3 (not connected)
+2021-04-05T01:37:01.456278-04:00 INFO shill[1359]: [INFO:service.cc(291)] Suppressed autoconnect to service 3 (no endpoints)
+2021-04-05T01:37:01.456352-04:00 INFO shill[1359]: [INFO:service.cc(291)] Suppressed autoconnect to service 0 (no endpoints)
+2021-04-05T01:37:27.534311-04:00 INFO shill[1359]: [INFO:shill_daemon.cc(38)] ShillDaemon received shutdown.
+2021-04-05T01:37:27.534487-04:00 INFO shill[1359]: [INFO:manager.cc(1505)] Device wlan0 updated: disabled
+2021-04-05T01:37:27.594479-04:00 INFO shill[1359]: [INFO:device.cc(1921)] Already in desired enable state.
+2021-04-05T01:37:27.606651-04:00 INFO shill[1359]: [INFO:service.cc(275)] Service 3 destroyed.
+2021-04-05T01:37:27.607285-04:00 INFO shill[1359]: [INFO:service.cc(275)] Service 0 destroyed.
+2021-04-05T01:37:27.625457-04:00 INFO shill[1359]: [INFO:modem_manager_1.cc(51)] Stop watching modem manager service: org.freedesktop.ModemManager1
+2021-04-05T01:37:27.625575-04:00 INFO shill[1359]: [INFO:power_manager.cc(60)] Stop
+2021-04-05T01:37:27.625655-04:00 INFO shill[1359]: [INFO:chromeos_power_manager_proxy.cc(212)] UnregisterSuspendDelayInternal(69402625, dark=false)
+2021-04-05T01:37:27.626356-04:00 INFO shill[1359]: [INFO:chromeos_power_manager_proxy.cc(212)] UnregisterSuspendDelayInternal(69435393, dark=true)
+2021-04-05T01:37:27.627193-04:00 INFO shill[1359]: [INFO:device.cc(217)] Device destructed: wlan0 index 2
+2021-04-05T01:37:27.627284-04:00 INFO shill[1359]: [INFO:service.cc(275)] Service 2 destroyed.
+2021-04-05T01:37:27.627356-04:00 INFO shill[1359]: [INFO:service.cc(275)] Service 1 destroyed.
+2021-04-05T01:37:27.627968-04:00 INFO shill[1359]: [INFO:shill_main.cc(249)] Process exiting.
+2021-04-05T01:37:31.882285-04:00 INFO ModemManager[1636]: <info>  Caught signal, shutting down...
+2021-04-05T01:37:31.889791-04:00 INFO ModemManager[1636]: <info>  ModemManager is shut down
+2021-04-05T03:41:01.566472-04:00 NOTICE wpa_supplicant[589]: Successfully initialized wpa_supplicant
+2021-04-05T03:41:02.593735-04:00 INFO shill[1356]: [INFO:manager.cc(294)] Manager started.
+2021-04-05T03:41:02.596389-04:00 INFO shill[1356]: [INFO:chromeos_power_manager_proxy.cc(356)] OnSignalConnected interface: org.chromium.PowerManager signal: SuspendImminentsuccess: 1
+2021-04-05T03:41:02.597066-04:00 INFO shill[1356]: [INFO:chromeos_power_manager_proxy.cc(356)] OnSignalConnected interface: org.chromium.PowerManager signal: SuspendDonesuccess: 1
+2021-04-05T03:41:02.597249-04:00 INFO shill[1356]: [INFO:chromeos_power_manager_proxy.cc(356)] OnSignalConnected interface: org.chromium.PowerManager signal: DarkSuspendImminentsuccess: 1
+2021-04-05T03:41:02.625025-04:00 INFO shill[1356]: [INFO:service.cc(269)] wifi service 0 constructed.
+2021-04-05T03:41:02.626697-04:00 INFO shill[1356]: [INFO:wifi_service.cc(173)] Constructed WiFi service 0 name: [SSID=NETGEAR-345]
+2021-04-05T03:41:02.627458-04:00 INFO shill[1356]: [INFO:manager.cc(545)] PushProfileInternal finished; 1 profile(s) now present.
+2021-04-05T03:41:02.628506-04:00 INFO shill[1356]: [INFO:modem_manager_1.cc(35)] Start watching modem manager service: org.freedesktop.ModemManager1
+2021-04-05T03:41:02.629769-04:00 INFO shill[1356]: [INFO:service.cc(269)] ethernet service 1 constructed.
+2021-04-05T03:41:02.630347-04:00 INFO shill[1356]: [INFO:service.cc(269)] etherneteap service 2 constructed.
+2021-04-05T03:41:02.631548-04:00 INFO shill[1356]: [INFO:device_info.cc(1330)] Creating WiFi device for station mode interface wlan0 at interface index 2
+2021-04-05T03:41:02.631710-04:00 INFO shill[1356]: [INFO:device.cc(212)] Device created: wlan0 index 2
+2021-04-05T03:41:02.633915-04:00 INFO shill[1356]: [INFO:manager.cc(1224)] Device wlan0 registered.
+2021-04-05T03:41:02.634085-04:00 INFO shill[1356]: [INFO:manager.cc(1505)] Device wlan0 updated: disabled
+2021-04-05T03:41:02.653848-04:00 INFO shill[1356]: [INFO:manager.cc(1625)] Default physical service: 0 (not connected)
+2021-04-05T03:41:02.654034-04:00 INFO shill[1356]: [INFO:service.cc(291)] Suppressed autoconnect to service 0 (no endpoints)
+2021-04-05T03:41:02.655213-04:00 INFO shill[1356]: [INFO:power_manager.cc(171)] OnPowerManagerAppeared
+2021-04-05T03:41:02.655365-04:00 INFO shill[1356]: [INFO:chromeos_power_manager_proxy.cc(174)] RegisterSuspendDelayInternal(19500, dark=false)
+2021-04-05T03:41:02.657750-04:00 INFO shill[1356]: [INFO:chromeos_power_manager_proxy.cc(174)] RegisterSuspendDelayInternal(19500, dark=true)
+2021-04-05T03:41:02.657939-04:00 INFO shill[1356]: [INFO:wifi.cc(2491)] WPA supplicant appeared.
+2021-04-05T03:41:02.658040-04:00 INFO shill[1356]: [INFO:wifi.cc(2573)] wlan0: disabled supplicant: present proxy: null
+2021-04-05T03:41:05.499686-04:00 INFO ModemManager[1667]: <info>  ModemManager (version 1.11.0) starting in system bus...
+2021-04-05T03:41:05.618109-04:00 INFO shill[1356]: [INFO:chromeos_dbus_objectmanager_proxy.cc(94)] OnServiceOwnerChanged old:  new: :1.15
+2021-04-05T03:41:05.618263-04:00 INFO shill[1356]: [INFO:chromeos_dbus_objectmanager_proxy.cc(80)] OnServiceAvailable: 1
+2021-04-05T03:41:05.618348-04:00 INFO shill[1356]: [INFO:chromeos_dbus_objectmanager_proxy.cc(80)] OnServiceAvailable: 1
+2021-04-05T03:41:05.618423-04:00 INFO shill[1356]: [INFO:modem_manager.cc(44)] Modem manager org.freedesktop.ModemManager1 appeared.
+2021-04-05T03:41:05.618505-04:00 INFO shill[1356]: [INFO:modem_manager.cc(44)] Modem manager org.freedesktop.ModemManager1 appeared.
+2021-04-05T03:41:08.168637-04:00 INFO ModemManager[1667]: <info>  Couldn't check support for device '/sys/devices/pci0000:00/0000:00:1c.0/0000:01:00.0': not supported by any plugin
+2021-04-05T03:41:11.677838-04:00 INFO shill[1356]: [INFO:shill_daemon.cc(38)] ShillDaemon received shutdown.
+2021-04-05T03:41:11.677982-04:00 INFO shill[1356]: [INFO:manager.cc(1505)] Device wlan0 updated: disabled
+2021-04-05T03:41:11.719944-04:00 INFO shill[1356]: [INFO:device.cc(1921)] Already in desired enable state.
+2021-04-05T03:41:11.748048-04:00 INFO shill[1356]: [INFO:service.cc(275)] Service 0 destroyed.
+2021-04-05T03:41:11.760850-04:00 INFO shill[1356]: [INFO:modem_manager_1.cc(51)] Stop watching modem manager service: org.freedesktop.ModemManager1
+2021-04-05T03:41:11.760973-04:00 INFO shill[1356]: [INFO:power_manager.cc(60)] Stop
+2021-04-05T03:41:11.761066-04:00 INFO shill[1356]: [INFO:chromeos_power_manager_proxy.cc(212)] UnregisterSuspendDelayInternal(67895297, dark=false)
+2021-04-05T03:41:11.761839-04:00 INFO shill[1356]: [INFO:chromeos_power_manager_proxy.cc(212)] UnregisterSuspendDelayInternal(67928065, dark=true)
+2021-04-05T03:41:11.762534-04:00 INFO shill[1356]: [INFO:device.cc(217)] Device destructed: wlan0 index 2
+2021-04-05T03:41:11.762623-04:00 INFO shill[1356]: [INFO:service.cc(275)] Service 2 destroyed.
+2021-04-05T03:41:11.762701-04:00 INFO shill[1356]: [INFO:service.cc(275)] Service 1 destroyed.
+2021-04-05T03:41:11.763431-04:00 INFO shill[1356]: [INFO:shill_main.cc(249)] Process exiting.
+2021-04-05T03:41:12.514413-04:00 INFO ModemManager[1667]: <info>  Caught signal, shutting down...
+2021-04-05T03:41:12.516559-04:00 INFO ModemManager[1667]: <info>  ModemManager is shut down
+2021-04-05T03:41:24.652666-04:00 NOTICE wpa_supplicant[593]: Successfully initialized wpa_supplicant
+2021-04-05T03:41:25.637892-04:00 INFO shill[1353]: [INFO:manager.cc(294)] Manager started.
+2021-04-05T03:41:25.639417-04:00 INFO shill[1353]: [INFO:chromeos_power_manager_proxy.cc(356)] OnSignalConnected interface: org.chromium.PowerManager signal: SuspendImminentsuccess: 1
+2021-04-05T03:41:25.639816-04:00 INFO shill[1353]: [INFO:chromeos_power_manager_proxy.cc(356)] OnSignalConnected interface: org.chromium.PowerManager signal: SuspendDonesuccess: 1
+2021-04-05T03:41:25.640567-04:00 INFO shill[1353]: [INFO:chromeos_power_manager_proxy.cc(356)] OnSignalConnected interface: org.chromium.PowerManager signal: DarkSuspendImminentsuccess: 1
+2021-04-05T03:41:25.664283-04:00 INFO shill[1353]: [INFO:service.cc(269)] wifi service 0 constructed.
+2021-04-05T03:41:25.665884-04:00 INFO shill[1353]: [INFO:wifi_service.cc(173)] Constructed WiFi service 0 name: [SSID=NETGEAR-345]
+2021-04-05T03:41:25.667090-04:00 INFO shill[1353]: [INFO:manager.cc(545)] PushProfileInternal finished; 1 profile(s) now present.
+2021-04-05T03:41:25.668177-04:00 INFO shill[1353]: [INFO:modem_manager_1.cc(35)] Start watching modem manager service: org.freedesktop.ModemManager1
+2021-04-05T03:41:25.669706-04:00 INFO shill[1353]: [INFO:service.cc(269)] ethernet service 1 constructed.
+2021-04-05T03:41:25.670825-04:00 INFO shill[1353]: [INFO:service.cc(269)] etherneteap service 2 constructed.
+2021-04-05T03:41:25.672476-04:00 INFO shill[1353]: [INFO:device_info.cc(1330)] Creating WiFi device for station mode interface wlan0 at interface index 2
+2021-04-05T03:41:25.672804-04:00 INFO shill[1353]: [INFO:device.cc(212)] Device created: wlan0 index 2
+2021-04-05T03:41:25.674890-04:00 INFO shill[1353]: [INFO:manager.cc(1224)] Device wlan0 registered.
+2021-04-05T03:41:25.675114-04:00 INFO shill[1353]: [INFO:manager.cc(1505)] Device wlan0 updated: disabled
+2021-04-05T03:41:25.693947-04:00 INFO shill[1353]: [INFO:manager.cc(1625)] Default physical service: 0 (not connected)
+2021-04-05T03:41:25.694365-04:00 INFO shill[1353]: [INFO:service.cc(291)] Suppressed autoconnect to service 0 (no endpoints)
+2021-04-05T03:41:25.695705-04:00 INFO shill[1353]: [INFO:power_manager.cc(171)] OnPowerManagerAppeared
+2021-04-05T03:41:25.695883-04:00 INFO shill[1353]: [INFO:chromeos_power_manager_proxy.cc(174)] RegisterSuspendDelayInternal(19500, dark=false)
+2021-04-05T03:41:25.696767-04:00 INFO shill[1353]: [INFO:chromeos_power_manager_proxy.cc(174)] RegisterSuspendDelayInternal(19500, dark=true)
+2021-04-05T03:41:25.699779-04:00 INFO shill[1353]: [INFO:wifi.cc(2491)] WPA supplicant appeared.
+2021-04-05T03:41:25.700127-04:00 INFO shill[1353]: [INFO:wifi.cc(2573)] wlan0: disabled supplicant: present proxy: null
+2021-04-05T03:41:28.672915-04:00 INFO ModemManager[1638]: <info>  ModemManager (version 1.11.0) starting in system bus...
+2021-04-05T03:41:28.783516-04:00 INFO shill[1353]: [INFO:chromeos_dbus_objectmanager_proxy.cc(94)] OnServiceOwnerChanged old:  new: :1.16
+2021-04-05T03:41:28.783674-04:00 INFO shill[1353]: [INFO:chromeos_dbus_objectmanager_proxy.cc(80)] OnServiceAvailable: 1
+2021-04-05T03:41:28.783774-04:00 INFO shill[1353]: [INFO:chromeos_dbus_objectmanager_proxy.cc(80)] OnServiceAvailable: 1
+2021-04-05T03:41:28.783856-04:00 INFO shill[1353]: [INFO:modem_manager.cc(44)] Modem manager org.freedesktop.ModemManager1 appeared.
+2021-04-05T03:41:28.783939-04:00 INFO shill[1353]: [INFO:modem_manager.cc(44)] Modem manager org.freedesktop.ModemManager1 appeared.
+2021-04-05T03:41:31.332037-04:00 INFO ModemManager[1638]: <info>  Couldn't check support for device '/sys/devices/pci0000:00/0000:00:1c.0/0000:01:00.0': not supported by any plugin
+2021-04-05T03:41:34.155780-04:00 INFO shill[1353]: [INFO:shill_daemon.cc(38)] ShillDaemon received shutdown.
+2021-04-05T03:41:34.157089-04:00 INFO shill[1353]: [INFO:manager.cc(1505)] Device wlan0 updated: disabled
+2021-04-05T03:41:34.206588-04:00 INFO shill[1353]: [INFO:device.cc(1921)] Already in desired enable state.
+2021-04-05T03:41:34.230970-04:00 INFO shill[1353]: [INFO:service.cc(275)] Service 0 destroyed.
+2021-04-05T03:41:34.245090-04:00 INFO shill[1353]: [INFO:modem_manager_1.cc(51)] Stop watching modem manager service: org.freedesktop.ModemManager1
+2021-04-05T03:41:34.245248-04:00 INFO shill[1353]: [INFO:power_manager.cc(60)] Stop
+2021-04-05T03:41:34.245329-04:00 INFO shill[1353]: [INFO:chromeos_power_manager_proxy.cc(212)] UnregisterSuspendDelayInternal(69074945, dark=false)
+2021-04-05T03:41:34.245780-04:00 INFO shill[1353]: [INFO:chromeos_power_manager_proxy.cc(212)] UnregisterSuspendDelayInternal(69107713, dark=true)
+2021-04-05T03:41:34.246613-04:00 INFO shill[1353]: [INFO:device.cc(217)] Device destructed: wlan0 index 2
+2021-04-05T03:41:34.246776-04:00 INFO shill[1353]: [INFO:service.cc(275)] Service 2 destroyed.
+2021-04-05T03:41:34.246871-04:00 INFO shill[1353]: [INFO:service.cc(275)] Service 1 destroyed.
+2021-04-05T03:41:34.247683-04:00 INFO shill[1353]: [INFO:shill_main.cc(249)] Process exiting.
+2021-04-05T03:41:34.969715-04:00 INFO ModemManager[1638]: <info>  Caught signal, shutting down...
+2021-04-05T03:41:34.974759-04:00 INFO ModemManager[1638]: <info>  ModemManager is shut down
+2021-04-05T03:48:40.690376-04:00 NOTICE wpa_supplicant[630]: Successfully initialized wpa_supplicant
+2021-04-05T03:48:41.587603-04:00 INFO shill[1375]: [INFO:manager.cc(294)] Manager started.
+2021-04-05T03:48:41.588803-04:00 INFO shill[1375]: [INFO:chromeos_power_manager_proxy.cc(356)] OnSignalConnected interface: org.chromium.PowerManager signal: SuspendImminentsuccess: 1
+2021-04-05T03:48:41.589105-04:00 INFO shill[1375]: [INFO:chromeos_power_manager_proxy.cc(356)] OnSignalConnected interface: org.chromium.PowerManager signal: SuspendDonesuccess: 1
+2021-04-05T03:48:41.589502-04:00 INFO shill[1375]: [INFO:chromeos_power_manager_proxy.cc(356)] OnSignalConnected interface: org.chromium.PowerManager signal: DarkSuspendImminentsuccess: 1
+2021-04-05T03:48:41.615215-04:00 INFO shill[1375]: [INFO:service.cc(269)] wifi service 0 constructed.
+2021-04-05T03:48:41.616822-04:00 INFO shill[1375]: [INFO:wifi_service.cc(173)] Constructed WiFi service 0 name: [SSID=NETGEAR-345]
+2021-04-05T03:48:41.617736-04:00 INFO shill[1375]: [INFO:manager.cc(545)] PushProfileInternal finished; 1 profile(s) now present.
+2021-04-05T03:48:41.618651-04:00 INFO shill[1375]: [INFO:modem_manager_1.cc(35)] Start watching modem manager service: org.freedesktop.ModemManager1
+2021-04-05T03:48:41.619886-04:00 INFO shill[1375]: [INFO:service.cc(269)] ethernet service 1 constructed.
+2021-04-05T03:48:41.620589-04:00 INFO shill[1375]: [INFO:service.cc(269)] etherneteap service 2 constructed.
+2021-04-05T03:48:41.621826-04:00 INFO shill[1375]: [INFO:device_info.cc(1330)] Creating WiFi device for station mode interface wlan0 at interface index 2
+2021-04-05T03:48:41.621981-04:00 INFO shill[1375]: [INFO:device.cc(212)] Device created: wlan0 index 2
+2021-04-05T03:48:41.624347-04:00 INFO shill[1375]: [INFO:manager.cc(1224)] Device wlan0 registered.
+2021-04-05T03:48:41.624489-04:00 INFO shill[1375]: [INFO:manager.cc(1505)] Device wlan0 updated: disabled
+2021-04-05T03:48:41.643310-04:00 INFO shill[1375]: [INFO:manager.cc(1625)] Default physical service: 0 (not connected)
+2021-04-05T03:48:41.643485-04:00 INFO shill[1375]: [INFO:service.cc(291)] Suppressed autoconnect to service 0 (no endpoints)
+2021-04-05T03:48:41.644765-04:00 INFO shill[1375]: [INFO:power_manager.cc(171)] OnPowerManagerAppeared
+2021-04-05T03:48:41.644902-04:00 INFO shill[1375]: [INFO:chromeos_power_manager_proxy.cc(174)] RegisterSuspendDelayInternal(19500, dark=false)
+2021-04-05T03:48:41.645765-04:00 INFO shill[1375]: [INFO:chromeos_power_manager_proxy.cc(174)] RegisterSuspendDelayInternal(19500, dark=true)
+2021-04-05T03:48:41.647960-04:00 INFO shill[1375]: [INFO:wifi.cc(2491)] WPA supplicant appeared.
+2021-04-05T03:48:41.648128-04:00 INFO shill[1375]: [INFO:wifi.cc(2573)] wlan0: disabled supplicant: present proxy: null
+2021-04-05T03:48:44.533696-04:00 INFO ModemManager[1674]: <info>  ModemManager (version 1.11.0) starting in system bus...
+2021-04-05T03:48:44.653553-04:00 INFO shill[1375]: [INFO:chromeos_dbus_objectmanager_proxy.cc(94)] OnServiceOwnerChanged old:  new: :1.16
+2021-04-05T03:48:44.653714-04:00 INFO shill[1375]: [INFO:chromeos_dbus_objectmanager_proxy.cc(80)] OnServiceAvailable: 1
+2021-04-05T03:48:44.655345-04:00 INFO shill[1375]: [INFO:chromeos_dbus_objectmanager_proxy.cc(80)] OnServiceAvailable: 1
+2021-04-05T03:48:44.655468-04:00 INFO shill[1375]: [INFO:modem_manager.cc(44)] Modem manager org.freedesktop.ModemManager1 appeared.
+2021-04-05T03:48:44.655589-04:00 INFO shill[1375]: [INFO:modem_manager.cc(44)] Modem manager org.freedesktop.ModemManager1 appeared.
+2021-04-05T03:48:47.184612-04:00 INFO ModemManager[1674]: <info>  Couldn't check support for device '/sys/devices/pci0000:00/0000:00:1c.0/0000:01:00.0': not supported by any plugin

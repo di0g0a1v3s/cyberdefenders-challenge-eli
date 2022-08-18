@@ -1,0 +1,49 @@
+{
+   "app": {
+      "icon_color": "#4E88EA",
+      "launch": {
+         "web_url": "https://canvas.apps.chrome/"
+      },
+      "linked_icons": [ {
+         "size": 32,
+         "url": "https://canvas.apps.chrome/assets/canvas_48.png"
+      }, {
+         "size": 48,
+         "url": "https://canvas.apps.chrome/assets/canvas_48.png"
+      }, {
+         "size": 64,
+         "url": "https://canvas.apps.chrome/assets/canvas_128.png"
+      }, {
+         "size": 96,
+         "url": "https://canvas.apps.chrome/assets/canvas_128.png"
+      }, {
+         "size": 128,
+         "url": "https://canvas.apps.chrome/assets/canvas_128.png"
+      }, {
+         "size": 144,
+         "url": "https://canvas.apps.chrome/assets/canvas_192.png"
+      }, {
+         "size": 256,
+         "url": "https://canvas.apps.chrome/assets/canvas_256.png"
+      } ]
+   },
+   "description": "",
+   "icons": {
+      "128": "icons/128.png",
+      "144": "icons/144.png",
+      "256": "icons/256.png",
+      "32": "icons/32.png",
+      "48": "icons/48.png",
+      "64": "icons/64.png",
+      "96": "icons/96.png"
+   },
+   "key": "mGWbUtHgIBwTFL++NjRRcdKEQFPVvVJpTSoLoOV2S90=",
+   "name": "Chrome Canvas",
+   "url_handlers": {
+      "scope": {
+         "matches": [ "https://canvas.apps.chrome/*" ],
+         "title": "Chrome Canvas"
+      }
+   },
+   "version": "2021.2.22.29206"
+}

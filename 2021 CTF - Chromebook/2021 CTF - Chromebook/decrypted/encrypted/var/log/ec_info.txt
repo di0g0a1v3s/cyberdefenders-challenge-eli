@@ -1,0 +1,3 @@
+vendor               | ti
+name                 | tm4e1g31h6zrb
+fw_version           | glimmer_v1.6.185-7c54721

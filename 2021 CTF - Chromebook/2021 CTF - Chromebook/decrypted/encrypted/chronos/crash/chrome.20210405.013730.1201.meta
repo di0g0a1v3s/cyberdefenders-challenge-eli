@@ -1,0 +1,54 @@
+upload_var_collector=chrome
+upload_var_prod=Chrome_ChromeOS
+upload_var_ver=76.0.3809.136
+upload_var_pid=1201
+upload_var_ptime=53339
+upload_var_ptype=browser
+upload_var_lsb-release=CrOS 12239.92.0 (Official Build) stable-channel glimmer
+upload_var_num-switches=28
+upload_var_switch-1=--ppapi-flash-version=32.0.0.238
+upload_var_switch-2=--enable-native-gpu-memory-buffers
+upload_var_switch-3=--gpu-sandbox-failures-fatal=yes
+upload_var_switch-4=--enable-wayland-server
+upload_var_switch-5=--enable-features=MachineLearningService,ChromeOSAssistant,EnableBackgroundBlur,MyFilesVolume
+upload_var_switch-6=--has-chromeos-keyboard
+upload_var_switch-7=--enable-touchview
+upload_var_switch-8=--enable-consumer-kiosk
+upload_var_switch-9=--login-manager
+upload_var_switch-10=--first-exec-after-boot
+upload_var_switch-11=--enable-features=MachineLearningService,ChromeOSAssistant,EnableBackgroundBlur,MyFilesVolume
+upload_var_num-experiments=55
+upload_var_variations__1=976622d1-2f709970,591560a-39160644,7903da77-377be55a,41c72c78-377be55a,3095aa95-3f4a17df,64c5e43d-377be55a,43f62d3b-56dd17e,ad5
+upload_var_variations__2=dc5d-dc5e89fc,ed846e24-377be55a,1a298d67-377be55a,3ac60855-486e2a9c,63dcb6a3-32058365,e706e746-3a443afd,f296190c-3a9ae350,4442a
+upload_var_variations__3=ae2-a5822863,f690cf64-d7f6b13c,ed1d377-e1cc0f14,75f0f0a0-e1cc0f14,e2b18481-6bdfffe7,e7e71889-4ad60575,e111fcd-3f4a17df,82ebe475
+upload_var_variations__4=-c7f8da8c,e4a357e9-ca7d8d80,494d8760-52325d43,2ea1f2c6-377be55a,9568c338-377be55a,2a565533-a9ddec78,b8d7a428-76bcaaa6,8f80d469-
+upload_var_switch-12=--origin-trial-disabled-features=MeasureMemory
+upload_var_guid=bcf7bf6d14444594909cf09e1e5a01f9
+upload_var_num-users=1
+upload_var_gpu-venid=0x8086
+upload_var_gpu-devid=0x0f31
+upload_var_gpu-driver=19.1.0
+upload_var_gpu-psver=3.00
+upload_var_gpu-vsver=3.00
+upload_var_gpu-gl-vendor=Intel Open Source Technology Center
+upload_var_gpu-gl-renderer=Mesa DRI Intel(R) Bay Trail 
+upload_var_num-extensions=0
+upload_var_variations__5=377be55a,d74ef32b-ca7d8d80,dac832a5-377be55a,2fa8b3e1-4f7edc42,d840bbac-377be55a,fb57f531-377be55a,2eb45dac-377be55a,63bf0740-3
+upload_var_ui_scheduler_async_stack=0x55841ADB5553 0x0
+upload_var_variations__6=f4a17df,e84c8bf2-377be55a,d8e87453-516c6aad,913f596c-e2062dbb,8d1fbf5c-5364eb6a,d6d4ee9a-377be55a,e27776-377be55a,d01ab0d3-377b
+upload_var_variations__7=e55a,3f2db1c3-7cfad620,ac8d4708-377be55a,cec9a952-ca7d8d80,76aafe12-377be55a,2594bdf4-93d4a67a,1354da85-781294a7,98be3390-d93a0
+upload_var_audio-service-state=bound audio.mojom.SystemInfo
+upload_var_audio-service-factory-state=destroyed output stream: binding_count=1, muters_count=0, loopback_count=0, input_stream_count=0, output_stream_count=0
+upload_var_total-discardable-memory-allocated=0
+upload_var_shutdown-type=exit
+upload_var_variations__8=620,55a3035a-377be55a,414bf2d2-377be55a,4cbcf8ef-377be55a,7c244b7f-da2b42b9,c559031-3d47f4f4,
+upload_file_chrome.txt=/home/chronos/crash/chrome.20210405.013730.1201.chrome.txt.gz
+upload_var_reportTimeMillis=1617601050765
+upload_var_lsb-release=12239.92.0 (Official Build) stable-channel glimmer 
+upload_var_osName=Linux
+upload_var_osVersion=0.0.0 Linux 4.4.180-16566-g51163f4278d1 #1 SMP PREEMPT Tue Aug 27 17:13:36 PDT 2019 x86_64
+exec_name=chrome
+ver=12239.92.0
+payload=/home/chronos/crash/chrome.20210405.013730.1201.dmp
+os_millis=1566959722080
+done=1

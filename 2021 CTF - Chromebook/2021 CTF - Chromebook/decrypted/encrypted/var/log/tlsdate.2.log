@@ -1,0 +1,138 @@
+2021-02-28T01:24:46.605482-05:00 INFO tlsdated[2077]: [event:action_resolve_proxy] resolving proxy for clients3.google.com:443
+2021-02-28T01:24:47.609721-05:00 INFO tlsdated[2077]: [event:action_run_tlsdate] attempt 1 backoff 10
+2021-02-28T01:24:47.613276-05:00 INFO tlsdate[3607]: V: time is currently 1614493487.612599351
+2021-02-28T01:24:47.613442-05:00 INFO tlsdate[3607]: V: time is greater than RECENT_COMPILE_DATE
+2021-02-28T01:24:47.616408-05:00 INFO tlsdate[3608]: V: using TLSv1_client_method()
+2021-02-28T01:24:47.616544-05:00 INFO tlsdate[3608]: V: setting up connection to clients3.google.com:443
+2021-02-28T01:24:47.933870-05:00 INFO tlsdate[3608]: V: freezing time for x509 verification
+2021-02-28T01:24:47.934056-05:00 INFO tlsdate[3608]: V: remote peer provided: 1614493488, preferred over compile time: 1566950687
+2021-02-28T01:24:47.934147-05:00 INFO tlsdate[3608]: V: freezing time with X509_VERIFY_PARAM_set_time
+2021-02-28T01:24:47.953748-05:00 INFO tlsdate[3608]: V: certificate verification passed
+2021-02-28T01:24:47.953913-05:00 INFO tlsdate[3608]: V: commonName mismatch! Expected: clients3.google.com - received: *.google.com
+2021-02-28T01:24:47.954021-05:00 INFO tlsdate[3608]: V: found non subjectAltName extension
+2021-02-28T01:24:47.954449-05:00 INFO tlsdate[3608]: message repeated 5 times: [ V: found non subjectAltName extension]
+2021-02-28T01:24:47.954525-05:00 INFO tlsdate[3608]: V: Inspecting 'clients3.google.com' for possible wildcard match against '*.google.com'
+2021-02-28T01:24:47.954601-05:00 INFO tlsdate[3608]: V: label found; total label count: 1
+2021-02-28T01:24:47.954677-05:00 INFO tlsdate[3608]: V: label found; total label count: 2
+2021-02-28T01:24:47.954795-05:00 INFO tlsdate[3608]: V: label found; total label count: 3
+2021-02-28T01:24:47.954874-05:00 INFO tlsdate[3608]: V: Found wildcard in at start of provided certificate name
+2021-02-28T01:24:47.954949-05:00 INFO tlsdate[3608]: V: Attempting match of 'clients3' against '*'
+2021-02-28T01:24:47.955044-05:00 INFO tlsdate[3608]: V: Forced match of 'clients3' against '*'
+2021-02-28T01:24:47.955120-05:00 INFO tlsdate[3608]: V: Attempting match of 'google' against 'google'
+2021-02-28T01:24:47.955194-05:00 INFO tlsdate[3608]: V: Attempting match of 'com' against 'com'
+2021-02-28T01:24:47.955304-05:00 INFO tlsdate[3608]: V: remaining labels match!
+2021-02-28T01:24:47.955380-05:00 INFO tlsdate[3608]: V: wildcard match of clients3.google.com against *.google.com
+2021-02-28T01:24:47.955466-05:00 INFO tlsdate[3608]: V: hostname verification passed
+2021-02-28T01:24:47.955542-05:00 INFO tlsdate[3608]: V: public key is ready for inspection
+2021-02-28T01:24:47.955619-05:00 INFO tlsdate[3608]: V: key type: EVP_PKEY_RSA
+2021-02-28T01:24:47.955706-05:00 INFO tlsdate[3608]: V: keybits: 2048
+2021-02-28T01:24:47.955789-05:00 INFO tlsdate[3608]: V: key length appears safe
+2021-02-28T01:24:47.955891-05:00 INFO tlsdate[3607]: V: server time 1614493488 (difference is about -1 s) was fetched in 341 ms
+2021-02-28T01:24:47.955969-05:00 INFO tlsdated[2077]: [event:handle_child_death] tlsdate reaped => pid:16 uid:234 status:0 code:1
+2021-02-28T01:24:47.956066-05:00 INFO tlsdated[2077]: [event:handle_time_setter] time set from the network (1614493488)
+2021-03-01T00:56:54.999851-05:00 INFO tlsdated[2054]: spawning time setting helper . . .
+2021-03-01T00:56:55.008537-05:00 INFO tlsdated[2054]: disk timestamp available: yes
+2021-03-01T00:56:55.008735-05:00 INFO tlsdated[2054]: initial time sync type: system-clock
+2021-03-01T00:56:55.013753-05:00 INFO tlsdated[2054]: Entering dispatch . . .
+2021-03-01T00:56:55.013939-05:00 INFO tlsdated[2054]: [event:action_resolve_proxy] resolving proxy for clients3.google.com:443
+2021-03-01T00:56:55.014055-05:00 INFO tlsdated[2054]: [cros] DBus name acquired successfully
+2021-03-01T00:56:55.014165-05:00 INFO tlsdated[2054]: [cros] DBus name acquired successfully
+2021-03-01T00:56:55.027952-05:00 INFO tlsdated[2054]: [event:handle_time_setter] time set from the system-clock (1614578215)
+2021-03-01T00:56:56.072228-05:00 INFO tlsdated[2054]: [event:action_run_tlsdate] attempt 1 backoff 10
+2021-03-01T00:56:56.078441-05:00 INFO tlsdate[2395]: V: time is currently 1614578216.77727675
+2021-03-01T00:56:56.078692-05:00 INFO tlsdate[2395]: V: time is greater than RECENT_COMPILE_DATE
+2021-03-01T00:56:56.081581-05:00 INFO tlsdate[2396]: V: using TLSv1_client_method()
+2021-03-01T00:56:56.081756-05:00 INFO tlsdate[2396]: V: setting up connection to clients3.google.com:443
+2021-03-01T00:56:56.083889-05:00 INFO tlsdated[2054]: [event:handle_child_death] tlsdate reaped => pid:4 uid:234 status:1 code:1
+2021-03-01T00:57:16.084938-05:00 INFO tlsdated[2054]: [event:action_resolve_proxy] resolving proxy for clients3.google.com:443
+2021-03-01T00:57:17.089193-05:00 INFO tlsdated[2054]: [event:action_run_tlsdate] attempt 2 backoff 20
+2021-03-01T00:57:17.093971-05:00 INFO tlsdate[2635]: V: time is currently 1614578237.93198817
+2021-03-01T00:57:17.094161-05:00 INFO tlsdate[2635]: V: time is greater than RECENT_COMPILE_DATE
+2021-03-01T00:57:17.097286-05:00 INFO tlsdate[2636]: V: using TLSv1_client_method()
+2021-03-01T00:57:17.097448-05:00 INFO tlsdate[2636]: V: setting up connection to clients3.google.com:443
+2021-03-01T00:57:17.100244-05:00 INFO tlsdated[2054]: [event:handle_child_death] tlsdate reaped => pid:6 uid:234 status:1 code:1
+2021-03-01T00:57:41.762789-05:00 INFO tlsdated[2054]: [event:action_resolve_proxy] resolving proxy for clients3.google.com:443
+2021-03-01T00:57:42.766224-05:00 INFO tlsdated[2054]: [event:action_run_tlsdate] attempt 1 backoff 10
+2021-03-01T00:57:42.769912-05:00 INFO tlsdate[3041]: V: time is currently 1614578262.768778142
+2021-03-01T00:57:42.770120-05:00 INFO tlsdate[3041]: V: time is greater than RECENT_COMPILE_DATE
+2021-03-01T00:57:42.772529-05:00 INFO tlsdate[3042]: V: using TLSv1_client_method()
+2021-03-01T00:57:42.772739-05:00 INFO tlsdate[3042]: V: setting up connection to clients3.google.com:443
+2021-03-01T00:57:42.943158-05:00 INFO tlsdate[3042]: V: freezing time for x509 verification
+2021-03-01T00:57:42.943548-05:00 INFO tlsdate[3042]: V: remote peer provided: 1614578262, preferred over compile time: 1566950687
+2021-03-01T00:57:42.943648-05:00 INFO tlsdate[3042]: V: freezing time with X509_VERIFY_PARAM_set_time
+2021-03-01T00:57:42.973154-05:00 INFO tlsdate[3042]: V: certificate verification passed
+2021-03-01T00:57:42.973353-05:00 INFO tlsdate[3042]: V: commonName mismatch! Expected: clients3.google.com - received: *.google.com
+2021-03-01T00:57:42.973442-05:00 INFO tlsdate[3042]: V: found non subjectAltName extension
+2021-03-01T00:57:42.973875-05:00 INFO tlsdate[3042]: message repeated 5 times: [ V: found non subjectAltName extension]
+2021-03-01T00:57:42.973951-05:00 INFO tlsdate[3042]: V: Inspecting 'clients3.google.com' for possible wildcard match against '*.google.com'
+2021-03-01T00:57:42.974087-05:00 INFO tlsdate[3042]: V: label found; total label count: 1
+2021-03-01T00:57:42.974185-05:00 INFO tlsdate[3042]: V: label found; total label count: 2
+2021-03-01T00:57:42.975420-05:00 INFO tlsdate[3042]: V: label found; total label count: 3
+2021-03-01T00:57:42.975549-05:00 INFO tlsdate[3042]: V: Found wildcard in at start of provided certificate name
+2021-03-01T00:57:42.975631-05:00 INFO tlsdate[3042]: V: Attempting match of 'clients3' against '*'
+2021-03-01T00:57:42.975710-05:00 INFO tlsdate[3042]: V: Forced match of 'clients3' against '*'
+2021-03-01T00:57:42.975791-05:00 INFO tlsdate[3042]: V: Attempting match of 'google' against 'google'
+2021-03-01T00:57:42.975895-05:00 INFO tlsdate[3042]: V: Attempting match of 'com' against 'com'
+2021-03-01T00:57:42.975986-05:00 INFO tlsdate[3042]: V: remaining labels match!
+2021-03-01T00:57:42.976090-05:00 INFO tlsdate[3042]: V: wildcard match of clients3.google.com against *.google.com
+2021-03-01T00:57:42.976207-05:00 INFO tlsdate[3042]: V: hostname verification passed
+2021-03-01T00:57:42.976289-05:00 INFO tlsdate[3042]: V: public key is ready for inspection
+2021-03-01T00:57:42.976382-05:00 INFO tlsdate[3042]: V: key type: EVP_PKEY_RSA
+2021-03-01T00:57:42.976462-05:00 INFO tlsdate[3042]: V: keybits: 2048
+2021-03-01T00:57:42.976573-05:00 INFO tlsdate[3042]: V: key length appears safe
+2021-03-01T00:57:42.976684-05:00 INFO tlsdate[3041]: V: server time 1614578262 (difference is about 0 s) was fetched in 204 ms
+2021-03-01T00:57:42.976768-05:00 INFO tlsdated[2054]: [event:handle_child_death] tlsdate reaped => pid:8 uid:234 status:0 code:1
+2021-03-01T00:57:42.976863-05:00 INFO tlsdated[2054]: [event:handle_time_setter] time set from the network (1614578262)
+2021-03-04T03:02:25.218610-05:00 INFO tlsdated[2088]: spawning time setting helper . . .
+2021-03-04T03:02:25.231586-05:00 INFO tlsdated[2088]: disk timestamp available: yes
+2021-03-04T03:02:25.231748-05:00 INFO tlsdated[2088]: initial time sync type: system-clock
+2021-03-04T03:02:25.232633-05:00 INFO tlsdated[2088]: Entering dispatch . . .
+2021-03-04T03:02:25.232797-05:00 INFO tlsdated[2088]: [event:action_resolve_proxy] resolving proxy for clients3.google.com:443
+2021-03-04T03:02:25.233094-05:00 INFO tlsdated[2088]: [event:handle_time_setter] time set from the system-clock (1614844945)
+2021-03-04T03:02:25.235364-05:00 INFO tlsdated[2088]: [cros] DBus name acquired successfully
+2021-03-04T03:02:25.235522-05:00 INFO tlsdated[2088]: [cros] DBus name acquired successfully
+2021-03-04T03:02:26.242067-05:00 INFO tlsdated[2088]: [event:action_run_tlsdate] attempt 1 backoff 10
+2021-03-04T03:02:26.250993-05:00 INFO tlsdate[2402]: V: time is currently 1614844946.250345105
+2021-03-04T03:02:26.251202-05:00 INFO tlsdate[2402]: V: time is greater than RECENT_COMPILE_DATE
+2021-03-04T03:02:26.254177-05:00 INFO tlsdate[2403]: V: using TLSv1_client_method()
+2021-03-04T03:02:26.254320-05:00 INFO tlsdate[2403]: V: setting up connection to clients3.google.com:443
+2021-03-04T03:02:26.257359-05:00 INFO tlsdated[2088]: [event:handle_child_death] tlsdate reaped => pid:4 uid:234 status:1 code:1
+2021-03-04T03:02:46.259568-05:00 INFO tlsdated[2088]: [event:action_resolve_proxy] resolving proxy for clients3.google.com:443
+2021-03-04T03:02:47.264610-05:00 INFO tlsdated[2088]: [event:action_run_tlsdate] attempt 2 backoff 20
+2021-03-04T03:02:47.269155-05:00 INFO tlsdate[2951]: V: time is currently 1614844967.268344216
+2021-03-04T03:02:47.269318-05:00 INFO tlsdate[2951]: V: time is greater than RECENT_COMPILE_DATE
+2021-03-04T03:02:47.272264-05:00 INFO tlsdate[2952]: V: using TLSv1_client_method()
+2021-03-04T03:02:47.272448-05:00 INFO tlsdate[2952]: V: setting up connection to clients3.google.com:443
+2021-03-04T03:02:47.274524-05:00 INFO tlsdated[2088]: [event:handle_child_death] tlsdate reaped => pid:6 uid:234 status:1 code:1
+2021-03-04T03:02:58.589379-05:00 INFO tlsdated[2088]: [event:action_resolve_proxy] resolving proxy for clients3.google.com:443
+2021-03-04T03:02:59.591354-05:00 INFO tlsdated[2088]: [event:action_run_tlsdate] attempt 1 backoff 10
+2021-03-04T03:02:59.599187-05:00 INFO tlsdate[3015]: V: time is currently 1614844979.598516159
+2021-03-04T03:02:59.599318-05:00 INFO tlsdate[3015]: V: time is greater than RECENT_COMPILE_DATE
+2021-03-04T03:02:59.610785-05:00 INFO tlsdate[3016]: V: using TLSv1_client_method()
+2021-03-04T03:02:59.610921-05:00 INFO tlsdate[3016]: V: setting up connection to clients3.google.com:443
+2021-03-04T03:03:00.035145-05:00 INFO tlsdate[3016]: V: freezing time for x509 verification
+2021-03-04T03:03:00.059324-05:00 INFO tlsdate[3016]: V: remote peer provided: 1614844980, preferred over compile time: 1566950687
+2021-03-04T03:03:00.059452-05:00 INFO tlsdate[3016]: V: freezing time with X509_VERIFY_PARAM_set_time
+2021-03-04T03:03:00.134575-05:00 INFO tlsdate[3016]: V: certificate verification passed
+2021-03-04T03:03:00.134718-05:00 INFO tlsdate[3016]: V: commonName mismatch! Expected: clients3.google.com - received: *.google.com
+2021-03-04T03:03:00.134797-05:00 INFO tlsdate[3016]: V: found non subjectAltName extension
+2021-03-04T03:03:00.135633-05:00 INFO tlsdate[3016]: message repeated 5 times: [ V: found non subjectAltName extension]
+2021-03-04T03:03:00.135722-05:00 INFO tlsdate[3016]: V: Inspecting 'clients3.google.com' for possible wildcard match against '*.google.com'
+2021-03-04T03:03:00.135834-05:00 INFO tlsdate[3016]: V: label found; total label count: 1
+2021-03-04T03:03:00.135923-05:00 INFO tlsdate[3016]: V: label found; total label count: 2
+2021-03-04T03:03:00.136078-05:00 INFO tlsdate[3016]: V: label found; total label count: 3
+2021-03-04T03:03:00.136214-05:00 INFO tlsdate[3016]: V: Found wildcard in at start of provided certificate name
+2021-03-04T03:03:00.136304-05:00 INFO tlsdate[3016]: V: Attempting match of 'clients3' against '*'
+2021-03-04T03:03:00.136402-05:00 INFO tlsdate[3016]: V: Forced match of 'clients3' against '*'
+2021-03-04T03:03:00.136505-05:00 INFO tlsdate[3016]: V: Attempting match of 'google' against 'google'
+2021-03-04T03:03:00.136602-05:00 INFO tlsdate[3016]: V: Attempting match of 'com' against 'com'
+2021-03-04T03:03:00.136706-05:00 INFO tlsdate[3016]: V: remaining labels match!
+2021-03-04T03:03:00.136786-05:00 INFO tlsdate[3016]: V: wildcard match of clients3.google.com against *.google.com
+2021-03-04T03:03:00.136868-05:00 INFO tlsdate[3016]: V: hostname verification passed
+2021-03-04T03:03:00.137865-05:00 INFO tlsdate[3016]: V: public key is ready for inspection
+2021-03-04T03:03:00.137974-05:00 INFO tlsdate[3016]: V: key type: EVP_PKEY_RSA
+2021-03-04T03:03:00.138074-05:00 INFO tlsdate[3016]: V: keybits: 2048
+2021-03-04T03:03:00.138182-05:00 INFO tlsdate[3016]: V: key length appears safe
+2021-03-04T03:03:00.138274-05:00 INFO tlsdate[3015]: V: server time 1614844980 (difference is about -1 s) was fetched in 538 ms
+2021-03-04T03:03:00.138385-05:00 INFO tlsdated[2088]: [event:handle_child_death] tlsdate reaped => pid:8 uid:234 status:0 code:1
+2021-03-04T03:03:00.138474-05:00 INFO tlsdated[2088]: [event:handle_time_setter] time set from the network (1614844980)

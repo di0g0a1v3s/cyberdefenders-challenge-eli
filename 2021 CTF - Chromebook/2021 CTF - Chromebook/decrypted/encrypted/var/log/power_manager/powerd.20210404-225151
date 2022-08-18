@@ -1,0 +1,77 @@
+[0404/225151.809935:INFO:main.cc(321)] vcsid 0.0.2-r3054-19c7dee8d114d4428d66de74c272aac0891792de
+[0404/225151.810045:INFO:main.cc(327)] System uptime: 3s
+[0404/225151.824372:INFO:udev.cc(105)] Watching FD 14 for udev events
+[0404/225151.860165:INFO:udev.cc(489)] Adding device /sys/devices/platform/80860F41:00/i2c-0/i2c-ELAN0000:00/input/input6 with tags usable_when_laptop usable_when_display_off wakeup wakeup_disabled inhibit role_internal_touchpad
+[0404/225151.861595:INFO:udev.cc(489)] Adding device /sys/devices/platform/80860F41:00/i2c-0/i2c-ELAN0000:00/input/input6/event6 with tags usable_when_laptop usable_when_display_off role_internal_touchpad
+[0404/225151.867071:INFO:udev.cc(489)] Adding device /sys/devices/platform/i8042/serio0/input/input5 with tags usable_when_laptop usable_when_display_off wakeup wakeup_when_laptop wakeup_when_display_off role_internal_keyboard
+[0404/225151.868417:INFO:udev.cc(489)] Adding device /sys/devices/platform/i8042/serio0/input/input5/event5 with tags usable_when_laptop usable_when_display_off wakeup wakeup_when_laptop wakeup_when_display_off role_internal_keyboard
+[0404/225151.890811:INFO:input_watcher.cc(499)] Monitoring input device event4 with wakeup path /sys/devices/LNXSYSTM:00/LNXPWRBN:00 to identify the wake source
+[0404/225151.896221:INFO:input_watcher.cc(420)] Watching power button: /dev/input/event1
+[0404/225151.896289:INFO:input_watcher.cc(491)] Input device /dev/input/event1 is not wake-capable
+[0404/225151.896336:INFO:input_watcher.cc(432)] Watching lid switch: /dev/input/event0
+[0404/225151.896430:INFO:input_watcher.cc(499)] Monitoring input device event2 with wakeup path /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C0E:00 to identify the wake source
+[0404/225151.901219:INFO:input_watcher.cc(499)] Monitoring input device event3 with wakeup path /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C0E:01 to identify the wake source
+[0404/225151.910161:INFO:input_watcher.cc(499)] Monitoring input device event6 with wakeup path /sys/devices/platform/80860F41:00/i2c-0/i2c-ELAN0000:00 to identify the wake source
+[0404/225151.919072:INFO:input_watcher.cc(420)] Watching power button: /dev/input/event5
+[0404/225151.919185:INFO:input_watcher.cc(499)] Monitoring input device event5 with wakeup path /sys/devices/platform/i8042/serio0 to identify the wake source
+[0404/225151.919365:INFO:suspend_configurator.cc(54)] Console during suspend is enabled
+[0404/225151.920887:INFO:internal_backlight_controller.cc(239)] Backlight has range [0, 7812] with 6.25% step and minimum-visible level of 196; current level is 3125 (64.389%)
+[0404/225151.921492:INFO:power_supply.cc(472)] Using full factor of 0.97
+[0404/225151.921796:INFO:power_supply.cc(497)] Using low battery time threshold of 0 secs and using low battery percent threshold of 4
+[0404/225151.923526:INFO:dark_resume.cc(28)] Dark resume user space disabled
+[0404/225151.923613:INFO:shutdown_from_suspend.cc(42)] Shutdown from suspend is disabled
+[0404/225151.923939:INFO:ec_helper.cc(55)] This device does not support EC wake angle control
+[0404/225151.923969:INFO:input_device_controller.cc(286)] Configuring devices for mode "laptop"
+[0404/225151.924074:INFO:input_device_controller.cc(215)] Un-inhibiting /sys/devices/platform/80860F41:00/i2c-0/i2c-ELAN0000:00/input/input6
+[0404/225151.924247:INFO:input_device_controller.cc(202)] Disabling wakeup for /sys/devices/platform/80860F41:00/i2c-0/i2c-ELAN0000:00/input/input6 through /sys/devices/platform/80860F41:00/i2c-0/i2c-ELAN0000:00
+[0404/225151.924376:INFO:input_device_controller.cc(202)] Enabling wakeup for /sys/devices/platform/i8042/serio0/input/input5 through /sys/devices/platform/i8042/serio0
+[0404/225151.924488:INFO:input_device_controller.cc(202)] Enabling wakeup for /sys/devices/platform/i8042/serio0/input/input5/event5 through /sys/devices/platform/i8042/serio0
+[0404/225151.926674:INFO:state_controller.cc(961)] Updated settings: dim=5m screen_off=5m30s lock=0s idle_warn=0s idle=6m30s (suspend) lid_closed=suspend use_audio=1 use_video=1 wake_locks=
+[0404/225151.929855:INFO:main.cc(253)] Launching "/usr/bin/powerd_setuid_helper --action=set_force_lid_open --noforce_lid_open"
+[0404/225151.933042:INFO:daemon.cc(773)] On battery at 97% (displayed as 100%), 3.874/3.997Ah at 1.000A, 0s until empty (calculating)
+[0404/225151.933419:INFO:internal_backlight_controller.cc(731)] Setting brightness to 2987 (63%) over 2000 ms
+[0404/225151.934723:INFO:daemon.cc(773)] On battery at 97% (displayed as 100%), 3.874/3.997Ah at 1.000A, 0s until empty (calculating)
+[0404/225152.053612:INFO:daemon.cc(761)] D-Bus org.chromium.SessionManager ownership changed to :1.5
+[0404/225152.647820:INFO:suspend_delay_controller.cc(62)] Registering suspend delay 68812801 (shill) of 19500 ms on behalf of :1.8
+[0404/225152.648844:INFO:suspend_delay_controller.cc(62)] Registering dark suspend delay 68845569 (shill) of 19500 ms on behalf of :1.8
+[0404/225153.420494:INFO:suspend_delay_controller.cc(62)] Registering suspend delay 68812802 (chrome) of 5000 ms on behalf of :1.9
+[0404/225153.420704:INFO:suspend_delay_controller.cc(62)] Registering dark suspend delay 68845570 (chrome) of 5000 ms on behalf of :1.9
+[0404/225154.224894:INFO:daemon.cc(1115)] Chrome is using normal display mode
+[0404/225154.224968:INFO:state_controller.cc(961)] Updated settings: dim=5m screen_off=5m30s lock=0s idle_warn=0s idle=6m30s (suspend) lid_closed=suspend use_audio=1 use_video=1 wake_locks=
+[0404/225154.443714:INFO:daemon.cc(764)] D-Bus org.chromium.DisplayService ownership changed to :1.9
+[0404/225154.443785:INFO:display_power_setter.cc(81)] Asking DisplayService to turn all displays on
+[0404/225155.016307:INFO:daemon.cc(1134)] Received updated external policy: ac_dim=7m ac_screen_off=7m30s ac_lock=0s ac_idle_warn=0s ac_idle=8m30s battery_dim=5m battery_screen_off=5m30s battery_lock=0s battery_idle_warn=0s battery_idle=6m30s ac_idle=suspend battery_idle=shutdown lid_closed=shutdown use_audio=1 use_video=1 presentation_factor=1.0 user_activity_factor=1.0 wait_for_initial_user_activity=0 force_nonzero_brightness_for_user_activity=1 (Prefs)
+[0404/225155.016424:INFO:state_controller.cc(961)] Updated settings: dim=5m screen_off=5m30s lock=0s idle_warn=0s idle=6m30s (shutdown) lid_closed=shutdown use_audio=1 use_video=1 wake_locks=
+[0404/225155.016904:INFO:display_power_setter.cc(81)] Asking DisplayService to turn all displays on
+[0404/225155.531357:INFO:state_controller.cc(1249)] Update operation is UPDATE_STATUS_IDLE
+[0404/225155.533812:INFO:state_controller.cc(1249)] Update operation is UPDATE_STATUS_IDLE
+[0404/225155.766044:INFO:activity_logger.cc(20)] User activity reported
+[0404/225155.809198:INFO:audio_client.cc(99)] D-Bus org.chromium.cras ownership changed to :1.19
+[0404/225156.042815:INFO:input_watcher.cc(499)] Monitoring input device event8 with wakeup path /sys/devices/pci0000:00/0000:00:1b.0 to identify the wake source
+[0404/225156.060285:INFO:input_watcher.cc(499)] Monitoring input device event7 with wakeup path /sys/devices/pci0000:00/0000:00:1b.0 to identify the wake source
+[0404/225156.100061:INFO:input_watcher.cc(491)] Input device /dev/input/event9 is not wake-capable
+[0404/225156.684554:INFO:suspend_delay_controller.cc(62)] Registering suspend delay 68812803 (btdispatch) of 5000 ms on behalf of :1.31
+[0404/225156.973469:INFO:daemon.cc(773)] On battery at 97% (displayed as 100%), 3.873/3.997Ah at 0.687A, 5h18m47s until empty (5h5m37s until shutdown)
+[0404/225157.708400:INFO:daemon.cc(1115)] Chrome is using normal display mode
+[0404/225159.898558:INFO:activity_logger.cc(20)] Audio activity started
+[0404/225204.389951:INFO:daemon.cc(1180)] Session state changed to started
+[0404/225204.401789:INFO:state_controller.cc(961)] Updated settings: dim=5m screen_off=5m30s lock=0s idle_warn=0s idle=6m30s (shutdown) lid_closed=shutdown use_audio=1 use_video=1 wake_locks=
+[0404/225205.520542:INFO:activity_logger.cc(20)] Audio activity stopped
+[0404/225205.675769:INFO:daemon.cc(1134)] Received updated external policy: ac_dim=7m ac_screen_off=7m30s ac_lock=0s ac_idle_warn=0s ac_idle=8m30s battery_dim=5m battery_screen_off=5m30s battery_lock=0s battery_idle_warn=0s battery_idle=6m30s ac_idle=suspend battery_idle=suspend lid_closed=suspend use_audio=1 use_video=1 presentation_factor=1.0 user_activity_factor=1.0 wait_for_initial_user_activity=0 force_nonzero_brightness_for_user_activity=1 (Prefs)
+[0404/225205.675901:INFO:state_controller.cc(961)] Updated settings: dim=5m screen_off=5m30s lock=0s idle_warn=0s idle=6m30s (suspend) lid_closed=suspend use_audio=1 use_video=1 wake_locks=
+[0404/225226.977440:INFO:daemon.cc(773)] On battery at 97% (displayed as 100%), 3.867/3.997Ah at 0.826A, 4h49m58s until empty (4h37m59s until shutdown)
+[0404/225252.217636:INFO:daemon.cc(996)] Got RequestShutdown message from :1.9 with reason user-request (UI request from ash: tray shut down button)
+[0404/225252.217851:INFO:display_power_setter.cc(81)] Asking DisplayService to turn all displays off
+[0404/225252.647738:INFO:internal_backlight_controller.cc(731)] Setting brightness to 0 (0%) over 0 ms
+[0404/225252.648678:INFO:daemon.cc(1235)] Shutting down, reason: user-request
+[0404/225252.648778:INFO:main.cc(253)] Launching "/usr/bin/powerd_setuid_helper --action=shut_down --shutdown_reason=user-request"
+[0404/225252.657402:INFO:daemon.cc(1115)] Chrome is using normal display mode
+[0404/225252.789546:INFO:suspend_delay_controller.cc(75)] Unregistering suspend delay 68812801 (shill) on behalf of :1.8
+[0404/225252.790161:INFO:suspend_delay_controller.cc(75)] Unregistering dark suspend delay 68845569 (shill) on behalf of :1.8
+[0404/225252.802546:INFO:daemon.cc(1180)] Session state changed to stopped
+[0404/225252.802782:INFO:state_controller.cc(961)] Updated settings: dim=5m screen_off=5m30s lock=0s idle_warn=0s idle=6m30s (suspend) lid_closed=suspend use_audio=1 use_video=1 wake_locks=
+[0404/225252.834383:INFO:daemon.cc(1134)] Received updated external policy: ac_dim=7m ac_screen_off=7m30s ac_lock=0s ac_idle_warn=0s ac_idle=8m30s battery_dim=5m battery_screen_off=5m30s battery_lock=0s battery_idle_warn=0s battery_idle=6m30s ac_idle=suspend battery_idle=suspend lid_closed=no-op use_audio=1 use_video=1 presentation_factor=1.0 user_activity_factor=1.0 wait_for_initial_user_activity=0 force_nonzero_brightness_for_user_activity=1 (Prefs)
+[0404/225252.834519:INFO:state_controller.cc(961)] Updated settings: dim=5m screen_off=5m30s lock=0s idle_warn=0s idle=6m30s (suspend) lid_closed=no-op use_audio=1 use_video=1 wake_locks=
+[0404/225256.053206:INFO:suspend_delay_controller.cc(121)] Unregistering suspend delay 68812802 (chrome) due to D-Bus client :1.9 going away
+[0404/225256.053280:INFO:suspend_delay_controller.cc(121)] Unregistering dark suspend delay 68845570 (chrome) due to D-Bus client :1.9 going away
+[0404/225256.980769:INFO:daemon.cc(773)] On battery at 97% (displayed as 100%), 3.862/3.997Ah at 0.347A, 5h49m20s until empty (5h34m52s until shutdown)

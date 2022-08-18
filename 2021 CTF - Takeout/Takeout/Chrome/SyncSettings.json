@@ -1,0 +1,123 @@
+{
+    "Apps": [
+        {
+            "app_launch_ordinal": "zzzzzs",
+            "extension": {
+                        "incognito_enabled": true,
+                        "remote_install": false,
+                        "disable_reasons": 0,
+                        "installed_by_custodian": false,
+                        "update_url": "",
+                        "name": "Web Store",
+                        "id": "ahfgeienlihckogmohjhadlkjgocpleb",
+                        "version": "0.2",
+                        "enabled": true
+            },
+            "page_ordinal": "t"
+},
+        {
+            "app_launch_ordinal": "n",
+            "extension": {
+                        "incognito_enabled": true,
+                        "remote_install": false,
+                        "disable_reasons": 0,
+                        "installed_by_custodian": false,
+                        "update_url": "",
+                        "name": "Chrome",
+                        "id": "mgndgikekgjfcpckkfioiadnlibdjbkf",
+                        "version": "0.1",
+                        "enabled": true
+            },
+            "page_ordinal": "n"
+}
+    ],
+    "App Settings": [
+        {"extension_setting": {
+            "extension_id": "obklkkbkpaoaejdabbfldmcfplpdgolj",
+            "value": "\"\"",
+            "key": "wallpaper-last-changed-date-key"
+}},
+        {"extension_setting": {
+            "extension_id": "obklkkbkpaoaejdabbfldmcfplpdgolj",
+            "value": "false",
+            "key": "sync-surprise-me-enabled-key"
+}},
+        {"extension_setting": {
+            "extension_id": "obklkkbkpaoaejdabbfldmcfplpdgolj",
+            "value": "\"{\\\"enabled\\\":false,\\\"collectionId\\\":null,\\\"resumeToken\\\":null}\"",
+            "key": "sync-daily-refresh-info-key"
+}},
+        {"extension_setting": {
+            "extension_id": "obklkkbkpaoaejdabbfldmcfplpdgolj",
+            "value": "{\"appName\":\"\",\"layout\":\"CENTER_CROPPED\",\"source\":\"CUSTOM\",\"url\":\"third_party_1613990581081\"}",
+            "key": "wallpaper-sync-info-key"
+}}
+    ],
+    "Preferences": [
+        {
+            "name": "settings.resolve_timezone_by_geolocation_migrated_to_method",
+            "value": "true"
+},
+        {
+            "name": "profile.content_settings.exceptions.cookies",
+            "value": "{}"
+},
+        {
+            "name": "profile.content_settings.exceptions.images",
+            "value": "{}"
+},
+        {
+            "name": "settings.language.enabled_extension_imes_syncable",
+            "value": "\"\""
+},
+        {
+            "name": "profile.name",
+            "value": "\"User 1\""
+},
+        {
+            "name": "settings.language.preferred_languages_syncable",
+            "value": "\"en-US,en\""
+},
+        {
+            "name": "profile.avatar_index",
+            "value": "26"
+},
+        {
+            "name": "settings.language.preload_engines_syncable",
+            "value": "\"xkb:us::eng\""
+},
+        {
+            "name": "profile.content_settings.exceptions.javascript",
+            "value": "{}"
+},
+        {
+            "name": "profile.content_settings.exceptions.automatic_downloads",
+            "value": "{}"
+},
+        {
+            "name": "profile.content_settings.exceptions.flash_data",
+            "value": "{}"
+},
+        {
+            "name": "profile.content_settings.exceptions.popups",
+            "value": "{}"
+},
+        {
+            "name": "extensions.commands",
+            "value": "{\"chromeos:Alt+Shift+D\":{\"command_name\":\"toggle\",\"extension\":\"eimadpbcbfnmbkopoojfekhnkhdbieeh\",\"global\":false}}"
+},
+        {
+            "name": "extensions.toolbar",
+            "value": "[\"dmghijelimhndkbmpgbldicpogfkceaj\",\"eimadpbcbfnmbkopoojfekhnkhdbieeh\",\"mefhakmgclhhfbdadeojlkbllmecialg\"]"
+}
+    ],
+    "Themes": [
+        {
+            "custom_theme_id": "dkkklbgbfaeockpgbkleblklmcjdbnbj",
+            "custom_theme_update_url": "http://clients2.google.com/service/update2/crx",
+            "custom_theme_name": "Lamborghini Cherry",
+            "use_system_theme_by_default": false,
+            "use_custom_theme": true
+}
+    ]
+}

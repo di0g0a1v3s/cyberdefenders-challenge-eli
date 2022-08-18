@@ -1,0 +1,562 @@
+2021-02-22T10:39:48.117610+00:00 NOTICE wpa_supplicant[635]: Successfully initialized wpa_supplicant
+2021-02-22T10:39:49.300305+00:00 INFO shill[1312]: [INFO:manager.cc(294)] Manager started.
+2021-02-22T10:39:49.300419+00:00 WARNING shill[1312]: [WARNING:libpolicy.cc(38)] Could not load the device policy file.
+2021-02-22T10:39:49.301442+00:00 INFO shill[1312]: [INFO:chromeos_power_manager_proxy.cc(356)] OnSignalConnected interface: org.chromium.PowerManager signal: SuspendImminentsuccess: 1
+2021-02-22T10:39:49.301739+00:00 INFO shill[1312]: [INFO:chromeos_power_manager_proxy.cc(356)] OnSignalConnected interface: org.chromium.PowerManager signal: SuspendDonesuccess: 1
+2021-02-22T10:39:49.301977+00:00 INFO shill[1312]: [INFO:chromeos_power_manager_proxy.cc(356)] OnSignalConnected interface: org.chromium.PowerManager signal: DarkSuspendImminentsuccess: 1
+2021-02-22T10:39:49.305122+00:00 ERR shill[1312]: [ERROR:crypto_des_cbc.cc(95)] Unable to load key matter from /var/lib/whitelist/owner.key
+2021-02-22T10:39:49.305266+00:00 INFO shill[1312]: [INFO:key_file_store.cc(75)] Creating a new key file at /var/cache/shill/default.profile
+2021-02-22T10:39:49.335030+00:00 ERR shill[1312]: [ERROR:crypto_des_cbc.cc(95)] Unable to load key matter from /var/lib/whitelist/owner.key
+2021-02-22T10:39:49.335450+00:00 INFO shill[1312]: [INFO:manager.cc(545)] PushProfileInternal finished; 1 profile(s) now present.
+2021-02-22T10:39:49.335531+00:00 ERR shill[1312]: [ERROR:crypto_des_cbc.cc(95)] Unable to load key matter from /var/lib/whitelist/owner.key
+2021-02-22T10:39:49.335602+00:00 INFO shill[1312]: [INFO:key_file_store.cc(75)] Creating a new key file at /var/cache/shill/activating_iccid_store.profile
+2021-02-22T10:39:49.335700+00:00 INFO shill[1312]: [INFO:modem_manager_1.cc(35)] Start watching modem manager service: org.freedesktop.ModemManager1
+2021-02-22T10:39:49.337836+00:00 INFO shill[1312]: [INFO:service.cc(269)] ethernet service 0 constructed.
+2021-02-22T10:39:49.364246+00:00 INFO shill[1312]: [INFO:service.cc(269)] etherneteap service 1 constructed.
+2021-02-22T10:39:49.365853+00:00 INFO shill[1312]: [INFO:manager.cc(1625)] Default physical service: 1 (not connected)
+2021-02-22T10:39:49.366362+00:00 INFO shill[1312]: [INFO:power_manager.cc(171)] OnPowerManagerAppeared
+2021-02-22T10:39:49.366442+00:00 INFO shill[1312]: [INFO:chromeos_power_manager_proxy.cc(174)] RegisterSuspendDelayInternal(19500, dark=false)
+2021-02-22T10:39:49.367731+00:00 INFO shill[1312]: [INFO:chromeos_power_manager_proxy.cc(174)] RegisterSuspendDelayInternal(19500, dark=true)
+2021-02-22T10:39:59.536749+00:00 INFO ModemManager[1689]: <info>  ModemManager (version 1.11.0) starting in system bus...
+2021-02-22T10:39:59.662454+00:00 INFO shill[1312]: [INFO:chromeos_dbus_objectmanager_proxy.cc(94)] OnServiceOwnerChanged old:  new: :1.19
+2021-02-22T10:39:59.662590+00:00 INFO shill[1312]: [INFO:chromeos_dbus_objectmanager_proxy.cc(80)] OnServiceAvailable: 1
+2021-02-22T10:39:59.662666+00:00 INFO shill[1312]: [INFO:chromeos_dbus_objectmanager_proxy.cc(80)] OnServiceAvailable: 1
+2021-02-22T10:39:59.662777+00:00 INFO shill[1312]: [INFO:modem_manager.cc(44)] Modem manager org.freedesktop.ModemManager1 appeared.
+2021-02-22T10:39:59.662855+00:00 INFO shill[1312]: [INFO:modem_manager.cc(44)] Modem manager org.freedesktop.ModemManager1 appeared.
+2021-02-22T10:40:00.094258+00:00 INFO shill[1312]: [INFO:device_info.cc(1330)] Creating WiFi device for station mode interface wlan0 at interface index 2
+2021-02-22T10:40:00.094379+00:00 INFO shill[1312]: [INFO:device.cc(212)] Device created: wlan0 index 2
+2021-02-22T10:40:00.100473+00:00 INFO shill[1312]: [INFO:manager.cc(1224)] Device wlan0 registered.
+2021-02-22T10:40:00.100601+00:00 INFO shill[1312]: [INFO:manager.cc(1505)] Device wlan0 updated: enabled
+2021-02-22T10:40:00.129448+00:00 INFO shill[1312]: [INFO:wifi.cc(2573)] wlan0: enabled supplicant: absent proxy: null
+2021-02-22T10:40:00.133056+00:00 INFO shill[1312]: [INFO:wifi.cc(2491)] WPA supplicant appeared.
+2021-02-22T10:40:00.133191+00:00 INFO shill[1312]: [INFO:wifi.cc(2573)] wlan0: enabled supplicant: present proxy: null
+2021-02-22T10:40:00.460313+00:00 INFO shill[1312]: [INFO:wifi.cc(2621)] connected to supplicant on attempt 1
+2021-02-22T10:40:00.486484+00:00 INFO shill[1312]: [INFO:wifi.cc(319)] Scan on wlan0 from ConnectToSupplicant
+2021-02-22T10:40:00.750601+00:00 NOTICE wpa_supplicant[635]: wlan0: CTRL-EVENT-REGDOM-CHANGE init=USER type=COUNTRY alpha2=US
+2021-02-22T10:40:02.913643+00:00 INFO ModemManager[1689]: <info>  Couldn't check support for device '/sys/devices/pci0000:00/0000:00:1c.0/0000:01:00.0': not supported by any plugin
+2021-02-22T10:40:03.497995+00:00 INFO shill[1312]: [INFO:service.cc(269)] wifi service 2 constructed.
+2021-02-22T10:40:03.498140+00:00 INFO shill[1312]: [INFO:wifi_service.cc(173)] Constructed WiFi service 2 name: [SSID=ChamplainPSK]
+2021-02-22T10:40:03.498223+00:00 INFO shill[1312]: [INFO:wifi_service.cc(771)] Rep ep updated for 2. [SSID=ChamplainPSK], bssid: c8:b5:ad:d2:ef:92, sig: -49, sec: rsn, freq: 5765
+2021-02-22T10:40:03.500025+00:00 INFO shill[1312]: [INFO:service.cc(269)] wifi service 3 constructed.
+2021-02-22T10:40:03.500185+00:00 INFO shill[1312]: [INFO:wifi_service.cc(173)] Constructed WiFi service 3 name: [SSID=eduroam]
+2021-02-22T10:40:03.500261+00:00 INFO shill[1312]: [INFO:wifi_service.cc(771)] Rep ep updated for 3. [SSID=eduroam], bssid: c8:b5:ad:d2:ef:93, sig: -49, sec: 802_1x, freq: 5765
+2021-02-22T10:40:03.501886+00:00 INFO shill[1312]: [INFO:service.cc(269)] wifi service 4 constructed.
+2021-02-22T10:40:03.502031+00:00 INFO shill[1312]: [INFO:wifi_service.cc(173)] Constructed WiFi service 4 name: [SSID=Champlain]
+2021-02-22T10:40:03.502146+00:00 INFO shill[1312]: [INFO:wifi_service.cc(771)] Rep ep updated for 4. [SSID=Champlain], bssid: c8:b5:ad:d2:ef:94, sig: -49, sec: 802_1x, freq: 5765
+2021-02-22T10:40:03.510663+00:00 INFO shill[1312]: [INFO:wifi.cc(389)] ScanDone
+2021-02-22T10:40:03.512346+00:00 INFO shill[1312]: [INFO:manager.cc(1625)] Default physical service: 3 (not connected)
+2021-02-22T10:40:03.521958+00:00 INFO shill[1312]: [INFO:service.cc(269)] wifi service 5 constructed.
+2021-02-22T10:40:03.522098+00:00 INFO shill[1312]: [INFO:wifi_service.cc(173)] Constructed WiFi service 5 name: [SSID=DIRECT-r9-FireTV_ee16]
+2021-02-22T10:40:03.522175+00:00 INFO shill[1312]: [INFO:wifi_service.cc(771)] Rep ep updated for 5. [SSID=DIRECT-r9-FireTV_ee16], bssid: 42:a2:db:20:be:09, sig: -72, sec: rsn, freq: 5745
+2021-02-22T10:40:03.527745+00:00 INFO shill[1312]: [INFO:service.cc(269)] wifi service 6 constructed.
+2021-02-22T10:40:03.527867+00:00 INFO shill[1312]: [INFO:wifi_service.cc(173)] Constructed WiFi service 6 name: [SSID=DIRECT-D5-HP DeskJet 3630 series]
+2021-02-22T10:40:03.528037+00:00 INFO shill[1312]: [INFO:wifi_service.cc(771)] Rep ep updated for 6. [SSID=DIRECT-D5-HP DeskJet 3630 series], bssid: 48:ba:4e:74:46:d6, sig: -80, sec: rsn, freq: 2437
+2021-02-22T10:40:03.529791+00:00 INFO shill[1312]: [INFO:service.cc(269)] wifi service 7 constructed.
+2021-02-22T10:40:03.529914+00:00 INFO shill[1312]: [INFO:wifi_service.cc(173)] Constructed WiFi service 7 name: [SSID=CoughlinWIFI]
+2021-02-22T10:40:03.530048+00:00 INFO shill[1312]: [INFO:wifi_service.cc(771)] Rep ep updated for 7. [SSID=CoughlinWIFI], bssid: b0:da:f9:9b:38:19, sig: -88, sec: rsn, freq: 5180
+2021-02-22T10:40:03.538500+00:00 INFO shill[1312]: [INFO:service.cc(269)] wifi service 8 constructed.
+2021-02-22T10:40:03.538622+00:00 INFO shill[1312]: [INFO:wifi_service.cc(173)] Constructed WiFi service 8 name: [SSID=HAL9000]
+2021-02-22T10:40:03.538773+00:00 INFO shill[1312]: [INFO:wifi_service.cc(771)] Rep ep updated for 8. [SSID=HAL9000], bssid: c0:ff:d4:8e:82:5c, sig: -85, sec: rsn, freq: 2442
+2021-02-22T10:40:03.541246+00:00 INFO shill[1312]: [INFO:service.cc(269)] wifi service 9 constructed.
+2021-02-22T10:40:03.541400+00:00 INFO shill[1312]: [INFO:wifi_service.cc(173)] Constructed WiFi service 9 name: [SSID=ChamplainGuest]
+2021-02-22T10:40:03.541550+00:00 INFO shill[1312]: [INFO:wifi_service.cc(771)] Rep ep updated for 9. [SSID=ChamplainGuest], bssid: c8:b5:ad:d2:ef:95, sig: -49, sec: none, freq: 5765
+2021-02-22T10:40:03.547989+00:00 INFO shill[1312]: [INFO:wifi.cc(1798)] WiFi wlan0 StateChanged shill-unknown -> inactive
+2021-02-22T10:40:03.548376+00:00 INFO shill[1312]: [INFO:manager.cc(1625)] Default physical service: 9 (not connected)
+2021-02-22T10:40:07.372515+00:00 INFO shill[1312]: [INFO:wifi.cc(319)] Scan on wlan0 from RequestScan
+2021-02-22T10:40:09.904051+00:00 INFO shill[1312]: [INFO:wifi.cc(389)] ScanDone
+2021-02-22T10:40:11.495096+00:00 INFO shill[1312]: [INFO:device.cc(1921)] Already in desired enable state.
+2021-02-22T10:40:17.370882+00:00 INFO shill[1312]: [INFO:wifi.cc(319)] Scan on wlan0 from RequestScan
+2021-02-22T10:40:19.898758+00:00 INFO shill[1312]: [INFO:service.cc(269)] wifi service 10 constructed.
+2021-02-22T10:40:19.898887+00:00 INFO shill[1312]: [INFO:wifi_service.cc(173)] Constructed WiFi service 10 name: [SSID=dpkwifi]
+2021-02-22T10:40:19.898963+00:00 INFO shill[1312]: [INFO:wifi_service.cc(771)] Rep ep updated for 10. [SSID=dpkwifi], bssid: 08:02:8e:e8:95:e7, sig: -87, sec: rsn, freq: 2452
+2021-02-22T10:40:19.902387+00:00 INFO shill[1312]: [INFO:wifi.cc(389)] ScanDone
+2021-02-22T10:40:19.907863+00:00 INFO shill[1312]: [INFO:service.cc(275)] Service 8 destroyed.
+2021-02-22T10:40:19.908797+00:00 INFO shill[1312]: [INFO:service.cc(275)] Service 7 destroyed.
+2021-02-22T10:40:27.372601+00:00 INFO shill[1312]: [INFO:wifi.cc(319)] Scan on wlan0 from RequestScan
+2021-02-22T10:40:29.909303+00:00 INFO shill[1312]: [INFO:wifi.cc(389)] ScanDone
+2021-02-22T10:40:37.373547+00:00 INFO shill[1312]: [INFO:wifi.cc(319)] Scan on wlan0 from RequestScan
+2021-02-22T10:40:38.255765+00:00 INFO shill[1312]: [INFO:device.cc(1921)] Already in desired enable state.
+2021-02-22T10:40:39.905623+00:00 INFO shill[1312]: [INFO:wifi.cc(389)] ScanDone
+2021-02-22T10:40:39.908333+00:00 INFO shill[1312]: [INFO:service.cc(269)] wifi service 11 constructed.
+2021-02-22T10:40:39.908499+00:00 INFO shill[1312]: [INFO:wifi_service.cc(173)] Constructed WiFi service 11 name: [SSID=NETGEAR-345]
+2021-02-22T10:40:39.908581+00:00 INFO shill[1312]: [INFO:wifi_service.cc(771)] Rep ep updated for 11. [SSID=NETGEAR-345], bssid: 16:f6:d8:42:43:7a, sig: -45, sec: rsn, freq: 2437
+2021-02-22T10:40:39.915182+00:00 INFO shill[1312]: [INFO:service.cc(275)] Service 10 destroyed.
+2021-02-22T10:40:47.371025+00:00 INFO shill[1312]: [INFO:wifi.cc(319)] Scan on wlan0 from RequestScan
+2021-02-22T10:40:49.154575+00:00 INFO shill[1312]: [INFO:service.cc(298)] Connect to service 11: D-Bus RPC
+2021-02-22T10:40:49.154755+00:00 INFO shill[1312]: [INFO:wifi.cc(670)] Background scan disabled -- single Endpoint for Service.
+2021-02-22T10:40:49.171275+00:00 INFO shill[1312]: [INFO:service.cc(401)] Service 11: state Idle -> Associating
+2021-02-22T10:40:49.171397+00:00 INFO shill[1312]: [INFO:manager.cc(1480)] Service 11 updated; state: Associating
+2021-02-22T10:40:49.172572+00:00 INFO shill[1312]: [INFO:manager.cc(1625)] Default physical service: 11 (not connected)
+2021-02-22T10:40:49.899181+00:00 NOTICE wpa_supplicant[635]: wlan0: SME: Trying to authenticate with 16:f6:d8:42:43:7a (SSID='NETGEAR-345' freq=2437 MHz)
+2021-02-22T10:40:49.905359+00:00 NOTICE wpa_supplicant[635]: wlan0: Trying to associate with 16:f6:d8:42:43:7a (SSID='NETGEAR-345' freq=2437 MHz)
+2021-02-22T10:40:49.907242+00:00 INFO shill[1312]: [INFO:wifi.cc(389)] ScanDone
+2021-02-22T10:40:49.912818+00:00 NOTICE wpa_supplicant[635]: wlan0: Associated with 16:f6:d8:42:43:7a
+2021-02-22T10:40:49.912972+00:00 NOTICE wpa_supplicant[635]: wlan0: CTRL-EVENT-SUBNET-STATUS-UPDATE status=0
+2021-02-22T10:40:49.913926+00:00 INFO shill[1312]: [INFO:wifi_service.cc(771)] Rep ep updated for 2. [SSID=ChamplainPSK], bssid: 38:17:c3:6b:6e:b2, sig: -64, sec: rsn, freq: 5785
+2021-02-22T10:40:49.914384+00:00 INFO shill[1312]: [INFO:wifi_service.cc(771)] Rep ep updated for 3. [SSID=eduroam], bssid: 38:17:c3:6b:6e:b3, sig: -64, sec: 802_1x, freq: 5785
+2021-02-22T10:40:49.914511+00:00 INFO shill[1312]: [INFO:wifi_service.cc(771)] Rep ep updated for 4. [SSID=Champlain], bssid: 38:17:c3:6b:6e:b4, sig: -64, sec: 802_1x, freq: 5785
+2021-02-22T10:40:49.915453+00:00 INFO shill[1312]: [INFO:service.cc(275)] Service 6 destroyed.
+2021-02-22T10:40:49.921196+00:00 INFO shill[1312]: [INFO:wifi.cc(1798)] WiFi wlan0 StateChanged inactive -> authenticating
+2021-02-22T10:40:49.921333+00:00 INFO shill[1312]: [INFO:wifi.cc(1798)] WiFi wlan0 StateChanged authenticating -> associating
+2021-02-22T10:40:50.016123+00:00 NOTICE wpa_supplicant[635]: wlan0: WPA: Key negotiation completed with 16:f6:d8:42:43:7a [PTK=CCMP GTK=CCMP]
+2021-02-22T10:40:50.016255+00:00 NOTICE wpa_supplicant[635]: wlan0: CTRL-EVENT-CONNECTED - Connection to 16:f6:d8:42:43:7a completed [id=0 id_str=]
+2021-02-22T10:40:50.018986+00:00 INFO shill[1312]: [INFO:wifi.cc(1798)] WiFi wlan0 StateChanged associating -> 4way_handshake
+2021-02-22T10:40:50.019325+00:00 INFO shill[1312]: [INFO:wifi.cc(1798)] WiFi wlan0 StateChanged 4way_handshake -> completed
+2021-02-22T10:40:50.037748+00:00 INFO shill[1312]: [INFO:dhcp_config.cc(187)] Spawned /sbin/dhcpcd with pid: 2867
+2021-02-22T10:40:50.037874+00:00 INFO shill[1312]: [INFO:wifi.cc(1853)] wlan0 is up; started L3 configuration.
+2021-02-22T10:40:50.037949+00:00 INFO shill[1312]: [INFO:service.cc(401)] Service 11: state Associating -> Configuring
+2021-02-22T10:40:50.038032+00:00 INFO shill[1312]: [INFO:manager.cc(1480)] Service 11 updated; state: Configuring
+2021-02-22T10:40:50.053179+00:00 NOTICE dhcpcd[2867]: dhcpcd is running with reduced privileges
+2021-02-22T10:40:50.057108+00:00 INFO dhcpcd[2867]: status changed to Init
+2021-02-22T10:40:50.057232+00:00 INFO shill[1312]: [INFO:dhcp_config.cc(134)] Init DHCP Proxy: wlan0 at :1.37
+2021-02-22T10:40:50.624302+00:00 INFO dhcpcd[2867]: status changed to Discover
+2021-02-22T10:40:50.624424+00:00 INFO dhcpcd[2867]: wlan0: soliciting a DHCP lease
+2021-02-22T10:40:50.624533+00:00 INFO dhcpcd[2867]: wlan0: sending DISCOVER (xid 0x12677909), next in 3.7 seconds
+2021-02-22T10:40:54.376644+00:00 INFO dhcpcd[2867]: wlan0: sending DISCOVER (xid 0x12677909), next in 8.9 seconds
+2021-02-22T10:40:54.386911+00:00 INFO dhcpcd[2867]: wlan0: received OFFER with xid 0x12677909
+2021-02-22T10:40:54.387051+00:00 INFO dhcpcd[2867]: wlan0: offered 192.168.137.253 from 192.168.137.1
+2021-02-22T10:40:54.387125+00:00 INFO dhcpcd[2867]: wlan0: requesting lease of 192.168.137.253
+2021-02-22T10:40:54.387197+00:00 INFO dhcpcd[2867]: status changed to Request
+2021-02-22T10:40:54.387299+00:00 INFO dhcpcd[2867]: wlan0: sending REQUEST (xid 0x12677909), next in 3.1 seconds
+2021-02-22T10:40:54.395355+00:00 INFO dhcpcd[2867]: wlan0: received ACK with xid 0x12677909
+2021-02-22T10:40:54.395466+00:00 INFO dhcpcd[2867]: wlan0: acknowledged 192.168.137.253 from 192.168.137.1
+2021-02-22T10:40:54.401431+00:00 INFO dhcpcd[2867]: wlan0: ARP probing 192.168.137.1 (1 of 3), next in 1.4 seconds
+2021-02-22T10:40:54.401576+00:00 INFO dhcpcd[2867]: status changed to ArpGateway
+2021-02-22T10:40:54.408626+00:00 INFO dhcpcd[2867]: wlan0: leased 192.168.137.253 for 604800 seconds
+2021-02-22T10:40:54.408782+00:00 INFO dhcpcd[2867]: event BOUND on interface wlan0
+2021-02-22T10:40:54.408863+00:00 INFO dhcpcd[2867]: status changed to Bound
+2021-02-22T10:40:54.410406+00:00 INFO shill[1312]: [INFO:dhcpv4_config.cc(111)] Event reason: BOUND
+2021-02-22T10:40:54.410521+00:00 INFO shill[1312]: [INFO:connection.cc(243)] UpdateFromIPConfig: Installing with parameters: local=192.168.137.253 broadcast=192.168.137.255 peer=<unknown> gateway=192.168.137.1
+2021-02-22T10:40:54.411089+00:00 INFO shill[1312]: [INFO:service.cc(401)] Service 11: state Configuring -> Connected
+2021-02-22T10:40:54.425403+00:00 INFO shill[1312]: [INFO:manager.cc(1480)] Service 11 updated; state: Connected
+2021-02-22T10:40:54.440860+00:00 INFO shill[1312]: [INFO:wifi.cc(2677)] Enabling high bitrates.
+2021-02-22T10:40:54.443286+00:00 INFO shill[1312]: [INFO:service.cc(401)] Service 11: state Connected -> Online
+2021-02-22T10:40:54.443619+00:00 INFO shill[1312]: [INFO:manager.cc(1480)] Service 11 updated; state: Online
+2021-02-22T10:40:54.477437+00:00 INFO shill[1312]: [INFO:manager.cc(1629)] Default physical service: 11 (connected)
+2021-02-22T10:40:57.371513+00:00 INFO shill[1312]: [INFO:wifi.cc(319)] Scan on wlan0 from RequestScan
+2021-02-22T10:41:01.194342+00:00 INFO shill[1312]: [INFO:wifi.cc(389)] ScanDone
+2021-02-22T10:41:01.199985+00:00 INFO shill[1312]: [INFO:service.cc(269)] wifi service 12 constructed.
+2021-02-22T10:41:01.200138+00:00 INFO shill[1312]: [INFO:wifi_service.cc(173)] Constructed WiFi service 12 name: [SSID=CoughlinWIFI]
+2021-02-22T10:41:01.200216+00:00 INFO shill[1312]: [INFO:wifi_service.cc(771)] Rep ep updated for 12. [SSID=CoughlinWIFI], bssid: b0:da:f9:9b:38:18, sig: -85, sec: rsn, freq: 2462
+2021-02-22T10:41:07.371278+00:00 INFO shill[1312]: [INFO:wifi.cc(319)] Scan on wlan0 from RequestScan
+2021-02-22T10:41:10.878477+00:00 INFO shill[1312]: [INFO:service.cc(269)] wifi service 13 constructed.
+2021-02-22T10:41:10.878602+00:00 INFO shill[1312]: [INFO:wifi_service.cc(173)] Constructed WiFi service 13 name: [SSID=pizzapirate]
+2021-02-22T10:41:10.878678+00:00 INFO shill[1312]: [INFO:wifi_service.cc(771)] Rep ep updated for 13. [SSID=pizzapirate], bssid: 70:4d:7b:e3:d4:c8, sig: -86, sec: rsn, freq: 2432
+2021-02-22T10:41:10.880464+00:00 INFO shill[1312]: [INFO:service.cc(269)] wifi service 14 constructed.
+2021-02-22T10:41:10.880592+00:00 INFO shill[1312]: [INFO:wifi_service.cc(173)] Constructed WiFi service 14 name: [SSID=DIRECT-D5-HP DeskJet 3630 series]
+2021-02-22T10:41:10.880726+00:00 INFO shill[1312]: [INFO:wifi_service.cc(771)] Rep ep updated for 14. [SSID=DIRECT-D5-HP DeskJet 3630 series], bssid: 48:ba:4e:74:46:d6, sig: -88, sec: rsn, freq: 2437
+2021-02-22T10:41:10.883352+00:00 INFO shill[1312]: [INFO:wifi.cc(389)] ScanDone
+2021-02-22T10:41:17.371642+00:00 INFO shill[1312]: [INFO:wifi.cc(319)] Scan on wlan0 from RequestScan
+2021-02-22T10:41:21.024389+00:00 INFO shill[1312]: [INFO:wifi.cc(389)] ScanDone
+2021-02-22T10:41:21.038018+00:00 INFO shill[1312]: [INFO:service.cc(269)] wifi service 15 constructed.
+2021-02-22T10:41:21.038143+00:00 INFO shill[1312]: [INFO:wifi_service.cc(173)] Constructed WiFi service 15 name: [SSID=HAL9000]
+2021-02-22T10:41:21.038309+00:00 INFO shill[1312]: [INFO:wifi_service.cc(771)] Rep ep updated for 15. [SSID=HAL9000], bssid: c0:ff:d4:8e:82:5c, sig: -85, sec: rsn, freq: 2442
+2021-02-22T10:41:21.043877+00:00 INFO shill[1312]: [INFO:wifi_service.cc(771)] Rep ep updated for 2. [SSID=ChamplainPSK], bssid: 38:17:c3:6b:8d:d2, sig: -67, sec: rsn, freq: 5240
+2021-02-22T10:41:21.045181+00:00 INFO shill[1312]: [INFO:service.cc(275)] Service 12 destroyed.
+2021-02-22T10:41:27.374863+00:00 INFO shill[1312]: [INFO:wifi.cc(319)] Scan on wlan0 from RequestScan
+2021-02-22T10:41:30.856875+00:00 INFO shill[1312]: [INFO:wifi.cc(389)] ScanDone
+2021-02-22T10:41:30.857058+00:00 INFO shill[1312]: [INFO:service.cc(275)] Service 13 destroyed.
+2021-02-22T10:41:33.704781+00:00 ERR shill[1312]: [ERROR:crypto_des_cbc.cc(95)] Unable to load key matter from /var/lib/whitelist/owner.key
+2021-02-22T10:41:33.704905+00:00 INFO shill[1312]: [INFO:key_file_store.cc(75)] Creating a new key file at /run/shill/user_profiles/chronos/shill.profile
+2021-02-22T10:41:33.704981+00:00 ERR shill[1312]: [ERROR:crypto_des_cbc.cc(95)] Unable to load key matter from /var/lib/whitelist/owner.key
+2021-02-22T10:41:33.705099+00:00 INFO shill[1312]: [INFO:manager.cc(545)] PushProfileInternal finished; 2 profile(s) now present.
+2021-02-22T10:41:35.205301+00:00 INFO shill[1312]: [INFO:wifi.cc(319)] Scan on wlan0 from RequestScan
+2021-02-22T10:41:38.864131+00:00 INFO shill[1312]: [INFO:service.cc(269)] wifi service 16 constructed.
+2021-02-22T10:41:38.864284+00:00 INFO shill[1312]: [INFO:wifi_service.cc(173)] Constructed WiFi service 16 name: [SSID=CoughlinWIFI]
+2021-02-22T10:41:38.864364+00:00 INFO shill[1312]: [INFO:wifi_service.cc(771)] Rep ep updated for 16. [SSID=CoughlinWIFI], bssid: b0:da:f9:9b:38:18, sig: -81, sec: rsn, freq: 2462
+2021-02-22T10:41:38.871021+00:00 INFO shill[1312]: [INFO:service.cc(275)] Service 15 destroyed.
+2021-02-22T10:41:38.871213+00:00 INFO shill[1312]: [INFO:wifi.cc(389)] ScanDone
+2021-02-22T10:41:47.404319+00:00 INFO shill[1312]: [INFO:wifi.cc(319)] Scan on wlan0 from RequestScan
+2021-02-22T10:41:53.624063+00:00 INFO shill[1312]: [INFO:wifi_service.cc(771)] Rep ep updated for 2. [SSID=ChamplainPSK], bssid: c8:b5:ad:d2:ef:92, sig: -55, sec: rsn, freq: 5765
+2021-02-22T10:41:53.625423+00:00 INFO shill[1312]: [INFO:wifi_service.cc(771)] Rep ep updated for 3. [SSID=eduroam], bssid: c8:b5:ad:d2:ef:93, sig: -55, sec: 802_1x, freq: 5765
+2021-02-22T10:41:53.626719+00:00 INFO shill[1312]: [INFO:wifi_service.cc(771)] Rep ep updated for 4. [SSID=Champlain], bssid: c8:b5:ad:d2:ef:94, sig: -55, sec: 802_1x, freq: 5765
+2021-02-22T10:41:53.629656+00:00 INFO shill[1312]: [INFO:wifi.cc(389)] ScanDone
+2021-02-22T10:41:53.630956+00:00 INFO shill[1312]: [INFO:wifi_service.cc(771)] Rep ep updated for 9. [SSID=ChamplainGuest], bssid: c8:b5:ad:d2:ef:95, sig: -55, sec: none, freq: 5765
+2021-02-22T10:41:57.373412+00:00 INFO shill[1312]: [INFO:wifi.cc(319)] Scan on wlan0 from RequestScan
+2021-02-22T10:42:00.819424+00:00 INFO shill[1312]: [INFO:wifi.cc(389)] ScanDone
+2021-02-22T10:42:00.820218+00:00 INFO shill[1312]: [INFO:service.cc(269)] wifi service 17 constructed.
+2021-02-22T10:42:00.820333+00:00 INFO shill[1312]: [INFO:wifi_service.cc(173)] Constructed WiFi service 17 name: [SSID=TP-LINK_3FB5]
+2021-02-22T10:42:00.820519+00:00 INFO shill[1312]: [INFO:wifi_service.cc(771)] Rep ep updated for 17. [SSID=TP-LINK_3FB5], bssid: d4:6e:0e:a2:3f:b5, sig: -86, sec: rsn, freq: 2437
+2021-02-22T10:42:00.826022+00:00 INFO shill[1312]: [INFO:service.cc(275)] Service 16 destroyed.
+2021-02-22T10:42:07.370929+00:00 INFO shill[1312]: [INFO:wifi.cc(319)] Scan on wlan0 from RequestScan
+2021-02-22T10:42:10.838563+00:00 INFO shill[1312]: [INFO:wifi.cc(389)] ScanDone
+2021-02-22T10:42:10.843309+00:00 INFO shill[1312]: [INFO:service.cc(269)] wifi service 18 constructed.
+2021-02-22T10:42:10.843481+00:00 INFO shill[1312]: [INFO:wifi_service.cc(173)] Constructed WiFi service 18 name: [SSID=DragonsDen]
+2021-02-22T10:42:10.843561+00:00 INFO shill[1312]: [INFO:wifi_service.cc(771)] Rep ep updated for 18. [SSID=DragonsDen], bssid: 10:86:8c:26:e2:76, sig: -85, sec: rsn, freq: 2437
+2021-02-22T10:42:10.847345+00:00 INFO shill[1312]: [INFO:wifi_service.cc(771)] Rep ep updated for 2. [SSID=ChamplainPSK], bssid: 38:17:c3:6b:6e:b2, sig: -71, sec: rsn, freq: 5785
+2021-02-22T10:42:10.847659+00:00 INFO shill[1312]: [INFO:wifi_service.cc(771)] Rep ep updated for 3. [SSID=eduroam], bssid: 38:17:c3:6b:8d:c3, sig: -70, sec: 802_1x, freq: 2437
+2021-02-22T10:42:10.848081+00:00 INFO shill[1312]: [INFO:wifi_service.cc(771)] Rep ep updated for 4. [SSID=Champlain], bssid: 38:17:c3:6b:8d:c4, sig: -70, sec: 802_1x, freq: 2437
+2021-02-22T10:42:10.848503+00:00 INFO shill[1312]: [INFO:wifi_service.cc(771)] Rep ep updated for 9. [SSID=ChamplainGuest], bssid: 38:17:c3:6b:6e:b5, sig: -71, sec: none, freq: 5785
+2021-02-22T10:43:12.952488+00:00 INFO dhcpcd[2867]: received SIGTERM, stopping
+2021-02-22T10:43:12.952636+00:00 INFO dhcpcd[2867]: wlan0: removing interface
+2021-02-22T10:43:12.952716+00:00 INFO dhcpcd[2867]: status changed to Release
+2021-02-22T10:43:12.953139+00:00 INFO shill[1312]: [INFO:shill_daemon.cc(38)] ShillDaemon received shutdown.
+2021-02-22T10:43:12.953254+00:00 INFO shill[1312]: [INFO:manager.cc(1505)] Device wlan0 updated: enabled
+2021-02-22T10:43:12.953336+00:00 INFO dhcpcd[2867]: dhcpcd exited
+2021-02-22T10:43:13.012590+00:00 INFO shill[1312]: [INFO:service.cc(309)] Disconnecting from service 11: Stop
+2021-02-22T10:43:13.022493+00:00 NOTICE wpa_supplicant[635]: wlan0: CTRL-EVENT-DISCONNECTED bssid=16:f6:d8:42:43:7a reason=3 (DEAUTH_LEAVING) locally_generated=1
+2021-02-22T10:43:13.022628+00:00 ERR wpa_supplicant[635]: nl80211: Failed to open /proc/sys/net/ipv4/conf/wlan0/drop_unicast_in_l2_multicast: No such file or directory
+2021-02-22T10:43:13.022721+00:00 ERR wpa_supplicant[635]: nl80211: Failed to set IPv4 unicast in multicast filter
+2021-02-22T10:43:13.022812+00:00 ERR wpa_supplicant[635]: nl80211: Failed to open /proc/sys/net/ipv4/conf/wlan0/drop_unicast_in_l2_multicast: No such file or directory
+2021-02-22T10:43:13.022900+00:00 ERR wpa_supplicant[635]: nl80211: Failed to set IPv4 unicast in multicast filter
+2021-02-22T10:43:13.024882+00:00 INFO shill[1312]: [INFO:dhcp_config.cc(194)] Stopping 2867 (ReleaseIP)
+2021-02-22T10:43:13.029718+00:00 NOTICE wpa_supplicant[635]: wlan0: CTRL-EVENT-REGDOM-CHANGE init=CORE type=WORLD
+2021-02-22T10:43:13.034545+00:00 NOTICE wpa_supplicant[635]: wlan0: CTRL-EVENT-REGDOM-CHANGE init=USER type=COUNTRY alpha2=US
+2021-02-22T10:43:13.035714+00:00 INFO shill[1312]: [INFO:service.cc(401)] Service 11: state Online -> Idle
+2021-02-22T10:43:13.035867+00:00 INFO shill[1312]: [INFO:manager.cc(1480)] Service 11 updated; state: Idle
+2021-02-22T10:43:13.054713+00:00 ERR wpa_supplicant[635]: nl80211: Failed to open /proc/sys/net/ipv4/conf/wlan0/drop_unicast_in_l2_multicast: No such file or directory
+2021-02-22T10:43:13.054790+00:00 ERR wpa_supplicant[635]: nl80211: Failed to set IPv4 unicast in multicast filter
+2021-02-22T10:43:13.055612+00:00 INFO shill[1312]: [INFO:service.cc(275)] Service 17 destroyed.
+2021-02-22T10:43:13.056432+00:00 INFO shill[1312]: [INFO:service.cc(275)] Service 18 destroyed.
+2021-02-22T10:43:13.064259+00:00 ERR shill[1312]: [ERROR:object_proxy.cc(581)] Failed to call method: fi.w1.wpa_supplicant1.Interface.Disconnect: object_path= /fi/w1/wpa_supplicant1/Interfaces/1: fi.w1.wpa_supplicant1.NotConnected: This interface is not connected
+2021-02-22T10:43:13.064384+00:00 ERR shill[1312]: [ERROR:dbus_method_invoker.h(113)] CallMethodAndBlockWithTimeout(...): Domain=dbus, Code=fi.w1.wpa_supplicant1.NotConnected, Message=This interface is not connected
+2021-02-22T10:43:13.064460+00:00 ERR shill[1312]: [ERROR:chromeos_supplicant_interface_proxy.cc(184)] Failed to disconnect: fi.w1.wpa_supplicant1.NotConnected This interface is not connected
+2021-02-22T10:43:13.066235+00:00 INFO shill[1312]: [INFO:manager.cc(1480)] Service 11 updated; state: Idle
+2021-02-22T10:43:13.066392+00:00 INFO shill[1312]: [INFO:wifi_service.cc(771)] Rep ep updated for 3. [SSID=eduroam], bssid: 38:17:c3:6b:ae:b3, sig: -86, sec: 802_1x, freq: 5200
+2021-02-22T10:43:13.066470+00:00 INFO shill[1312]: [INFO:wifi_service.cc(771)] Rep ep updated for 4. [SSID=Champlain], bssid: 38:17:c3:6b:ae:b4, sig: -84, sec: 802_1x, freq: 5200
+2021-02-22T10:43:13.066546+00:00 INFO shill[1312]: [INFO:wifi_service.cc(771)] Rep ep updated for 2. [SSID=ChamplainPSK], bssid: 38:17:c3:6b:ae:b2, sig: -84, sec: rsn, freq: 5200
+2021-02-22T10:43:13.066625+00:00 INFO shill[1312]: [INFO:service.cc(275)] Service 9 destroyed.
+2021-02-22T10:43:13.066702+00:00 INFO shill[1312]: [INFO:service.cc(275)] Service 14 destroyed.
+2021-02-22T10:43:13.067314+00:00 INFO shill[1312]: [INFO:service.cc(275)] Service 5 destroyed.
+2021-02-22T10:43:13.067859+00:00 INFO shill[1312]: [INFO:service.cc(275)] Service 2 destroyed.
+2021-02-22T10:43:13.068485+00:00 INFO shill[1312]: [INFO:service.cc(275)] Service 4 destroyed.
+2021-02-22T10:43:13.073534+00:00 INFO shill[1312]: [INFO:service.cc(275)] Service 3 destroyed.
+2021-02-22T10:43:13.075170+00:00 ERR wpa_supplicant[635]: nl80211: Failed to open /proc/sys/net/ipv4/conf/wlan0/drop_unicast_in_l2_multicast: No such file or directory
+2021-02-22T10:43:13.075342+00:00 ERR wpa_supplicant[635]: nl80211: Failed to set IPv4 unicast in multicast filter
+2021-02-22T10:43:13.091390+00:00 ERR wpa_supplicant[635]: nl80211: Failed to open /proc/sys/net/ipv4/conf/wlan0/drop_unicast_in_l2_multicast: No such file or directory
+2021-02-22T10:43:13.091527+00:00 ERR wpa_supplicant[635]: nl80211: Failed to set IPv4 unicast in multicast filter
+2021-02-22T10:43:13.091615+00:00 NOTICE wpa_supplicant[635]: nl80211: deinit ifname=wlan0 disabled_11b_rates=0
+2021-02-22T10:43:13.097928+00:00 ERR wpa_supplicant[635]: rmdir[ctrl_interface=/run/wpa_supplicant]: Permission denied
+2021-02-22T10:43:13.114576+00:00 INFO shill[1312]: [INFO:service.cc(275)] Service 11 destroyed.
+2021-02-22T10:43:13.130399+00:00 INFO shill[1312]: [INFO:modem_manager_1.cc(51)] Stop watching modem manager service: org.freedesktop.ModemManager1
+2021-02-22T10:43:13.130532+00:00 INFO shill[1312]: [INFO:power_manager.cc(60)] Stop
+2021-02-22T10:43:13.130653+00:00 INFO shill[1312]: [INFO:chromeos_power_manager_proxy.cc(212)] UnregisterSuspendDelayInternal(69992449, dark=false)
+2021-02-22T10:43:13.131489+00:00 INFO shill[1312]: [INFO:chromeos_power_manager_proxy.cc(212)] UnregisterSuspendDelayInternal(70025217, dark=true)
+2021-02-22T10:43:13.132623+00:00 INFO shill[1312]: [INFO:device.cc(217)] Device destructed: wlan0 index 2
+2021-02-22T10:43:13.132725+00:00 INFO shill[1312]: [INFO:service.cc(275)] Service 1 destroyed.
+2021-02-22T10:43:13.132800+00:00 INFO shill[1312]: [INFO:service.cc(275)] Service 0 destroyed.
+2021-02-22T10:43:13.145034+00:00 INFO shill[1312]: [INFO:shill_main.cc(249)] Process exiting.
+2021-02-22T10:43:17.728120+00:00 INFO ModemManager[1689]: <info>  Caught signal, shutting down...
+2021-02-22T10:43:17.739800+00:00 INFO ModemManager[1689]: <info>  ModemManager is shut down
+2021-02-22T06:57:21.337444-05:00 NOTICE wpa_supplicant[600]: Successfully initialized wpa_supplicant
+2021-02-22T06:57:22.463295-05:00 INFO shill[1355]: [INFO:manager.cc(294)] Manager started.
+2021-02-22T06:57:22.464546-05:00 INFO shill[1355]: [INFO:chromeos_power_manager_proxy.cc(356)] OnSignalConnected interface: org.chromium.PowerManager signal: SuspendImminentsuccess: 1
+2021-02-22T06:57:22.464879-05:00 INFO shill[1355]: [INFO:chromeos_power_manager_proxy.cc(356)] OnSignalConnected interface: org.chromium.PowerManager signal: SuspendDonesuccess: 1
+2021-02-22T06:57:22.465100-05:00 INFO shill[1355]: [INFO:chromeos_power_manager_proxy.cc(356)] OnSignalConnected interface: org.chromium.PowerManager signal: DarkSuspendImminentsuccess: 1
+2021-02-22T06:57:22.490802-05:00 INFO shill[1355]: [INFO:service.cc(269)] wifi service 0 constructed.
+2021-02-22T06:57:22.492911-05:00 INFO shill[1355]: [INFO:wifi_service.cc(173)] Constructed WiFi service 0 name: [SSID=NETGEAR-345]
+2021-02-22T06:57:22.493663-05:00 INFO shill[1355]: [INFO:manager.cc(545)] PushProfileInternal finished; 1 profile(s) now present.
+2021-02-22T06:57:22.494797-05:00 INFO shill[1355]: [INFO:modem_manager_1.cc(35)] Start watching modem manager service: org.freedesktop.ModemManager1
+2021-02-22T06:57:22.496050-05:00 INFO shill[1355]: [INFO:service.cc(269)] ethernet service 1 constructed.
+2021-02-22T06:57:22.496643-05:00 INFO shill[1355]: [INFO:service.cc(269)] etherneteap service 2 constructed.
+2021-02-22T06:57:22.497734-05:00 INFO shill[1355]: [INFO:device_info.cc(1330)] Creating WiFi device for station mode interface wlan0 at interface index 2
+2021-02-22T06:57:22.497891-05:00 INFO shill[1355]: [INFO:device.cc(212)] Device created: wlan0 index 2
+2021-02-22T06:57:22.500320-05:00 INFO shill[1355]: [INFO:manager.cc(1224)] Device wlan0 registered.
+2021-02-22T06:57:22.500435-05:00 INFO shill[1355]: [INFO:manager.cc(1505)] Device wlan0 updated: enabled
+2021-02-22T06:57:22.519260-05:00 INFO shill[1355]: [INFO:wifi.cc(2573)] wlan0: enabled supplicant: absent proxy: null
+2021-02-22T06:57:22.522435-05:00 INFO shill[1355]: [INFO:manager.cc(1625)] Default physical service: 0 (not connected)
+2021-02-22T06:57:22.522551-05:00 INFO shill[1355]: [INFO:service.cc(291)] Suppressed autoconnect to service 0 (no endpoints)
+2021-02-22T06:57:22.524016-05:00 INFO shill[1355]: [INFO:power_manager.cc(171)] OnPowerManagerAppeared
+2021-02-22T06:57:22.524204-05:00 INFO shill[1355]: [INFO:chromeos_power_manager_proxy.cc(174)] RegisterSuspendDelayInternal(19500, dark=false)
+2021-02-22T06:57:22.527298-05:00 INFO shill[1355]: [INFO:chromeos_power_manager_proxy.cc(174)] RegisterSuspendDelayInternal(19500, dark=true)
+2021-02-22T06:57:22.527910-05:00 INFO shill[1355]: [INFO:wifi.cc(2491)] WPA supplicant appeared.
+2021-02-22T06:57:22.528053-05:00 INFO shill[1355]: [INFO:wifi.cc(2573)] wlan0: enabled supplicant: present proxy: null
+2021-02-22T06:57:22.821257-05:00 INFO shill[1355]: [INFO:wifi.cc(2621)] connected to supplicant on attempt 1
+2021-02-22T06:57:22.834072-05:00 INFO shill[1355]: [INFO:wifi.cc(319)] Scan on wlan0 from ConnectToSupplicant
+2021-02-22T06:57:25.540237-05:00 INFO ModemManager[1675]: <info>  ModemManager (version 1.11.0) starting in system bus...
+2021-02-22T06:57:25.678632-05:00 INFO shill[1355]: [INFO:chromeos_dbus_objectmanager_proxy.cc(94)] OnServiceOwnerChanged old:  new: :1.16
+2021-02-22T06:57:25.678762-05:00 INFO shill[1355]: [INFO:chromeos_dbus_objectmanager_proxy.cc(80)] OnServiceAvailable: 1
+2021-02-22T06:57:25.678857-05:00 INFO shill[1355]: [INFO:chromeos_dbus_objectmanager_proxy.cc(80)] OnServiceAvailable: 1
+2021-02-22T06:57:25.678931-05:00 INFO shill[1355]: [INFO:modem_manager.cc(44)] Modem manager org.freedesktop.ModemManager1 appeared.
+2021-02-22T06:57:25.679032-05:00 INFO shill[1355]: [INFO:modem_manager.cc(44)] Modem manager org.freedesktop.ModemManager1 appeared.
+2021-02-22T06:57:25.692971-05:00 INFO shill[1355]: [INFO:service.cc(269)] wifi service 3 constructed.
+2021-02-22T06:57:25.693181-05:00 INFO shill[1355]: [INFO:wifi_service.cc(173)] Constructed WiFi service 3 name: [SSID=ChamplainPSK]
+2021-02-22T06:57:25.693302-05:00 INFO shill[1355]: [INFO:wifi_service.cc(771)] Rep ep updated for 3. [SSID=ChamplainPSK], bssid: c8:b5:ad:d2:ef:92, sig: -47, sec: rsn, freq: 5765
+2021-02-22T06:57:25.712323-05:00 INFO shill[1355]: [INFO:service.cc(269)] wifi service 4 constructed.
+2021-02-22T06:57:25.712479-05:00 INFO shill[1355]: [INFO:wifi_service.cc(173)] Constructed WiFi service 4 name: [SSID=eduroam]
+2021-02-22T06:57:25.712575-05:00 INFO shill[1355]: [INFO:wifi_service.cc(771)] Rep ep updated for 4. [SSID=eduroam], bssid: c8:b5:ad:d2:ef:93, sig: -47, sec: 802_1x, freq: 5765
+2021-02-22T06:57:25.717371-05:00 INFO shill[1355]: [INFO:service.cc(269)] wifi service 5 constructed.
+2021-02-22T06:57:25.717547-05:00 INFO shill[1355]: [INFO:wifi_service.cc(173)] Constructed WiFi service 5 name: [SSID=Champlain]
+2021-02-22T06:57:25.717625-05:00 INFO shill[1355]: [INFO:wifi_service.cc(771)] Rep ep updated for 5. [SSID=Champlain], bssid: c8:b5:ad:d2:ef:94, sig: -47, sec: 802_1x, freq: 5765
+2021-02-22T06:57:25.729785-05:00 INFO shill[1355]: [INFO:wifi.cc(389)] ScanDone
+2021-02-22T06:57:25.731327-05:00 INFO shill[1355]: [INFO:service.cc(291)] Suppressed autoconnect to service 0 (no endpoints)
+2021-02-22T06:57:25.751165-05:00 INFO shill[1355]: [INFO:service.cc(269)] wifi service 6 constructed.
+2021-02-22T06:57:25.751471-05:00 INFO shill[1355]: [INFO:wifi_service.cc(173)] Constructed WiFi service 6 name: [SSID=DIRECT-r9-FireTV_ee16]
+2021-02-22T06:57:25.751797-05:00 INFO shill[1355]: [INFO:wifi_service.cc(771)] Rep ep updated for 6. [SSID=DIRECT-r9-FireTV_ee16], bssid: 42:a2:db:20:be:09, sig: -78, sec: rsn, freq: 5745
+2021-02-22T06:57:25.757303-05:00 INFO shill[1355]: [INFO:service.cc(269)] wifi service 7 constructed.
+2021-02-22T06:57:25.757620-05:00 INFO shill[1355]: [INFO:wifi_service.cc(173)] Constructed WiFi service 7 name: [SSID=HAL9000]
+2021-02-22T06:57:25.758027-05:00 INFO shill[1355]: [INFO:wifi_service.cc(771)] Rep ep updated for 7. [SSID=HAL9000], bssid: c0:ff:d4:8e:82:5c, sig: -84, sec: rsn, freq: 2442
+2021-02-22T06:57:25.760948-05:00 INFO shill[1355]: [INFO:service.cc(269)] wifi service 8 constructed.
+2021-02-22T06:57:25.761353-05:00 INFO shill[1355]: [INFO:wifi_service.cc(173)] Constructed WiFi service 8 name: [SSID=DIRECT-D5-HP DeskJet 3630 series]
+2021-02-22T06:57:25.761677-05:00 INFO shill[1355]: [INFO:wifi_service.cc(771)] Rep ep updated for 8. [SSID=DIRECT-D5-HP DeskJet 3630 series], bssid: 48:ba:4e:74:46:d6, sig: -87, sec: rsn, freq: 2437
+2021-02-22T06:57:25.763395-05:00 INFO shill[1355]: [INFO:service.cc(269)] wifi service 9 constructed.
+2021-02-22T06:57:25.764179-05:00 INFO shill[1355]: [INFO:wifi_service.cc(173)] Constructed WiFi service 9 name: [SSID=ChamplainGuest]
+2021-02-22T06:57:25.764631-05:00 INFO shill[1355]: [INFO:wifi_service.cc(771)] Rep ep updated for 9. [SSID=ChamplainGuest], bssid: c8:b5:ad:d2:ef:95, sig: -47, sec: none, freq: 5765
+2021-02-22T06:57:25.772763-05:00 INFO shill[1355]: [INFO:wifi.cc(1798)] WiFi wlan0 StateChanged shill-unknown -> inactive
+2021-02-22T06:57:25.773620-05:00 INFO shill[1355]: [INFO:service.cc(291)] Suppressed autoconnect to service 0 (no endpoints)
+2021-02-22T06:57:28.222914-05:00 INFO ModemManager[1675]: <info>  Couldn't check support for device '/sys/devices/pci0000:00/0000:00:1c.0/0000:01:00.0': not supported by any plugin
+2021-02-22T06:57:28.427621-05:00 INFO shill[1355]: [INFO:wifi.cc(319)] Scan on wlan0 from RequestScan
+2021-02-22T06:57:30.976113-05:00 INFO shill[1355]: [INFO:wifi.cc(389)] ScanDone
+2021-02-22T06:57:30.976254-05:00 INFO shill[1355]: [INFO:service.cc(291)] Suppressed autoconnect to service 0 (no endpoints)
+2021-02-22T06:57:30.981383-05:00 INFO shill[1355]: [INFO:service.cc(291)] Suppressed autoconnect to service 0 (no endpoints)
+2021-02-22T06:57:35.435143-05:00 INFO shill[1355]: [INFO:manager.cc(545)] PushProfileInternal finished; 2 profile(s) now present.
+2021-02-22T06:57:35.435662-05:00 INFO shill[1355]: [INFO:service.cc(291)] Suppressed autoconnect to service 0 (no endpoints)
+2021-02-22T06:57:35.855528-05:00 INFO shill[1355]: [INFO:wifi.cc(319)] Scan on wlan0 from RequestScan
+2021-02-22T06:57:38.384105-05:00 INFO shill[1355]: [INFO:wifi.cc(389)] ScanDone
+2021-02-22T06:57:38.384251-05:00 INFO shill[1355]: [INFO:service.cc(269)] wifi service 10 constructed.
+2021-02-22T06:57:38.384382-05:00 INFO shill[1355]: [INFO:wifi_service.cc(173)] Constructed WiFi service 10 name: [SSID=pizzapirate]
+2021-02-22T06:57:38.384488-05:00 INFO shill[1355]: [INFO:wifi_service.cc(771)] Rep ep updated for 10. [SSID=pizzapirate], bssid: 70:4d:7b:e3:d4:c8, sig: -84, sec: rsn, freq: 2432
+2021-02-22T06:57:38.386640-05:00 INFO shill[1355]: [INFO:service.cc(275)] Service 7 destroyed.
+2021-02-22T06:57:38.387733-05:00 INFO shill[1355]: [INFO:service.cc(291)] Suppressed autoconnect to service 0 (no endpoints)
+2021-02-22T06:57:45.710907-05:00 INFO shill[1355]: [INFO:shill_daemon.cc(38)] ShillDaemon received shutdown.
+2021-02-22T06:57:45.711074-05:00 INFO shill[1355]: [INFO:manager.cc(1505)] Device wlan0 updated: enabled
+2021-02-22T06:57:45.828632-05:00 INFO shill[1355]: [INFO:wifi_service.cc(771)] Rep ep updated for 3. [SSID=ChamplainPSK], bssid: 38:17:c3:6b:6e:b2, sig: -66, sec: rsn, freq: 5785
+2021-02-22T06:57:45.829040-05:00 ERR wpa_supplicant[600]: nl80211: Failed to open /proc/sys/net/ipv4/conf/wlan0/drop_unicast_in_l2_multicast: No such file or directory
+2021-02-22T06:57:45.829171-05:00 ERR wpa_supplicant[600]: nl80211: Failed to set IPv4 unicast in multicast filter
+2021-02-22T06:57:45.829245-05:00 INFO shill[1355]: [INFO:wifi_service.cc(771)] Rep ep updated for 4. [SSID=eduroam], bssid: 38:17:c3:6b:6e:b3, sig: -66, sec: 802_1x, freq: 5785
+2021-02-22T06:57:45.829610-05:00 INFO shill[1355]: [INFO:service.cc(275)] Service 6 destroyed.
+2021-02-22T06:57:45.829729-05:00 INFO shill[1355]: [INFO:service.cc(275)] Service 8 destroyed.
+2021-02-22T06:57:45.829803-05:00 INFO shill[1355]: [INFO:wifi_service.cc(771)] Rep ep updated for 9. [SSID=ChamplainGuest], bssid: 38:17:c3:6b:6e:b5, sig: -66, sec: none, freq: 5785
+2021-02-22T06:57:45.829888-05:00 INFO shill[1355]: [INFO:wifi_service.cc(771)] Rep ep updated for 5. [SSID=Champlain], bssid: 38:17:c3:6b:6e:b4, sig: -66, sec: 802_1x, freq: 5785
+2021-02-22T06:57:45.831866-05:00 INFO shill[1355]: [INFO:service.cc(275)] Service 9 destroyed.
+2021-02-22T06:57:45.832069-05:00 INFO shill[1355]: [INFO:service.cc(275)] Service 10 destroyed.
+2021-02-22T06:57:45.832769-05:00 INFO shill[1355]: [INFO:service.cc(275)] Service 3 destroyed.
+2021-02-22T06:57:45.833330-05:00 INFO shill[1355]: [INFO:service.cc(275)] Service 4 destroyed.
+2021-02-22T06:57:45.833862-05:00 INFO shill[1355]: [INFO:service.cc(275)] Service 5 destroyed.
+2021-02-22T06:57:45.838506-05:00 ERR wpa_supplicant[600]: nl80211: Failed to open /proc/sys/net/ipv4/conf/wlan0/drop_unicast_in_l2_multicast: No such file or directory
+2021-02-22T06:57:45.838638-05:00 ERR wpa_supplicant[600]: nl80211: Failed to set IPv4 unicast in multicast filter
+2021-02-22T06:57:45.855949-05:00 ERR wpa_supplicant[600]: nl80211: Failed to open /proc/sys/net/ipv4/conf/wlan0/drop_unicast_in_l2_multicast: No such file or directory
+2021-02-22T06:57:45.856162-05:00 ERR wpa_supplicant[600]: nl80211: Failed to set IPv4 unicast in multicast filter
+2021-02-22T06:57:45.856248-05:00 NOTICE wpa_supplicant[600]: nl80211: deinit ifname=wlan0 disabled_11b_rates=0
+2021-02-22T06:57:45.860775-05:00 ERR wpa_supplicant[600]: rmdir[ctrl_interface=/run/wpa_supplicant]: Permission denied
+2021-02-22T06:57:45.875811-05:00 INFO shill[1355]: [INFO:service.cc(275)] Service 0 destroyed.
+2021-02-22T06:57:45.891749-05:00 INFO shill[1355]: [INFO:modem_manager_1.cc(51)] Stop watching modem manager service: org.freedesktop.ModemManager1
+2021-02-22T06:57:45.891886-05:00 INFO shill[1355]: [INFO:power_manager.cc(60)] Stop
+2021-02-22T06:57:45.891971-05:00 INFO shill[1355]: [INFO:chromeos_power_manager_proxy.cc(212)] UnregisterSuspendDelayInternal(62652417, dark=false)
+2021-02-22T06:57:45.892569-05:00 INFO shill[1355]: [INFO:chromeos_power_manager_proxy.cc(212)] UnregisterSuspendDelayInternal(62685185, dark=true)
+2021-02-22T06:57:45.893374-05:00 INFO shill[1355]: [INFO:device.cc(217)] Device destructed: wlan0 index 2
+2021-02-22T06:57:45.893480-05:00 INFO shill[1355]: [INFO:service.cc(275)] Service 2 destroyed.
+2021-02-22T06:57:45.893561-05:00 INFO shill[1355]: [INFO:service.cc(275)] Service 1 destroyed.
+2021-02-22T06:57:45.898787-05:00 INFO shill[1355]: [INFO:shill_main.cc(249)] Process exiting.
+2021-02-22T06:57:47.371264-05:00 INFO ModemManager[1675]: <info>  Caught signal, shutting down...
+2021-02-22T06:57:47.372626-05:00 INFO ModemManager[1675]: <info>  ModemManager is shut down
+2021-02-22T07:04:19.273333-05:00 NOTICE wpa_supplicant[621]: Successfully initialized wpa_supplicant
+2021-02-22T07:04:20.410025-05:00 INFO shill[1374]: [INFO:manager.cc(294)] Manager started.
+2021-02-22T07:04:20.411379-05:00 INFO shill[1374]: [INFO:chromeos_power_manager_proxy.cc(356)] OnSignalConnected interface: org.chromium.PowerManager signal: SuspendImminentsuccess: 1
+2021-02-22T07:04:20.411521-05:00 INFO shill[1374]: [INFO:chromeos_power_manager_proxy.cc(356)] OnSignalConnected interface: org.chromium.PowerManager signal: SuspendDonesuccess: 1
+2021-02-22T07:04:20.411784-05:00 INFO shill[1374]: [INFO:chromeos_power_manager_proxy.cc(356)] OnSignalConnected interface: org.chromium.PowerManager signal: DarkSuspendImminentsuccess: 1
+2021-02-22T07:04:20.438895-05:00 INFO shill[1374]: [INFO:service.cc(269)] wifi service 0 constructed.
+2021-02-22T07:04:20.440323-05:00 INFO shill[1374]: [INFO:wifi_service.cc(173)] Constructed WiFi service 0 name: [SSID=NETGEAR-345]
+2021-02-22T07:04:20.442417-05:00 INFO shill[1374]: [INFO:manager.cc(545)] PushProfileInternal finished; 1 profile(s) now present.
+2021-02-22T07:04:20.444058-05:00 INFO shill[1374]: [INFO:modem_manager_1.cc(35)] Start watching modem manager service: org.freedesktop.ModemManager1
+2021-02-22T07:04:20.445268-05:00 INFO shill[1374]: [INFO:service.cc(269)] ethernet service 1 constructed.
+2021-02-22T07:04:20.446020-05:00 INFO shill[1374]: [INFO:service.cc(269)] etherneteap service 2 constructed.
+2021-02-22T07:04:20.447488-05:00 INFO shill[1374]: [INFO:device_info.cc(1330)] Creating WiFi device for station mode interface wlan0 at interface index 2
+2021-02-22T07:04:20.447612-05:00 INFO shill[1374]: [INFO:device.cc(212)] Device created: wlan0 index 2
+2021-02-22T07:04:20.449440-05:00 INFO shill[1374]: [INFO:manager.cc(1224)] Device wlan0 registered.
+2021-02-22T07:04:20.449548-05:00 INFO shill[1374]: [INFO:manager.cc(1505)] Device wlan0 updated: enabled
+2021-02-22T07:04:20.468348-05:00 INFO shill[1374]: [INFO:wifi.cc(2573)] wlan0: enabled supplicant: absent proxy: null
+2021-02-22T07:04:20.472014-05:00 INFO shill[1374]: [INFO:manager.cc(1625)] Default physical service: 0 (not connected)
+2021-02-22T07:04:20.472207-05:00 INFO shill[1374]: [INFO:service.cc(291)] Suppressed autoconnect to service 0 (no endpoints)
+2021-02-22T07:04:20.473388-05:00 INFO shill[1374]: [INFO:power_manager.cc(171)] OnPowerManagerAppeared
+2021-02-22T07:04:20.473508-05:00 INFO shill[1374]: [INFO:chromeos_power_manager_proxy.cc(174)] RegisterSuspendDelayInternal(19500, dark=false)
+2021-02-22T07:04:20.474392-05:00 INFO shill[1374]: [INFO:chromeos_power_manager_proxy.cc(174)] RegisterSuspendDelayInternal(19500, dark=true)
+2021-02-22T07:04:20.477216-05:00 INFO shill[1374]: [INFO:wifi.cc(2491)] WPA supplicant appeared.
+2021-02-22T07:04:20.477344-05:00 INFO shill[1374]: [INFO:wifi.cc(2573)] wlan0: enabled supplicant: present proxy: null
+2021-02-22T07:04:20.766207-05:00 INFO shill[1374]: [INFO:wifi.cc(2621)] connected to supplicant on attempt 1
+2021-02-22T07:04:20.773119-05:00 INFO shill[1374]: [INFO:wifi.cc(319)] Scan on wlan0 from ConnectToSupplicant
+2021-02-22T07:04:23.495527-05:00 INFO ModemManager[1680]: <info>  ModemManager (version 1.11.0) starting in system bus...
+2021-02-22T07:04:23.582595-05:00 INFO shill[1374]: [INFO:chromeos_dbus_objectmanager_proxy.cc(94)] OnServiceOwnerChanged old:  new: :1.16
+2021-02-22T07:04:23.582798-05:00 INFO shill[1374]: [INFO:chromeos_dbus_objectmanager_proxy.cc(80)] OnServiceAvailable: 1
+2021-02-22T07:04:23.582897-05:00 INFO shill[1374]: [INFO:chromeos_dbus_objectmanager_proxy.cc(80)] OnServiceAvailable: 1
+2021-02-22T07:04:23.582972-05:00 INFO shill[1374]: [INFO:modem_manager.cc(44)] Modem manager org.freedesktop.ModemManager1 appeared.
+2021-02-22T07:04:23.583084-05:00 INFO shill[1374]: [INFO:modem_manager.cc(44)] Modem manager org.freedesktop.ModemManager1 appeared.
+2021-02-22T07:04:23.654499-05:00 INFO shill[1374]: [INFO:service.cc(269)] wifi service 3 constructed.
+2021-02-22T07:04:23.654671-05:00 INFO shill[1374]: [INFO:wifi_service.cc(173)] Constructed WiFi service 3 name: [SSID=ChamplainPSK]
+2021-02-22T07:04:23.654764-05:00 INFO shill[1374]: [INFO:wifi_service.cc(771)] Rep ep updated for 3. [SSID=ChamplainPSK], bssid: c8:b5:ad:d2:ef:92, sig: -57, sec: rsn, freq: 5765
+2021-02-22T07:04:23.657286-05:00 INFO shill[1374]: [INFO:service.cc(269)] wifi service 4 constructed.
+2021-02-22T07:04:23.657501-05:00 INFO shill[1374]: [INFO:wifi_service.cc(173)] Constructed WiFi service 4 name: [SSID=eduroam]
+2021-02-22T07:04:23.657581-05:00 INFO shill[1374]: [INFO:wifi_service.cc(771)] Rep ep updated for 4. [SSID=eduroam], bssid: c8:b5:ad:d2:ef:93, sig: -57, sec: 802_1x, freq: 5765
+2021-02-22T07:04:23.660794-05:00 INFO shill[1374]: [INFO:service.cc(269)] wifi service 5 constructed.
+2021-02-22T07:04:23.661021-05:00 INFO shill[1374]: [INFO:wifi_service.cc(173)] Constructed WiFi service 5 name: [SSID=Champlain]
+2021-02-22T07:04:23.661123-05:00 INFO shill[1374]: [INFO:wifi_service.cc(771)] Rep ep updated for 5. [SSID=Champlain], bssid: c8:b5:ad:d2:ef:94, sig: -57, sec: 802_1x, freq: 5765
+2021-02-22T07:04:23.666709-05:00 INFO shill[1374]: [INFO:wifi.cc(389)] ScanDone
+2021-02-22T07:04:23.671661-05:00 INFO shill[1374]: [INFO:service.cc(291)] Suppressed autoconnect to service 0 (no endpoints)
+2021-02-22T07:04:23.684255-05:00 INFO shill[1374]: [INFO:service.cc(269)] wifi service 6 constructed.
+2021-02-22T07:04:23.684411-05:00 INFO shill[1374]: [INFO:wifi_service.cc(173)] Constructed WiFi service 6 name: [SSID=DIRECT-r9-FireTV_ee16]
+2021-02-22T07:04:23.687958-05:00 INFO shill[1374]: [INFO:wifi_service.cc(771)] Rep ep updated for 6. [SSID=DIRECT-r9-FireTV_ee16], bssid: 42:a2:db:20:be:09, sig: -84, sec: rsn, freq: 5745
+2021-02-22T07:04:23.691898-05:00 INFO shill[1374]: [INFO:service.cc(269)] wifi service 7 constructed.
+2021-02-22T07:04:23.692047-05:00 INFO shill[1374]: [INFO:wifi_service.cc(173)] Constructed WiFi service 7 name: [SSID=TP-LINK_9800]
+2021-02-22T07:04:23.692124-05:00 INFO shill[1374]: [INFO:wifi_service.cc(771)] Rep ep updated for 7. [SSID=TP-LINK_9800], bssid: ec:08:6b:dd:98:00, sig: -93, sec: rsn, freq: 2457
+2021-02-22T07:04:23.695188-05:00 INFO shill[1374]: [INFO:service.cc(269)] wifi service 8 constructed.
+2021-02-22T07:04:23.695346-05:00 INFO shill[1374]: [INFO:wifi_service.cc(173)] Constructed WiFi service 8 name: [SSID=ChamplainGuest]
+2021-02-22T07:04:23.695525-05:00 INFO shill[1374]: [INFO:wifi_service.cc(771)] Rep ep updated for 8. [SSID=ChamplainGuest], bssid: c8:b5:ad:d2:ef:95, sig: -57, sec: none, freq: 5765
+2021-02-22T07:04:23.706699-05:00 INFO shill[1374]: [INFO:wifi.cc(1798)] WiFi wlan0 StateChanged shill-unknown -> inactive
+2021-02-22T07:04:23.708222-05:00 INFO shill[1374]: [INFO:service.cc(291)] Suppressed autoconnect to service 0 (no endpoints)
+2021-02-22T07:04:26.102688-05:00 INFO ModemManager[1680]: <info>  Couldn't check support for device '/sys/devices/pci0000:00/0000:00:1c.0/0000:01:00.0': not supported by any plugin
+2021-02-22T07:04:26.885144-05:00 INFO shill[1374]: [INFO:wifi.cc(319)] Scan on wlan0 from RequestScan
+2021-02-22T07:04:29.510834-05:00 INFO shill[1374]: [INFO:service.cc(269)] wifi service 9 constructed.
+2021-02-22T07:04:29.511135-05:00 INFO shill[1374]: [INFO:wifi_service.cc(173)] Constructed WiFi service 9 name: [SSID=pizzapirate]
+2021-02-22T07:04:29.511241-05:00 INFO shill[1374]: [INFO:wifi_service.cc(771)] Rep ep updated for 9. [SSID=pizzapirate], bssid: 70:4d:7b:e3:d4:c8, sig: -88, sec: rsn, freq: 2432
+2021-02-22T07:04:29.512586-05:00 INFO shill[1374]: [INFO:wifi.cc(389)] ScanDone
+2021-02-22T07:04:29.513214-05:00 INFO shill[1374]: [INFO:service.cc(291)] Suppressed autoconnect to service 0 (no endpoints)
+2021-02-22T07:04:29.513369-05:00 INFO shill[1374]: [INFO:service.cc(269)] wifi service 10 constructed.
+2021-02-22T07:04:29.513477-05:00 INFO shill[1374]: [INFO:wifi_service.cc(173)] Constructed WiFi service 10 name: [SSID=DIRECT-D5-HP DeskJet 3630 series]
+2021-02-22T07:04:29.513576-05:00 INFO shill[1374]: [INFO:wifi_service.cc(771)] Rep ep updated for 10. [SSID=DIRECT-D5-HP DeskJet 3630 series], bssid: 48:ba:4e:74:46:d6, sig: -91, sec: rsn, freq: 2437
+2021-02-22T07:04:29.515667-05:00 INFO shill[1374]: [INFO:service.cc(291)] Suppressed autoconnect to service 0 (no endpoints)
+2021-02-24T18:33:06.364089-05:00 NOTICE wpa_supplicant[603]: Successfully initialized wpa_supplicant
+2021-02-24T18:33:07.467921-05:00 INFO shill[1353]: [INFO:manager.cc(294)] Manager started.
+2021-02-24T18:33:07.469339-05:00 INFO shill[1353]: [INFO:chromeos_power_manager_proxy.cc(356)] OnSignalConnected interface: org.chromium.PowerManager signal: SuspendImminentsuccess: 1
+2021-02-24T18:33:07.469594-05:00 INFO shill[1353]: [INFO:chromeos_power_manager_proxy.cc(356)] OnSignalConnected interface: org.chromium.PowerManager signal: SuspendDonesuccess: 1
+2021-02-24T18:33:07.469812-05:00 INFO shill[1353]: [INFO:chromeos_power_manager_proxy.cc(356)] OnSignalConnected interface: org.chromium.PowerManager signal: DarkSuspendImminentsuccess: 1
+2021-02-24T18:33:07.499482-05:00 INFO shill[1353]: [INFO:service.cc(269)] wifi service 0 constructed.
+2021-02-24T18:33:07.502350-05:00 INFO shill[1353]: [INFO:wifi_service.cc(173)] Constructed WiFi service 0 name: [SSID=NETGEAR-345]
+2021-02-24T18:33:07.502858-05:00 INFO shill[1353]: [INFO:manager.cc(545)] PushProfileInternal finished; 1 profile(s) now present.
+2021-02-24T18:33:07.503739-05:00 INFO shill[1353]: [INFO:modem_manager_1.cc(35)] Start watching modem manager service: org.freedesktop.ModemManager1
+2021-02-24T18:33:07.505009-05:00 INFO shill[1353]: [INFO:service.cc(269)] ethernet service 1 constructed.
+2021-02-24T18:33:07.505574-05:00 INFO shill[1353]: [INFO:service.cc(269)] etherneteap service 2 constructed.
+2021-02-24T18:33:07.506873-05:00 INFO shill[1353]: [INFO:device_info.cc(1330)] Creating WiFi device for station mode interface wlan0 at interface index 2
+2021-02-24T18:33:07.506963-05:00 INFO shill[1353]: [INFO:device.cc(212)] Device created: wlan0 index 2
+2021-02-24T18:33:07.509234-05:00 INFO shill[1353]: [INFO:manager.cc(1224)] Device wlan0 registered.
+2021-02-24T18:33:07.509338-05:00 INFO shill[1353]: [INFO:manager.cc(1505)] Device wlan0 updated: enabled
+2021-02-24T18:33:07.539809-05:00 INFO shill[1353]: [INFO:wifi.cc(2573)] wlan0: enabled supplicant: absent proxy: null
+2021-02-24T18:33:07.543595-05:00 INFO shill[1353]: [INFO:manager.cc(1625)] Default physical service: 0 (not connected)
+2021-02-24T18:33:07.543714-05:00 INFO shill[1353]: [INFO:service.cc(291)] Suppressed autoconnect to service 0 (no endpoints)
+2021-02-24T18:33:07.544442-05:00 INFO shill[1353]: [INFO:power_manager.cc(171)] OnPowerManagerAppeared
+2021-02-24T18:33:07.544542-05:00 INFO shill[1353]: [INFO:chromeos_power_manager_proxy.cc(174)] RegisterSuspendDelayInternal(19500, dark=false)
+2021-02-24T18:33:07.545993-05:00 INFO shill[1353]: [INFO:chromeos_power_manager_proxy.cc(174)] RegisterSuspendDelayInternal(19500, dark=true)
+2021-02-24T18:33:07.547327-05:00 INFO shill[1353]: [INFO:wifi.cc(2491)] WPA supplicant appeared.
+2021-02-24T18:33:07.547495-05:00 INFO shill[1353]: [INFO:wifi.cc(2573)] wlan0: enabled supplicant: present proxy: null
+2021-02-24T18:33:07.847368-05:00 INFO shill[1353]: [INFO:wifi.cc(2621)] connected to supplicant on attempt 1
+2021-02-24T18:33:07.857926-05:00 INFO shill[1353]: [INFO:wifi.cc(319)] Scan on wlan0 from ConnectToSupplicant
+2021-02-24T18:33:10.687296-05:00 INFO shill[1353]: [INFO:service.cc(269)] wifi service 3 constructed.
+2021-02-24T18:33:10.687411-05:00 INFO shill[1353]: [INFO:wifi_service.cc(173)] Constructed WiFi service 3 name: [SSID=ChamplainPSK]
+2021-02-24T18:33:10.687486-05:00 INFO shill[1353]: [INFO:wifi_service.cc(771)] Rep ep updated for 3. [SSID=ChamplainPSK], bssid: c8:b5:ad:d2:ef:92, sig: -50, sec: rsn, freq: 5765
+2021-02-24T18:33:10.695947-05:00 INFO shill[1353]: [INFO:wifi.cc(389)] ScanDone
+2021-02-24T18:33:10.698546-05:00 INFO ModemManager[1651]: <info>  ModemManager (version 1.11.0) starting in system bus...
+2021-02-24T18:33:10.699481-05:00 INFO shill[1353]: [INFO:service.cc(291)] Suppressed autoconnect to service 0 (no endpoints)
+2021-02-24T18:33:10.700077-05:00 INFO shill[1353]: [INFO:service.cc(269)] wifi service 4 constructed.
+2021-02-24T18:33:10.700396-05:00 INFO shill[1353]: [INFO:wifi_service.cc(173)] Constructed WiFi service 4 name: [SSID=eduroam]
+2021-02-24T18:33:10.701147-05:00 INFO shill[1353]: [INFO:wifi_service.cc(771)] Rep ep updated for 4. [SSID=eduroam], bssid: c8:b5:ad:d2:ef:93, sig: -50, sec: 802_1x, freq: 5765
+2021-02-24T18:33:10.707173-05:00 INFO shill[1353]: [INFO:service.cc(269)] wifi service 5 constructed.
+2021-02-24T18:33:10.707521-05:00 INFO shill[1353]: [INFO:wifi_service.cc(173)] Constructed WiFi service 5 name: [SSID=Champlain]
+2021-02-24T18:33:10.708717-05:00 INFO shill[1353]: [INFO:wifi_service.cc(771)] Rep ep updated for 5. [SSID=Champlain], bssid: c8:b5:ad:d2:ef:94, sig: -50, sec: 802_1x, freq: 5765
+2021-02-24T18:33:10.731720-05:00 INFO shill[1353]: [INFO:service.cc(269)] wifi service 6 constructed.
+2021-02-24T18:33:10.732769-05:00 INFO shill[1353]: [INFO:wifi_service.cc(173)] Constructed WiFi service 6 name: [SSID=DIRECT-r9-FireTV_ee16]
+2021-02-24T18:33:10.734092-05:00 INFO shill[1353]: [INFO:wifi_service.cc(771)] Rep ep updated for 6. [SSID=DIRECT-r9-FireTV_ee16], bssid: 42:a2:db:20:be:09, sig: -73, sec: rsn, freq: 5745
+2021-02-24T18:33:10.785562-05:00 INFO shill[1353]: [INFO:service.cc(269)] wifi service 7 constructed.
+2021-02-24T18:33:10.788301-05:00 INFO shill[1353]: [INFO:wifi_service.cc(173)] Constructed WiFi service 7 name: [SSID=DIRECT-D5-HP DeskJet 3630 series]
+2021-02-24T18:33:10.789863-05:00 INFO shill[1353]: [INFO:wifi_service.cc(771)] Rep ep updated for 7. [SSID=DIRECT-D5-HP DeskJet 3630 series], bssid: 48:ba:4e:74:46:d6, sig: -79, sec: rsn, freq: 2437
+2021-02-24T18:33:10.809058-05:00 INFO shill[1353]: [INFO:service.cc(269)] wifi service 8 constructed.
+2021-02-24T18:33:10.809876-05:00 INFO shill[1353]: [INFO:wifi_service.cc(173)] Constructed WiFi service 8 name: [SSID=ChamplainGuest]
+2021-02-24T18:33:10.810975-05:00 INFO shill[1353]: [INFO:wifi_service.cc(771)] Rep ep updated for 8. [SSID=ChamplainGuest], bssid: c8:b5:ad:d2:ef:95, sig: -50, sec: none, freq: 5765
+2021-02-24T18:33:10.816013-05:00 INFO shill[1353]: [INFO:wifi.cc(1798)] WiFi wlan0 StateChanged shill-unknown -> inactive
+2021-02-24T18:33:10.827131-05:00 INFO shill[1353]: [INFO:service.cc(291)] Suppressed autoconnect to service 0 (no endpoints)
+2021-02-24T18:33:10.828421-05:00 INFO shill[1353]: [INFO:chromeos_dbus_objectmanager_proxy.cc(94)] OnServiceOwnerChanged old:  new: :1.16
+2021-02-24T18:33:10.828547-05:00 INFO shill[1353]: [INFO:chromeos_dbus_objectmanager_proxy.cc(80)] OnServiceAvailable: 1
+2021-02-24T18:33:10.828622-05:00 INFO shill[1353]: [INFO:chromeos_dbus_objectmanager_proxy.cc(80)] OnServiceAvailable: 1
+2021-02-24T18:33:10.828700-05:00 INFO shill[1353]: [INFO:modem_manager.cc(44)] Modem manager org.freedesktop.ModemManager1 appeared.
+2021-02-24T18:33:10.828774-05:00 INFO shill[1353]: [INFO:modem_manager.cc(44)] Modem manager org.freedesktop.ModemManager1 appeared.
+2021-02-24T18:33:13.332604-05:00 INFO ModemManager[1651]: <info>  Couldn't check support for device '/sys/devices/pci0000:00/0000:00:1c.0/0000:01:00.0': not supported by any plugin
+2021-02-24T18:33:13.741326-05:00 INFO shill[1353]: [INFO:wifi.cc(319)] Scan on wlan0 from RequestScan
+2021-02-24T18:33:16.269253-05:00 INFO shill[1353]: [INFO:wifi.cc(389)] ScanDone
+2021-02-24T18:33:23.742883-05:00 INFO shill[1353]: [INFO:wifi.cc(319)] Scan on wlan0 from RequestScan
+2021-02-24T18:33:26.276988-05:00 INFO shill[1353]: [INFO:service.cc(269)] wifi service 9 constructed.
+2021-02-24T18:33:26.277133-05:00 INFO shill[1353]: [INFO:wifi_service.cc(173)] Constructed WiFi service 9 name: [SSID=CoughlinWIFI]
+2021-02-24T18:33:26.277245-05:00 INFO shill[1353]: [INFO:wifi_service.cc(771)] Rep ep updated for 9. [SSID=CoughlinWIFI], bssid: b0:da:f9:9b:38:18, sig: -82, sec: rsn, freq: 2462
+2021-02-24T18:33:26.279154-05:00 INFO shill[1353]: [INFO:service.cc(269)] wifi service 10 constructed.
+2021-02-24T18:33:26.279271-05:00 INFO shill[1353]: [INFO:wifi_service.cc(173)] Constructed WiFi service 10 name: [SSID=HAL9000]
+2021-02-24T18:33:26.279346-05:00 INFO shill[1353]: [INFO:wifi_service.cc(771)] Rep ep updated for 10. [SSID=HAL9000], bssid: c0:ff:d4:8e:82:5c, sig: -88, sec: rsn, freq: 2442
+2021-02-24T18:33:26.281678-05:00 INFO shill[1353]: [INFO:wifi.cc(389)] ScanDone
+2021-02-24T18:33:26.282518-05:00 INFO shill[1353]: [INFO:service.cc(291)] Suppressed autoconnect to service 0 (no endpoints)
+2021-02-24T18:33:26.286743-05:00 INFO shill[1353]: [INFO:service.cc(291)] Suppressed autoconnect to service 0 (no endpoints)
+2021-02-24T18:33:33.745117-05:00 INFO shill[1353]: [INFO:wifi.cc(319)] Scan on wlan0 from RequestScan
+2021-02-24T18:33:36.294064-05:00 INFO shill[1353]: [INFO:wifi.cc(389)] ScanDone
+2021-02-24T18:33:36.295588-05:00 INFO shill[1353]: [INFO:service.cc(291)] Suppressed autoconnect to service 0 (no endpoints)
+2021-02-24T18:33:36.307475-05:00 INFO shill[1353]: [INFO:service.cc(291)] Suppressed autoconnect to service 0 (no endpoints)
+2021-02-24T18:33:43.743976-05:00 INFO shill[1353]: [INFO:wifi.cc(319)] Scan on wlan0 from RequestScan
+2021-02-24T18:33:46.274357-05:00 INFO shill[1353]: [INFO:wifi.cc(389)] ScanDone
+2021-02-24T18:33:46.274502-05:00 INFO shill[1353]: [INFO:service.cc(275)] Service 9 destroyed.
+2021-02-24T18:33:46.275057-05:00 INFO shill[1353]: [INFO:service.cc(275)] Service 10 destroyed.
+2021-02-24T18:33:46.275436-05:00 INFO shill[1353]: [INFO:service.cc(291)] Suppressed autoconnect to service 0 (no endpoints)
+2021-02-24T18:33:53.743892-05:00 INFO shill[1353]: [INFO:wifi.cc(319)] Scan on wlan0 from RequestScan
+2021-02-24T18:33:56.181430-05:00 INFO shill[1353]: [INFO:wifi_service.cc(771)] Rep ep updated for 0. [SSID=NETGEAR-345], bssid: 16:f6:d8:42:43:7a, sig: -53, sec: rsn, freq: 2437
+2021-02-24T18:33:56.191368-05:00 INFO shill[1353]: [INFO:wifi.cc(389)] ScanDone
+2021-02-24T18:33:56.192020-05:00 INFO shill[1353]: [INFO:service.cc(282)] Auto-connecting to service 0
+2021-02-24T18:33:56.192106-05:00 INFO shill[1353]: [INFO:service.cc(298)] Connect to service 0: AutoConnect
+2021-02-24T18:33:56.192207-05:00 INFO shill[1353]: [INFO:wifi.cc(670)] Background scan disabled -- single Endpoint for Service.
+2021-02-24T18:33:56.207744-05:00 INFO shill[1353]: [INFO:service.cc(401)] Service 0: state Idle -> Associating
+2021-02-24T18:33:56.207871-05:00 INFO shill[1353]: [INFO:manager.cc(1480)] Service 0 updated; state: Associating
+2021-02-24T18:33:56.209448-05:00 NOTICE wpa_supplicant[603]: wlan0: SME: Trying to authenticate with 16:f6:d8:42:43:7a (SSID='NETGEAR-345' freq=2437 MHz)
+2021-02-24T18:33:56.214784-05:00 INFO shill[1353]: [INFO:service.cc(269)] wifi service 11 constructed.
+2021-02-24T18:33:56.214941-05:00 INFO shill[1353]: [INFO:wifi_service.cc(173)] Constructed WiFi service 11 name: [SSID=XFINITY]
+2021-02-24T18:33:56.215033-05:00 INFO shill[1353]: [INFO:wifi_service.cc(771)] Rep ep updated for 11. [SSID=XFINITY], bssid: e2:da:f9:9b:38:19, sig: -90, sec: 802_1x, freq: 5180
+2021-02-24T18:33:56.216895-05:00 INFO shill[1353]: [INFO:service.cc(269)] wifi service 12 constructed.
+2021-02-24T18:33:56.217031-05:00 INFO shill[1353]: [INFO:wifi_service.cc(173)] Constructed WiFi service 12 name: [SSID=CoughlinWIFI]
+2021-02-24T18:33:56.217263-05:00 INFO shill[1353]: [INFO:wifi_service.cc(771)] Rep ep updated for 12. [SSID=CoughlinWIFI], bssid: b0:da:f9:9b:38:18, sig: -86, sec: rsn, freq: 2462
+2021-02-24T18:33:56.219189-05:00 INFO shill[1353]: [INFO:service.cc(269)] wifi service 13 constructed.
+2021-02-24T18:33:56.219293-05:00 INFO shill[1353]: [INFO:wifi_service.cc(173)] Constructed WiFi service 13 name: [SSID=pizzapirate]
+2021-02-24T18:33:56.219510-05:00 INFO shill[1353]: [INFO:wifi_service.cc(771)] Rep ep updated for 13. [SSID=pizzapirate], bssid: 70:4d:7b:e3:d4:c8, sig: -89, sec: rsn, freq: 2432
+2021-02-24T18:33:56.221867-05:00 INFO shill[1353]: [INFO:wifi_service.cc(771)] Rep ep updated for 3. [SSID=ChamplainPSK], bssid: 38:17:c3:6b:8d:d2, sig: -63, sec: rsn, freq: 5240
+2021-02-24T18:33:56.226545-05:00 INFO shill[1353]: [INFO:wifi_service.cc(771)] Rep ep updated for 4. [SSID=eduroam], bssid: 38:17:c3:6b:8d:d3, sig: -63, sec: 802_1x, freq: 5240
+2021-02-24T18:33:56.226633-05:00 INFO shill[1353]: [INFO:wifi_service.cc(771)] Rep ep updated for 5. [SSID=Champlain], bssid: 38:17:c3:6b:8d:d4, sig: -63, sec: 802_1x, freq: 5240
+2021-02-24T18:33:56.226707-05:00 INFO shill[1353]: [INFO:wifi_service.cc(771)] Rep ep updated for 8. [SSID=ChamplainGuest], bssid: 38:17:c3:6b:8d:d5, sig: -63, sec: none, freq: 5240
+2021-02-24T18:33:56.226781-05:00 INFO shill[1353]: [INFO:wifi_service.cc(771)] Rep ep updated for 8. [SSID=ChamplainGuest], bssid: 38:17:c3:6b:ae:b5, sig: -80, sec: none, freq: 5200
+2021-02-24T18:33:56.226855-05:00 INFO shill[1353]: [INFO:service.cc(291)] Suppressed autoconnect to service 0 (connecting)
+2021-02-24T18:33:56.236648-05:00 INFO shill[1353]: [INFO:wifi.cc(1798)] WiFi wlan0 StateChanged inactive -> authenticating
+2021-02-24T18:33:56.239728-05:00 NOTICE wpa_supplicant[603]: wlan0: Trying to associate with 16:f6:d8:42:43:7a (SSID='NETGEAR-345' freq=2437 MHz)
+2021-02-24T18:33:56.240863-05:00 INFO shill[1353]: [INFO:wifi.cc(1798)] WiFi wlan0 StateChanged authenticating -> associating
+2021-02-24T18:33:56.249987-05:00 NOTICE wpa_supplicant[603]: wlan0: Associated with 16:f6:d8:42:43:7a
+2021-02-24T18:33:56.251790-05:00 NOTICE wpa_supplicant[603]: wlan0: CTRL-EVENT-SUBNET-STATUS-UPDATE status=0
+2021-02-24T18:33:56.332646-05:00 NOTICE wpa_supplicant[603]: wlan0: WPA: Key negotiation completed with 16:f6:d8:42:43:7a [PTK=CCMP GTK=CCMP]
+2021-02-24T18:33:56.332770-05:00 NOTICE wpa_supplicant[603]: wlan0: CTRL-EVENT-CONNECTED - Connection to 16:f6:d8:42:43:7a completed [id=0 id_str=]
+2021-02-24T18:33:56.333801-05:00 INFO shill[1353]: [INFO:wifi.cc(1798)] WiFi wlan0 StateChanged associating -> 4way_handshake
+2021-02-24T18:33:56.334129-05:00 INFO shill[1353]: [INFO:wifi.cc(1798)] WiFi wlan0 StateChanged 4way_handshake -> completed
+2021-02-24T18:33:56.361815-05:00 INFO shill[1353]: [INFO:dhcp_config.cc(187)] Spawned /sbin/dhcpcd with pid: 2715
+2021-02-24T18:33:56.361957-05:00 INFO shill[1353]: [INFO:wifi.cc(1853)] wlan0 is up; started L3 configuration.
+2021-02-24T18:33:56.362049-05:00 INFO shill[1353]: [INFO:service.cc(401)] Service 0: state Associating -> Configuring
+2021-02-24T18:33:56.362124-05:00 INFO shill[1353]: [INFO:manager.cc(1480)] Service 0 updated; state: Configuring
+2021-02-24T18:33:56.363437-05:00 INFO shill[1353]: [INFO:service.cc(291)] Suppressed autoconnect to service 0 (connecting)
+2021-02-24T18:33:56.372338-05:00 NOTICE dhcpcd[2715]: dhcpcd is running with reduced privileges
+2021-02-24T18:33:56.374881-05:00 INFO dhcpcd[2715]: status changed to Init
+2021-02-24T18:33:56.375330-05:00 INFO shill[1353]: [INFO:dhcp_config.cc(134)] Init DHCP Proxy: wlan0 at :1.38
+2021-02-24T18:33:57.236401-05:00 INFO dhcpcd[2715]: status changed to Reboot
+2021-02-24T18:33:57.240618-05:00 INFO dhcpcd[2715]: wlan0: ARP probing 192.168.137.1 (1 of 3), next in 1.5 seconds
+2021-02-24T18:33:57.240761-05:00 INFO dhcpcd[2715]: wlan0: rebinding lease of 192.168.137.253
+2021-02-24T18:33:57.240840-05:00 INFO dhcpcd[2715]: wlan0: sending REQUEST (xid 0xa310333a), next in 3.6 seconds
+2021-02-24T18:33:57.270661-05:00 INFO dhcpcd[2715]: wlan0: received ACK with xid 0xa310333a
+2021-02-24T18:33:57.270802-05:00 INFO dhcpcd[2715]: wlan0: acknowledged 192.168.137.253 from 192.168.137.1
+2021-02-24T18:33:57.270875-05:00 INFO dhcpcd[2715]: wlan0: ARP probing 192.168.137.1 (1 of 3), next in 1.4 seconds
+2021-02-24T18:33:57.270991-05:00 INFO dhcpcd[2715]: status changed to ArpGateway
+2021-02-24T18:33:57.278259-05:00 INFO dhcpcd[2715]: wlan0: leased 192.168.137.253 for 604800 seconds
+2021-02-24T18:33:57.278432-05:00 INFO dhcpcd[2715]: event REBOOT on interface wlan0
+2021-02-24T18:33:57.278702-05:00 INFO dhcpcd[2715]: status changed to Bound
+2021-02-24T18:33:57.279621-05:00 INFO shill[1353]: [INFO:dhcpv4_config.cc(111)] Event reason: REBOOT
+2021-02-24T18:33:57.279741-05:00 INFO shill[1353]: [INFO:connection.cc(243)] UpdateFromIPConfig: Installing with parameters: local=192.168.137.253 broadcast=192.168.137.255 peer=<unknown> gateway=192.168.137.1
+2021-02-24T18:33:57.283226-05:00 INFO shill[1353]: [INFO:service.cc(401)] Service 0: state Configuring -> Connected
+2021-02-24T18:33:57.303121-05:00 INFO shill[1353]: [INFO:manager.cc(1480)] Service 0 updated; state: Connected
+2021-02-24T18:33:57.326681-05:00 INFO shill[1353]: [INFO:wifi.cc(2677)] Enabling high bitrates.
+2021-02-24T18:33:57.341158-05:00 INFO shill[1353]: [INFO:wifi_service.cc(771)] Rep ep updated for 0. [SSID=NETGEAR-345], bssid: 16:f6:d8:42:43:7a, sig: -33, sec: rsn, freq: 2437
+2021-02-24T18:33:57.342647-05:00 INFO shill[1353]: [INFO:manager.cc(1629)] Default physical service: 0 (connected)
+2021-02-24T18:33:57.674151-05:00 INFO shill[1353]: [INFO:http_transport_curl.cc(489)] Response: 204 (No Content)
+2021-02-24T18:33:57.876988-05:00 INFO shill[1353]: [INFO:http_transport_curl.cc(489)] Response: 204 (No Content)
+2021-02-24T18:33:57.877235-05:00 INFO shill[1353]: [INFO:portal_detector.cc(285)] wlan0 HTTPS probe succeeded, probably no portal, attempt count==1
+2021-02-24T18:33:57.877402-05:00 INFO shill[1353]: [INFO:portal_detector.cc(321)] wlan0 Portal detection completed attempt 1 with phase==Content, status==Success
+2021-02-24T18:33:57.877588-05:00 INFO shill[1353]: [INFO:service.cc(401)] Service 0: state Connected -> Online
+2021-02-24T18:33:57.877743-05:00 INFO shill[1353]: [INFO:manager.cc(1480)] Service 0 updated; state: Online
+2021-02-24T18:34:03.742267-05:00 INFO shill[1353]: [INFO:wifi.cc(319)] Scan on wlan0 from RequestScan
+2021-02-24T18:34:06.994849-05:00 INFO shill[1353]: [INFO:wifi.cc(389)] ScanDone
+2021-02-24T18:34:07.867560-05:00 INFO shill[1353]: [INFO:manager.cc(545)] PushProfileInternal finished; 2 profile(s) now present.
+2021-02-24T18:34:08.311341-05:00 INFO shill[1353]: [INFO:wifi.cc(319)] Scan on wlan0 from RequestScan
+2021-02-24T18:34:11.608427-05:00 INFO shill[1353]: [INFO:wifi.cc(389)] ScanDone
+2021-02-24T18:34:11.608563-05:00 INFO shill[1353]: [INFO:wifi_service.cc(771)] Rep ep updated for 4. [SSID=eduroam], bssid: c8:b5:ad:d2:f2:73, sig: -86, sec: 802_1x, freq: 5200
+2021-02-24T18:34:11.608681-05:00 INFO shill[1353]: [INFO:wifi_service.cc(771)] Rep ep updated for 5. [SSID=Champlain], bssid: c8:b5:ad:d2:f2:74, sig: -88, sec: 802_1x, freq: 5200
+2021-02-24T18:34:11.614684-05:00 INFO shill[1353]: [INFO:service.cc(275)] Service 11 destroyed.
+2021-02-24T18:34:11.614813-05:00 INFO shill[1353]: [INFO:service.cc(275)] Service 12 destroyed.
+2021-02-24T18:34:11.615091-05:00 INFO shill[1353]: [INFO:service.cc(275)] Service 13 destroyed.
+2021-02-24T18:37:06.516186-05:00 INFO shill[1353]: [INFO:service.cc(275)] Service 7 destroyed.
+2021-02-24T18:37:16.525576-05:00 INFO shill[1353]: [INFO:service.cc(275)] Service 6 destroyed.
+2021-02-24T18:37:16.525746-05:00 INFO shill[1353]: [INFO:service.cc(275)] Service 3 destroyed.
+2021-02-24T18:37:16.525863-05:00 INFO shill[1353]: [INFO:service.cc(275)] Service 4 destroyed.
+2021-02-24T18:37:16.525941-05:00 INFO shill[1353]: [INFO:service.cc(275)] Service 5 destroyed.
+2021-02-24T18:37:16.526044-05:00 INFO shill[1353]: [INFO:service.cc(275)] Service 8 destroyed.

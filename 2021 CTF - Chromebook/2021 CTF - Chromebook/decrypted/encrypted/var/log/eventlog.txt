@@ -1,0 +1,209 @@
+0 | 2021-02-21 16:42:35 | Chrome OS Recovery Mode | Legacy Utility | 0x01
+1 | 2021-02-21 16:49:47 | System boot | 34
+2 | 2021-02-21 16:49:47 | SUS Power Fail
+3 | 2021-02-21 16:49:47 | Power Button Override
+4 | 2021-02-21 16:49:47 | Wake Source | Power Button | 0
+5 | 2021-02-21 16:49:48 | Chrome OS Recovery Mode | Legacy Utility | 0x01
+6 | 2021-02-21 17:02:54 | Kernel Event | Clean Shutdown
+7 | 2021-02-21 17:02:54 | System boot | 35
+8 | 2021-02-21 17:02:54 | System Reset
+9 | 2021-02-21 17:08:43 | Kernel Event | Clean Shutdown
+10 | 2021-02-21 17:08:43 | ACPI Enter | S5
+11 | 2021-02-21 21:34:53 | System boot | 36
+12 | 2021-02-21 21:34:53 | SUS Power Fail
+13 | 2021-02-21 21:34:53 | Wake Source | Power Button | 0
+14 | 2021-02-21 21:35:12 | Kernel Event | Clean Shutdown
+15 | 2021-02-21 21:35:12 | ACPI Enter | S5
+16 | 2021-02-21 21:35:36 | System boot | 37
+17 | 2021-02-21 21:35:36 | SUS Power Fail
+18 | 2021-02-21 21:35:36 | Wake Source | Power Button | 0
+19 | 2021-02-21 21:35:37 | Chrome OS Recovery Mode | Recovery Button Pressed | 0x02
+20 | 2021-02-21 21:40:46 | Kernel Event | Clean Shutdown
+21 | 2021-02-21 21:40:47 | System boot | 38
+22 | 2021-02-21 21:40:47 | System Reset
+23 | 2021-02-21 21:41:04 | Kernel Event | Clean Shutdown
+24 | 2021-02-21 21:41:07 | System boot | 39
+25 | 2021-02-21 21:41:07 | SUS Power Fail
+26 | 2021-02-21 21:41:07 | Wake Source | Power Button | 0
+27 | 2021-02-21 21:41:08 | Chrome OS Recovery Mode | Legacy Utility | 0x01
+28 | 2021-02-21 21:41:35 | Power Button
+29 | 2021-02-21 21:41:35 | ACPI Enter | S5
+30 | 2021-02-21 21:41:53 | System boot | 40
+31 | 2021-02-21 21:41:53 | SUS Power Fail
+32 | 2021-02-21 21:41:53 | Wake Source | Power Button | 0
+33 | 2021-02-21 21:41:55 | Chrome OS Recovery Mode | Recovery Button Pressed | 0x02
+34 | 2021-02-21 21:59:15 | System boot | 41
+35 | 2021-02-21 21:59:15 | Power Button Override
+36 | 2021-02-21 21:59:15 | Wake Source | Power Button | 0
+37 | 2021-02-21 21:59:16 | Chrome OS Recovery Mode | Legacy Utility | 0x01
+38 | 2021-02-21 22:03:53 | System boot | 42
+39 | 2021-02-21 22:03:53 | Power Button Override
+40 | 2021-02-21 22:03:53 | Wake Source | Power Button | 0
+41 | 2021-02-21 22:03:54 | Chrome OS Recovery Mode | Legacy Utility | 0x01
+42 | 2021-02-21 22:04:03 | EC Event | Lid Closed
+43 | 2021-02-21 22:04:03 | ACPI Enter | S5
+44 | 2021-02-22 05:27:55 | System boot | 43
+45 | 2021-02-22 05:27:55 | SUS Power Fail
+46 | 2021-02-22 05:27:55 | Wake Source | Power Button | 0
+47 | 2021-02-22 05:28:15 | Kernel Event | Clean Shutdown
+48 | 2021-02-22 05:28:18 | System boot | 44
+49 | 2021-02-22 05:28:18 | SUS Power Fail
+50 | 2021-02-22 05:28:18 | Wake Source | Power Button | 0
+51 | 2021-02-22 05:28:19 | Chrome OS Recovery Mode | Legacy Utility | 0x01
+52 | 2021-02-22 05:29:26 | Power Button
+53 | 2021-02-22 05:29:26 | ACPI Enter | S5
+54 | 2021-02-22 05:29:31 | System boot | 45
+55 | 2021-02-22 05:29:31 | ACPI Wake | S5
+56 | 2021-02-22 05:29:31 | Wake Source | Power Button | 0
+57 | 2021-02-22 05:29:51 | Kernel Event | Clean Shutdown
+58 | 2021-02-22 05:29:53 | System boot | 46
+59 | 2021-02-22 05:29:53 | SUS Power Fail
+60 | 2021-02-22 05:29:53 | Wake Source | Power Button | 0
+61 | 2021-02-22 05:29:56 | Chrome OS Recovery Mode | Legacy Utility | 0x01
+62 | 2021-02-22 05:39:43 | Kernel Event | Clean Shutdown
+63 | 2021-02-22 05:39:43 | System boot | 47
+64 | 2021-02-22 05:39:43 | System Reset
+65 | 2021-02-22 05:43:21 | Kernel Event | Clean Shutdown
+66 | 2021-02-22 05:43:21 | ACPI Enter | S5
+67 | 2021-02-22 06:57:18 | System boot | 48
+68 | 2021-02-22 06:57:18 | SUS Power Fail
+69 | 2021-02-22 06:57:18 | Wake Source | Power Button | 0
+70 | 2021-02-22 06:57:47 | Kernel Event | Clean Shutdown
+71 | 2021-02-22 06:57:48 | ACPI Enter | S5
+72 | 2021-02-22 06:57:52 | System boot | 49
+73 | 2021-02-22 06:57:52 | SUS Power Fail
+74 | 2021-02-22 06:57:52 | Wake Source | Power Button | 0
+75 | 2021-02-22 06:57:53 | Chrome OS Recovery Mode | Recovery Button Pressed | 0x02
+76 | 2021-02-22 07:04:15 | Kernel Event | Clean Shutdown
+77 | 2021-02-22 07:04:16 | System boot | 50
+78 | 2021-02-22 07:04:16 | System Reset
+79 | 2021-02-22 07:04:34 | Kernel Event | Clean Shutdown
+80 | 2021-02-22 07:04:37 | System boot | 51
+81 | 2021-02-22 07:04:37 | SUS Power Fail
+82 | 2021-02-22 07:04:37 | Wake Source | Power Button | 0
+83 | 2021-02-22 07:04:38 | Chrome OS Recovery Mode | Legacy Utility | 0x01
+84 | 2021-02-24 18:33:03 | System boot | 52
+85 | 2021-02-24 18:33:03 | SUS Power Fail
+86 | 2021-02-24 18:33:03 | Power Button Override
+87 | 2021-02-24 18:33:03 | Wake Source | Power Button | 0
+88 | 2021-02-24 18:33:03 | Log area cleared | 1026
+89 | 2021-02-24 18:51:18 | Kernel Event | Clean Shutdown
+90 | 2021-02-24 18:51:18 | ACPI Enter | S5
+91 | 2021-02-28 01:18:59 | System boot | 53
+92 | 2021-02-28 01:18:59 | SUS Power Fail
+93 | 2021-02-28 01:18:59 | Wake Source | Power Button | 0
+94 | 2021-02-28 01:39:38 | Kernel Event | Clean Shutdown
+95 | 2021-02-28 01:39:38 | ACPI Enter | S5
+96 | 2021-03-01 00:56:46 | System boot | 54
+97 | 2021-03-01 00:56:46 | SUS Power Fail
+98 | 2021-03-01 00:56:46 | Wake Source | Power Button | 0
+99 | 2021-03-01 01:06:55 | Kernel Event | Clean Shutdown
+100 | 2021-03-01 01:06:55 | ACPI Enter | S5
+101 | 2021-03-04 03:02:16 | System boot | 55
+102 | 2021-03-04 03:02:16 | SUS Power Fail
+103 | 2021-03-04 03:02:16 | Wake Source | Power Button | 0
+104 | 2021-03-04 03:31:11 | Kernel Event | Clean Shutdown
+105 | 2021-03-04 03:31:11 | ACPI Enter | S5
+106 | 2021-03-08 18:50:00 | System boot | 56
+107 | 2021-03-08 18:50:00 | SUS Power Fail
+108 | 2021-03-08 18:50:00 | Wake Source | Power Button | 0
+109 | 2021-03-08 19:11:43 | Kernel Event | Clean Shutdown
+110 | 2021-03-08 19:11:43 | ACPI Enter | S5
+111 | 2021-03-08 19:13:55 | System boot | 57
+112 | 2021-03-08 19:13:55 | SUS Power Fail
+113 | 2021-03-08 19:13:55 | Wake Source | Power Button | 0
+114 | 2021-03-08 19:20:18 | Kernel Event | Clean Shutdown
+115 | 2021-03-08 19:20:18 | ACPI Enter | S5
+116 | 2021-03-08 21:52:34 | System boot | 58
+117 | 2021-03-08 21:52:34 | SUS Power Fail
+118 | 2021-03-08 21:52:34 | Wake Source | Power Button | 0
+119 | 2021-03-08 21:52:50 | Kernel Event | Clean Shutdown
+120 | 2021-03-08 21:52:50 | ACPI Enter | S5
+121 | 2021-03-08 21:53:00 | System boot | 59
+122 | 2021-03-08 21:53:00 | SUS Power Fail
+123 | 2021-03-08 21:53:00 | Wake Source | Power Button | 0
+124 | 2021-03-08 21:53:01 | Chrome OS Recovery Mode | Recovery Button Pressed | 0x02
+125 | 2021-03-08 21:59:24 | Kernel Event | Clean Shutdown
+126 | 2021-03-08 21:59:24 | System boot | 60
+127 | 2021-03-08 21:59:24 | System Reset
+128 | 2021-03-08 22:00:29 | Kernel Event | Clean Shutdown
+129 | 2021-03-08 22:00:32 | System boot | 61
+130 | 2021-03-08 22:00:32 | SUS Power Fail
+131 | 2021-03-08 22:00:32 | Wake Source | Power Button | 0
+132 | 2021-03-08 22:00:33 | Chrome OS Recovery Mode | Legacy Utility | 0x01
+133 | 2021-03-08 22:08:43 | System boot | 62
+134 | 2021-03-08 22:08:43 | SUS Power Fail
+135 | 2021-03-08 22:08:43 | Power Button Override
+136 | 2021-03-08 22:08:43 | Wake Source | Power Button | 0
+137 | 2021-03-08 22:08:45 | Chrome OS Recovery Mode | Recovery Button Pressed | 0x02
+138 | 2021-03-08 23:55:14 | System boot | 63
+139 | 2021-03-08 23:55:14 | SUS Power Fail
+140 | 2021-03-08 23:55:14 | Power Button Override
+141 | 2021-03-08 23:55:14 | Wake Source | Power Button | 0
+142 | 2021-03-08 23:55:25 | Kernel Event | Clean Shutdown
+143 | 2021-03-08 23:55:25 | ACPI Enter | S5
+144 | 2021-03-09 10:38:16 | System boot | 64
+145 | 2021-03-09 10:38:16 | SUS Power Fail
+146 | 2021-03-09 10:38:16 | Wake Source | Power Button | 0
+147 | 2021-03-09 10:38:40 | System boot | 65
+148 | 2021-03-09 10:38:40 | SUS Power Fail
+149 | 2021-03-09 10:38:40 | Wake Source | Power Button | 0
+150 | 2021-03-09 10:38:41 | Chrome OS Recovery Mode | Recovery Button Pressed | 0x02
+151 | 2021-04-04 22:51:48 | System boot | 66
+152 | 2021-04-04 22:51:48 | SUS Power Fail
+153 | 2021-04-04 22:51:48 | Power Button Override
+154 | 2021-04-04 22:51:48 | Wake Source | Power Button | 0
+155 | 2021-04-04 22:52:58 | Kernel Event | Clean Shutdown
+156 | 2021-04-04 22:52:58 | ACPI Enter | S5
+157 | 2021-04-05 01:08:41 | System boot | 67
+158 | 2021-04-05 01:08:41 | SUS Power Fail
+159 | 2021-04-05 01:08:41 | Wake Source | Power Button | 0
+160 | 2021-04-05 01:08:59 | Kernel Event | Clean Shutdown
+161 | 2021-04-05 01:08:59 | ACPI Enter | S5
+162 | 2021-04-05 01:09:14 | System boot | 68
+163 | 2021-04-05 01:09:14 | SUS Power Fail
+164 | 2021-04-05 01:09:14 | Wake Source | Power Button | 0
+165 | 2021-04-05 01:09:15 | Chrome OS Recovery Mode | Recovery Button Pressed | 0x02
+166 | 2021-04-05 01:15:39 | Kernel Event | Clean Shutdown
+167 | 2021-04-05 01:15:39 | System boot | 69
+168 | 2021-04-05 01:15:39 | System Reset
+169 | 2021-04-05 01:15:50 | Kernel Event | Clean Shutdown
+170 | 2021-04-05 01:15:53 | System boot | 70
+171 | 2021-04-05 01:15:53 | SUS Power Fail
+172 | 2021-04-05 01:15:53 | Wake Source | Power Button | 0
+173 | 2021-04-05 01:15:55 | Chrome OS Recovery Mode | Legacy Utility | 0x01
+174 | 2021-04-05 01:16:18 | Power Button
+175 | 2021-04-05 01:16:18 | ACPI Enter | S5
+176 | 2021-04-05 01:16:26 | System boot | 71
+177 | 2021-04-05 01:16:26 | Log area cleared | 1035
+178 | 2021-04-05 01:16:26 | SUS Power Fail
+179 | 2021-04-05 01:16:26 | Wake Source | Power Button | 0
+180 | 2021-04-05 01:16:27 | Chrome OS Recovery Mode | Recovery Button Pressed | 0x02
+181 | 2021-04-05 01:36:12 | System boot | 72
+182 | 2021-04-05 01:36:12 | SUS Power Fail
+183 | 2021-04-05 01:36:12 | Wake Source | Power Button | 0
+184 | 2021-04-05 01:36:13 | Chrome OS Recovery Mode | Recovery Button Pressed | 0x02
+185 | 2021-04-05 01:36:19 | Power Button
+186 | 2021-04-05 01:36:19 | ACPI Enter | S5
+187 | 2021-04-05 01:36:30 | System boot | 73
+188 | 2021-04-05 01:36:30 | SUS Power Fail
+189 | 2021-04-05 01:36:30 | Wake Source | Power Button | 0
+190 | 2021-04-05 01:37:32 | Kernel Event | Clean Shutdown
+191 | 2021-04-05 01:37:32 | ACPI Enter | S5
+192 | 2021-04-05 03:40:59 | System boot | 74
+193 | 2021-04-05 03:40:59 | SUS Power Fail
+194 | 2021-04-05 03:40:59 | Wake Source | Power Button | 0
+195 | 2021-04-05 03:41:13 | Kernel Event | Clean Shutdown
+196 | 2021-04-05 03:41:13 | ACPI Enter | S5
+197 | 2021-04-05 03:41:21 | System boot | 75
+198 | 2021-04-05 03:41:21 | SUS Power Fail
+199 | 2021-04-05 03:41:21 | Wake Source | Power Button | 0
+200 | 2021-04-05 03:41:35 | Kernel Event | Clean Shutdown
+201 | 2021-04-05 03:41:35 | ACPI Enter | S5
+202 | 2021-04-05 03:41:39 | System boot | 76
+203 | 2021-04-05 03:41:39 | SUS Power Fail
+204 | 2021-04-05 03:41:39 | Wake Source | Power Button | 0
+205 | 2021-04-05 03:41:40 | Chrome OS Recovery Mode | Recovery Button Pressed | 0x02
+206 | 2021-04-05 03:48:36 | Kernel Event | Clean Shutdown
+207 | 2021-04-05 03:48:37 | System boot | 77
+208 | 2021-04-05 03:48:37 | System Reset

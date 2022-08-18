@@ -1,0 +1,12 @@
+2021/04/04-22:52:04.507 5ad Recovering log #20
+2021/04/04-22:52:04.517 5ad Level-0 table #22: started
+2021/04/04-22:52:04.535 5ad Level-0 table #22: 157 bytes OK
+2021/04/04-22:52:04.558 5ad Delete type=0 #20
+2021/04/04-22:52:04.559 5ad Delete type=3 #18
+2021/04/04-22:52:04.566 a59 Compacting 4@0 + 0@1 files
+2021/04/04-22:52:04.582 a59 Compacted 4@0 + 0@1 files => 0 bytes
+2021/04/04-22:52:04.590 a59 compacted to: files[ 0 0 0 0 0 0 0 ]
+2021/04/04-22:52:04.591 a59 Delete type=2 #19
+2021/04/04-22:52:04.591 a59 Delete type=2 #16
+2021/04/04-22:52:04.592 a59 Delete type=2 #11
+2021/04/04-22:52:04.592 a59 Delete type=2 #22

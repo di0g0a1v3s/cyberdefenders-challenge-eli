@@ -1,0 +1,129 @@
+{
+    "Extensions": [
+        {
+            "incognito_enabled": false,
+            "remote_install": false,
+            "disable_reasons": 0,
+            "installed_by_custodian": false,
+            "update_url": "https://clients2.google.com/service/update2/crx",
+            "name": "Dark Mode",
+            "id": "dmghijelimhndkbmpgbldicpogfkceaj",
+            "version": "0.4.1",
+            "enabled": true
+},
+        {
+            "incognito_enabled": false,
+            "remote_install": false,
+            "disable_reasons": 0,
+            "installed_by_custodian": false,
+            "update_url": "https://clients2.google.com/service/update2/crx",
+            "name": "Dark Reader",
+            "id": "eimadpbcbfnmbkopoojfekhnkhdbieeh",
+            "version": "4.9.29",
+            "enabled": true
+},
+        {
+            "incognito_enabled": false,
+            "remote_install": false,
+            "disable_reasons": 1,
+            "installed_by_custodian": false,
+            "update_url": "https://clients2.google.com/service/update2/crx",
+            "name": "Tabby Cat",
+            "id": "mefhakmgclhhfbdadeojlkbllmecialg",
+            "version": "2.0.0",
+            "enabled": false
+}
+    ],
+    "Extension Settings": [
+        {
+            "extension_id": "mefhakmgclhhfbdadeojlkbllmecialg",
+            "value": "[\"toy-Cake\"]",
+            "key": "collectedGoodies"
+},
+        {
+            "extension_id": "eimadpbcbfnmbkopoojfekhnkhdbieeh",
+            "value": "[]",
+            "key": "presets"
+},
+        {
+            "extension_id": "eimadpbcbfnmbkopoojfekhnkhdbieeh",
+            "value": "false",
+            "key": "enableForProtectedPages"
+},
+        {
+            "extension_id": "eimadpbcbfnmbkopoojfekhnkhdbieeh",
+            "value": "false",
+            "key": "syncSitesFixes"
+},
+        {
+            "extension_id": "eimadpbcbfnmbkopoojfekhnkhdbieeh",
+            "value": "false",
+            "key": "notifyOfNews"
+},
+        {
+            "extension_id": "eimadpbcbfnmbkopoojfekhnkhdbieeh",
+            "value": "true",
+            "key": "enableForPDF"
+},
+        {
+            "extension_id": "eimadpbcbfnmbkopoojfekhnkhdbieeh",
+            "value": "false",
+            "key": "enabled"
+},
+        {
+            "extension_id": "eimadpbcbfnmbkopoojfekhnkhdbieeh",
+            "value": "{\"latitude\":null,\"longitude\":null}",
+            "key": "location"
+},
+        {
+            "extension_id": "eimadpbcbfnmbkopoojfekhnkhdbieeh",
+            "value": "[]",
+            "key": "customThemes"
+},
+        {
+            "extension_id": "eimadpbcbfnmbkopoojfekhnkhdbieeh",
+            "value": "{\"activation\":\"18:00\",\"deactivation\":\"9:00\"}",
+            "key": "time"
+},
+        {
+            "extension_id": "eimadpbcbfnmbkopoojfekhnkhdbieeh",
+            "value": "[]",
+            "key": "siteListEnabled"
+},
+        {
+            "extension_id": "eimadpbcbfnmbkopoojfekhnkhdbieeh",
+            "value": "[]",
+            "key": "siteList"
+},
+        {
+            "extension_id": "eimadpbcbfnmbkopoojfekhnkhdbieeh",
+            "value": "false",
+            "key": "changeBrowserTheme"
+},
+        {
+            "extension_id": "eimadpbcbfnmbkopoojfekhnkhdbieeh",
+            "value": "false",
+            "key": "applyToListedOnly"
+},
+        {
+            "extension_id": "eimadpbcbfnmbkopoojfekhnkhdbieeh",
+            "value": "true",
+            "key": "syncSettings"
+},
+        {
+            "extension_id": "eimadpbcbfnmbkopoojfekhnkhdbieeh",
+            "value": "false",
+            "key": "previewNewDesign"
+},
+        {
+            "extension_id": "eimadpbcbfnmbkopoojfekhnkhdbieeh",
+            "value": "{\"brightness\":100,\"contrast\":100,\"darkSchemeBackgroundColor\":\"#181a1b\",\"darkSchemeTextColor\":\"#e8e6e3\",\"engine\":\"dynamicTheme\",\"fontFamily\":\"Open Sans\",\"grayscale\":0,\"lightSchemeBackgroundColor\":\"#dcdad7\",\"lightSchemeTextColor\":\"#181a1b\",\"mode\":1,\"scrollbarColor\":\"auto\",\"selectionColor\":\"auto\",\"sepia\":0,\"styleSystemControls\":true,\"stylesheet\":\"\",\"textStroke\":0,\"useFont\":false}",
+            "key": "theme"
+},
+        {
+            "extension_id": "eimadpbcbfnmbkopoojfekhnkhdbieeh",
+            "value": "\"\"",
+            "key": "automation"
+}
+    ]
+}

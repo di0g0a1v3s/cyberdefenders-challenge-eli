@@ -1,0 +1,6 @@
+[General]
+Name=LE-Boom Shakalaka
+AddressType=public
+SupportedTechnologies=BR/EDR;LE;
+Trusted=false
+Blocked=false

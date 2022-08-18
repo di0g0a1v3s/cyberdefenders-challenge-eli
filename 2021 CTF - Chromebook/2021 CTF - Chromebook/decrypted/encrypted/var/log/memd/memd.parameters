@@ -1,0 +1,8 @@
+2021-04-05 07:48:52.210213798 +00:00
+margin 200
+min_filelist_kbytes 100000
+min_free_kbytes 135168
+extra_free_kbytes 0
+min_water_mark_kbytes 135160
+low_water_mark_kbytes 168944
+high_water_mark_kbytes 202736

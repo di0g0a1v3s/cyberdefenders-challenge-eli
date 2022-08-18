@@ -1,0 +1,28 @@
+23 entries total:
+
+   0:1st timestamp                                     82
+   1:start of romstage                                 36,584 (36,501)
+   2:before ram initialization                         38,307 (1,723)
+   3:after ram initialization                          59,241 (20,934)
+   4:end of romstage                                   59,622 (380)
+   5:start of verified boot                            59,788 (166)
+   6:end of verified boot                              159,356 (99,568)
+   8:starting to load ramstage                         159,664 (307)
+   9:finished loading ramstage                         174,608 (14,944)
+  10:start of ramstage                                 174,614 (5)
+  30:device enumeration                                174,674 (60)
+  40:device configuration                              219,036 (44,361)
+  50:device enable                                     222,192 (3,156)
+  60:device initialization                             222,933 (740)
+  70:device setup done                                 301,387 (78,453)
+  75:cbmem post                                        301,400 (13)
+  80:write tables                                      315,430 (14,029)
+  90:load payload                                      316,634 (1,204)
+  99:selfboot jump                                     337,669 (21,035)
+1000:depthcharge start                                 339,758 (2,089)
+1002:RO vboot init                                     339,764 (5)
+1020:vboot select&load kernel                          341,387 (1,622)
+1100:finished vboot kernel verification                674,997 (333,610)
+1101:jumping to kernel                                 675,957 (960)
+
+Total Time: 675,865
