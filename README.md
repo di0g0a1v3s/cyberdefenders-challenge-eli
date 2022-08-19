@@ -12,6 +12,10 @@ Answer: 6
 
 ## 2. Smile for the camera - What is the MD5 hash of the user's profile photo?
 
+![image](https://user-images.githubusercontent.com/60743836/185522020-c20ab154-52b2-47aa-9d75-d656a1ab71c0.png)
+
+Answer: 5ddd4fe0041839deb0a4b0252002127b
+
 
 ## 3. Road Trip! - What city was Eli's destination in?
 
@@ -45,6 +49,8 @@ find . -type f -name '*.mp3'
 Answer: 2
 
 ## 7. Autofill, roll out - Which word was Autofilled the most?
+
+Answer: email
 
 ## 8. Dress for success - What is this bird's image's logical size in bytes?
 
